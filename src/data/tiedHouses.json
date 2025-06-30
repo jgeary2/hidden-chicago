@@ -1,0 +1,379 @@
+{
+  "sources": ["http://forgottenchicago.com/features/tied-houses/"],
+  "filters": [
+    {
+      "field": "hasLogo",
+      "label": "Has Logo",
+      "type": "boolean"
+    },
+    {
+      "field": "brewery",
+      "label": "Brewery",
+      "type": "string"
+    }
+  ],
+  "styles": {
+    "fill": "#41B6E6",
+    "fontSize": 45,
+    "icon": "SportsBarIcon",
+    "stroke": "black",
+    "strokeWidth": 1
+  },
+  "popup": {
+    "header": "{brewery}",
+    "content": "{location}"
+  },
+  "points": [
+    {
+      "brewery": "Atlas",
+      "hasLogo": false,
+      "location": "2101 W. 18th Pl.",
+      "latLng": [
+        41.85656387393716,
+        -87.67873027538263
+      ]
+    },
+    {
+      "brewery": "Atlas",
+      "hasLogo": true,
+      "location": "3759 W. 26th St.",
+      "latLng": [
+        41.84426162258383,
+        -87.71948770236773
+      ]
+    },
+    {
+      "brewery": "Atlas",
+      "hasLogo": false,
+      "location": "2500 S. Whipple",
+      "latLng": [
+        41.84628493555465,
+        -87.70176674617004
+      ]
+    },
+    {
+      "brewery": "Atlas",
+      "hasLogo": false,
+      "location": "2202 S. Halsted",
+      "latLng": [
+        41.85259709329832,
+        -87.64665780051605
+      ]
+    },
+    {
+      "brewery": "Atlas",
+      "hasLogo": false,
+      "location": "4012 W. Ogden",
+      "latLng": [
+        41.85120927209181,
+        -87.72543844469558
+      ]
+    },
+    {
+      "brewery": "Birk Bros.",
+      "hasLogo": true,
+      "location": "2147 S. Halsted",
+      "notes": "Skylark",
+      "latLng": [
+        41.85297988047363,
+        -87.6461761822703
+      ]
+    },
+    {
+      "brewery": "Birk Bros.",
+      "hasLogo": false,
+      "location": "2056 N. Hoyne",
+      "latLng": [
+        41.91970599622822,
+        -87.68045569561879
+      ]
+    },
+    {
+      "brewery": "Blatz",
+      "hasLogo": true,
+      "location": "Wolcott/Rice",
+      "latLng": [
+        41.89697645062047,
+        -87.67446159671056
+      ]
+    },
+    {
+      "brewery": "Fortune Bros.",
+      "hasLogo": false,
+      "location": "401 S. Cicero",
+      "latLng": [
+        41.87512076657229,
+        -87.74482630236659
+      ]
+    },
+    {
+      "brewery": "Gottfried",
+      "hasLogo": true,
+      "location": "25th/Hamlin",
+      "latLng": [
+        41.84611877813101,
+        -87.72003204624862
+      ]
+    },
+    {
+      "brewery": "Miller",
+      "hasLogo": false,
+      "location": "1100 W. Webster",
+      "latLng": [
+        41.92219359047976,
+        -87.65614636003666
+      ]
+    },
+    {
+      "brewery": "Pabst",
+      "hasLogo": false,
+      "location": "Ohio/Kedzie",
+      "latLng": [
+        41.89178152611039,
+        -87.70625833014995
+      ]
+    },
+    {
+      "brewery": "Pabst",
+      "hasLogo": false,
+      "location": "120th/Halsted",
+      "latLng": [
+        41.675923262721184,
+        -87.64151917102753
+      ]
+    },
+    {
+      "brewery": "Peter Hand",
+      "hasLogo": true,
+      "location": "Wolcott/Thomas",
+      "notes": "Happy Village",
+      "latLng": [
+        41.90130121313919,
+        -87.67451218592993
+      ]
+    },
+    {
+      "brewery": "Schlitz",
+      "hasLogo": true,
+      "location": "Division/Wood",
+      "notes": "Mac's Wood Grilled",
+      "latLng": [
+        41.9030691808361,
+        -87.67248129679909
+      ]
+    },
+    {
+      "brewery": "Schlitz",
+      "hasLogo": true,
+      "location": "21st/Rockwell",
+      "latLng": [
+        41.854035923198,
+        -87.69076811846585
+      ]
+    },
+    {
+      "brewery": "Schlitz",
+      "hasLogo": true,
+      "location": "Southport/Henderson",
+      "notes": "Southport Lanes",
+      "latLng": [
+        41.94239920326195,
+        -87.66368438496232
+      ]
+    },
+    {
+      "brewery": "Schlitz",
+      "hasLogo": true,
+      "location": "Southport/Belmont",
+      "notes": "Schuba’s",
+      "latLng": [
+        41.939702946734855,
+        -87.66362065335734
+      ]
+    },
+    {
+      "brewery": "Schlitz",
+      "hasLogo": true,
+      "location": "Ewing/94th",
+      "notes": "Bamboo Lounge",
+      "latLng": [
+        41.7248812979874,
+        -87.5376231410237
+      ]
+    },
+    {
+      "brewery": "Schlitz",
+      "hasLogo": true,
+      "location": "Armitage/Oakley",
+      "notes": "Floyd's",
+      "latLng": [
+        41.91782327341825,
+        -87.68497289191626
+      ]
+    },
+    {
+      "brewery": "Schlitz",
+      "hasLogo": true,
+      "location": "Belmont/Leavitt",
+      "notes": "Sweet Rabbit Bakery",
+      "latLng": [
+        41.93937763842783,
+        -87.68301573643012
+      ]
+    },
+    {
+      "brewery": "Schlitz",
+      "hasLogo": true,
+      "location": "114th/Front",
+      "latLng": [
+        41.687167719650034,
+        -87.61233802491009
+      ]
+    },
+    {
+      "brewery": "Schlitz",
+      "hasLogo": true,
+      "location": "Grand/Damen",
+      "notes": "Friends of Friends",
+      "latLng": [
+        41.89068807945325,
+        -87.67705845345178
+      ]
+    },
+    {
+      "brewery": "Schlitz",
+      "hasLogo": true,
+      "location": "35th/Western",
+      "latLng": [
+        41.83039771300063,
+        -87.68522849490184
+      ]
+    },
+    {
+      "brewery": "Schlitz",
+      "hasLogo": true,
+      "location": "Armitage/Damen",
+      "latLng": [
+        41.917880527316456,
+        -87.67778597131908
+      ]
+    },
+    {
+      "brewery": "Schlitz",
+      "hasLogo": true,
+      "location": "69th/Morgan",
+      "latLng": [
+        41.768987551430946,
+        -87.6492097981411
+      ]
+    },
+    {
+      "brewery": "Schlitz",
+      "hasLogo": true,
+      "location": "Broadway/Winona",
+      "latLng": [
+        41.97526560126988,
+        -87.66001093368874
+      ]
+    },
+    {
+      "brewery": "Schlitz",
+      "hasLogo": false,
+      "location": "19th/Blue Island",
+      "latLng": [
+        41.85615005376863,
+        -87.66281310156104
+      ]
+    },
+    {
+      "brewery": "Schlitz",
+      "hasLogo": false,
+      "location": "Foster/Clark",
+      "latLng": [
+        41.97610511153877,
+        -87.66857783169858
+      ]
+    },
+    {
+      "brewery": "Schlitz",
+      "hasLogo": false,
+      "location": "Diversey/Francisco",
+      "latLng": [
+        41.93235435899636,
+        -87.69985924469265
+      ]
+    },
+    {
+      "brewery": "Schlitz",
+      "hasLogo": false,
+      "location": "Diversey/Rockwell",
+      "latLng": [
+        41.93256960175872,
+        -87.69259300236448
+      ]
+    },
+    {
+      "brewery": "Schlitz",
+      "hasLogo": false,
+      "location": "California/Nelson",
+      "latLng": [
+        41.936573190293394,
+        -87.69792401740466
+      ]
+    },
+    {
+      "brewery": "Schlitz",
+      "hasLogo": false,
+      "location": "Roscoe/Racine",
+      "latLng": [
+        41.943445617889125,
+        -87.65928236950077
+      ]
+    },
+    {
+      "brewery": "Schlitz",
+      "hasLogo": false,
+      "location": "89th/Normal",
+      "latLng": [
+        41.73249600068002,
+        -87.63637157374573
+      ]
+    },
+    {
+      "brewery": "Standard",
+      "hasLogo": true,
+      "location": "Grand/Hamlin",
+      "latLng": [
+        41.904323884577224,
+        -87.72134054890833
+      ]
+    },
+    {
+      "brewery": "Stege",
+      "hasLogo": true,
+      "location": "24th/Western",
+      "latLng": [
+        41.848525809014454,
+        -87.68531832324283
+      ]
+    },
+    {
+      "brewery": "Stege",
+      "hasLogo": true,
+      "location": "24th/Washtenaw",
+      "latLng": [
+        41.848441143126244,
+        -87.69274745581765
+      ]
+    },
+    {
+      "brewery": "Stege",
+      "hasLogo": true,
+      "location": "23rd/California",
+      "latLng": [
+        41.85020665427673,
+        -87.69525200815607
+      ]
+    }
+  ]
+}

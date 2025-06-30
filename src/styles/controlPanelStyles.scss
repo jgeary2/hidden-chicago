@@ -1,0 +1,51 @@
+.control-panel-container {
+  width: 310px;
+  max-height: 90%;
+  background: rgb(237, 234, 234, .9);
+  box-shadow: 10px 10px 5px  rgba(0, 0, 0, 0.15);
+  margin: 24px;
+  padding: 12px 24px;
+  position: absolute;
+  top: 35px;
+  left: -12px;
+  outline: none;
+  cursor: auto;
+  border-radius: 25px;
+}
+
+.horizontal-break {
+  margin-top: 20px !important;
+}
+
+.filter-group-header {
+  .form-check-label {
+    font-size: 18px;
+    font-weight: bold;
+  }
+}
+
+.form-check-input:checked {
+  background-color: dimgray !important;
+}
+
+.filter-section {
+  margin: 8px 0 !important;
+
+  .dropdown-toggle {
+    overflow: hidden;
+    max-width: 200px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  .dropdown-menu {
+    max-height: 350px;
+    overflow-y: auto;
+  }
+
+  .form-check-label {
+    font-size: 14px
+  }
+}
+
+@import '~bootstrap/scss/bootstrap.scss';

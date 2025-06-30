@@ -1,0 +1,5994 @@
+{
+  "sources": [
+    "https://data.cityofchicago.org/Historic-Preservation/Mural-Registry-Map/s4ij-qypq?referrer=embed"
+  ],
+  "filters": [
+    {
+      "field": "artist",
+      "label": "Artist",
+      "type": "string"
+    },
+    {
+      "field": "ward",
+      "label": "Ward",
+      "type": "string"
+    },
+    {
+      "field": "yearInstalled",
+      "label": "Year Installed",
+      "type": "string"
+    },
+    {
+      "field": "media",
+      "label": "Art Type",
+      "type": "string"
+    }
+  ],
+  "styles": {
+    "fill": "#ba7ef2",
+    "fontSize": 25,
+    "icon": "ColorLensSharpIcon",
+    "stroke": "black",
+    "strokeWidth": 1
+  },
+  "popup": {
+    "header": "{title}",
+    "content": "{artist}, {location}, {yearInstalled}"
+  },
+  "points": [
+    {
+      "artist": "Marry Tonnu",
+      "latLng": [
+        41.91197223,
+        -87.66325377
+      ],
+      "location": "1650 N Elston Ave",
+      "title": "Letter H",
+      "yearInstalled": "2019",
+      "yearRestored": null,
+      "ward": "2",
+      "media": null
+    },
+    {
+      "artist": "Justus Roe",
+      "latLng": [
+        41.89830361,
+        -87.66965486
+      ],
+      "location": "879 N Paulina Street",
+      "title": "Skender",
+      "yearInstalled": "2019",
+      "yearRestored": null,
+      "ward": "1",
+      "media": "Acrylic and exterior latex paint"
+    },
+    {
+      "artist": "Marry Tonnu",
+      "latLng": [
+        41.91361584,
+        -87.66285163
+      ],
+      "location": "1400 W Wabansia Ave",
+      "title": "Letter J",
+      "yearInstalled": "2019",
+      "yearRestored": null,
+      "ward": "2",
+      "media": null
+    },
+    {
+      "artist": "Tracy Ostmann-Haschke",
+      "latLng": [
+        41.88735774,
+        -87.71050023
+      ],
+      "location": "3343 W Carroll Ave",
+      "title": "Chrysanthemum Flower",
+      "yearInstalled": "2019",
+      "yearRestored": null,
+      "ward": "28",
+      "media": "paint"
+    },
+    {
+      "artist": "Killabunz and Jose Quezada",
+      "latLng": [
+        41.88066939,
+        -87.62680815
+      ],
+      "location": "25 E Monroe St",
+      "title": "2birds One Stone",
+      "yearInstalled": "2017",
+      "yearRestored": null,
+      "ward": "42",
+      "media": "Spray Paint"
+    },
+    {
+      "artist": "Sidda Sila",
+      "latLng": [
+        41.90166021,
+        -87.74855221
+      ],
+      "location": "1140 N Lamon Ave",
+      "title": "New Life, New Love",
+      "yearInstalled": "1996",
+      "yearRestored": null,
+      "ward": "37",
+      "media": null
+    },
+    {
+      "artist": "Dwight White",
+      "latLng": [
+        41.88066939,
+        -87.62680815
+      ],
+      "location": "25 E Monroe St",
+      "title": "Lost in Now",
+      "yearInstalled": "2017",
+      "yearRestored": null,
+      "ward": "42",
+      "media": "Spray Paint"
+    },
+    {
+      "artist": "Chris Silva",
+      "latLng": [
+        41.85974198,
+        -87.66467241
+      ],
+      "location": "1520 West 16th St",
+      "title": "Creature Crew",
+      "yearInstalled": "2012",
+      "yearRestored": null,
+      "ward": "25",
+      "media": null
+    },
+    {
+      "artist": "David Heo",
+      "latLng": [
+        41.96675345,
+        -87.65849862
+      ],
+      "location": "4654 N Broadway",
+      "title": "Inhale, Exhale",
+      "yearInstalled": "2019",
+      "yearRestored": null,
+      "ward": "46",
+      "media": null
+    },
+    {
+      "artist": "Jeremy Novy",
+      "latLng": [
+        41.96675345,
+        -87.65849862
+      ],
+      "location": "4654 N Broadway",
+      "title": "Koi",
+      "yearInstalled": "2019",
+      "yearRestored": null,
+      "ward": "46",
+      "media": null
+    },
+    {
+      "artist": "Tony Passero",
+      "latLng": [
+        41.962039,
+        -87.646384
+      ],
+      "location": "N Cicero Ave, north of W Foster Ave",
+      "title": "Tierra",
+      "yearInstalled": "2019",
+      "yearRestored": null,
+      "ward": "39",
+      "media": "Paint"
+    },
+    {
+      "artist": "Lebster Pabon",
+      "latLng": [
+        41.90310741,
+        -87.68891762
+      ],
+      "location": "2448 W Division St",
+      "title": "Las Puertas de Paseo Boricua",
+      "yearInstalled": "2017",
+      "yearRestored": null,
+      "ward": "26",
+      "media": "Paint and Mixed Media"
+    },
+    {
+      "artist": "Jospeh \"Sentrock\" Perez",
+      "latLng": [
+        41.85585969,
+        -87.67089948
+      ],
+      "location": "1901 S Wood St",
+      "title": "Fly Higher",
+      "yearInstalled": "2016",
+      "yearRestored": null,
+      "ward": "25",
+      "media": "Spray"
+    },
+    {
+      "artist": "Justus Roe",
+      "latLng": [
+        41.95439275,
+        -87.66958709
+      ],
+      "location": "1612 W Irving Park Rd #1",
+      "title": "Longroom West",
+      "yearInstalled": "2013",
+      "yearRestored": "2019",
+      "ward": "47",
+      "media": "Acrylic and exterior latex paint"
+    },
+    {
+      "artist": "Kerry James Marshall",
+      "latLng": [
+        41.88333428,
+        -87.62505014
+      ],
+      "location": "78 E Washington St",
+      "title": "Rush More",
+      "yearInstalled": "2017",
+      "yearRestored": null,
+      "ward": "42",
+      "media": "Painting"
+    },
+    {
+      "artist": "Shannon Lewis",
+      "latLng": [
+        41.9651576,
+        -87.6620866
+      ],
+      "location": "1265 W Wilson Avenue",
+      "title": "One Community",
+      "yearInstalled": "2020",
+      "yearRestored": null,
+      "ward": "46",
+      "media": null
+    },
+    {
+      "artist": "Tim Portlock and Beatriz Santiago Munoz",
+      "latLng": [
+        41.96915696,
+        -87.65802546
+      ],
+      "location": "1108 W Lawrence Ave",
+      "title": "Fishing at Hogarth's",
+      "yearInstalled": "1995",
+      "yearRestored": null,
+      "ward": "46",
+      "media": null
+    },
+    {
+      "artist": "Olivia Gude",
+      "latLng": [
+        41.79324823,
+        -87.58783258
+      ],
+      "location": "1535 East 56th St",
+      "title": "Where We Come From...Where We're Going",
+      "yearInstalled": "1992",
+      "yearRestored": null,
+      "ward": "5",
+      "media": null
+    },
+    {
+      "artist": "Jeff Zimmermann",
+      "latLng": [
+        41.93161734,
+        -87.73192907
+      ],
+      "location": "4211 W Diversey Ave",
+      "title": "The People of the Garden",
+      "yearInstalled": "2018",
+      "yearRestored": null,
+      "ward": "31",
+      "media": "Paint"
+    },
+    {
+      "artist": "REMED",
+      "latLng": [
+        41.84057466,
+        -87.71820602
+      ],
+      "location": "2801 South Ridgeway",
+      "title": "Home of the Heart",
+      "yearInstalled": null,
+      "yearRestored": null,
+      "ward": "22",
+      "media": null
+    },
+    {
+      "artist": "Ed Paschke",
+      "latLng": [
+        41.96872306,
+        -87.76207536
+      ],
+      "location": "5415 W Higgins Ave",
+      "title": "Luna Negra, 1998",
+      "yearInstalled": "2014",
+      "yearRestored": null,
+      "ward": "45",
+      "media": "Paint"
+    },
+    {
+      "artist": "Jake Troyli",
+      "latLng": [
+        41.88486235,
+        -87.71312398
+      ],
+      "location": "3450 W Lake St",
+      "title": "The Artist",
+      "yearInstalled": "2024",
+      "yearRestored": null,
+      "ward": "28",
+      "media": "Paint"
+    },
+    {
+      "artist": "Mauricio Rodriguez",
+      "latLng": [
+        41.99825284,
+        -87.66486967
+      ],
+      "location": "1346 W Devon Ave",
+      "title": "Respiration",
+      "yearInstalled": "2018",
+      "yearRestored": null,
+      "ward": "49",
+      "media": "paint"
+    },
+    {
+      "artist": "Chicago Math and Science Academy Art Students",
+      "latLng": [
+        42.01303498,
+        -87.67485599
+      ],
+      "location": "7212 N Clark Street",
+      "title": "We are Titans",
+      "yearInstalled": "2019",
+      "yearRestored": null,
+      "ward": "49",
+      "media": "Paint"
+    },
+    {
+      "artist": "Jeff Zimmermann",
+      "latLng": [
+        41.85409025,
+        -87.66431554
+      ],
+      "location": "1517 West 21st St",
+      "title": "Educacion: See y Know",
+      "yearInstalled": "1996",
+      "yearRestored": null,
+      "ward": "25",
+      "media": null
+    },
+    {
+      "artist": "Nicole Beck",
+      "latLng": [
+        41.77665106,
+        -87.74555108
+      ],
+      "location": "4918 W 64th St",
+      "title": "Peace Mural Project (Phase II)- We Pledge Allegiance Mural",
+      "yearInstalled": "2014",
+      "yearRestored": null,
+      "ward": "13",
+      "media": "Paint"
+    },
+    {
+      "artist": "Marry Tonnu",
+      "latLng": [
+        41.91474261,
+        -87.66497833
+      ],
+      "location": "1765 N Elston Ave",
+      "title": "Letter P",
+      "yearInstalled": "2019",
+      "yearRestored": null,
+      "ward": "2",
+      "media": null
+    },
+    {
+      "artist": "Brett Whitacre",
+      "latLng": [
+        41.90585252,
+        -87.64225862
+      ],
+      "location": "1307 N Clybourn",
+      "title": "Old Town",
+      "yearInstalled": "2022",
+      "yearRestored": null,
+      "ward": "27",
+      "media": "Paint"
+    },
+    {
+      "artist": "Juan Chavez",
+      "latLng": [
+        41.77907746,
+        -87.68858187
+      ],
+      "location": "2601 West 63rd St",
+      "title": "Reflections of Good",
+      "yearInstalled": "2006",
+      "yearRestored": null,
+      "ward": "16",
+      "media": null
+    },
+    {
+      "artist": "Dred Ske with an assist by Max Sansing",
+      "latLng": [
+        41.73124768,
+        -87.58565952
+      ],
+      "location": "9020 S Stony Island Ave",
+      "title": "Space Odyssey Mural",
+      "yearInstalled": "2017",
+      "yearRestored": null,
+      "ward": "8",
+      "media": "Paint"
+    },
+    {
+      "artist": "E. LEE",
+      "latLng": [
+        41.9655,
+        -87.65906
+      ],
+      "location": "1140 W Wilson Ave",
+      "title": "Looming Large",
+      "yearInstalled": "2020",
+      "yearRestored": null,
+      "ward": "46",
+      "media": null
+    },
+    {
+      "artist": "Cyd Smillie with\nArts Alive Chicago",
+      "latLng": [
+        41.7882892,
+        -87.67428131
+      ],
+      "location": "5804-5856 S Damen Ave",
+      "title": "Messages",
+      "yearInstalled": "2018",
+      "yearRestored": null,
+      "ward": "15",
+      "media": "Painting"
+    },
+    {
+      "artist": "Ryan Tova Katz",
+      "latLng": [
+        41.95559786,
+        -87.7268233
+      ],
+      "location": "3938 W Belle Plaine Ave",
+      "title": "Continuing the Journey",
+      "yearInstalled": "2023",
+      "yearRestored": null,
+      "ward": "39",
+      "media": "Paint"
+    },
+    {
+      "artist": "Ant Ben and Gabe Moskolis",
+      "latLng": [
+        41.88761537,
+        -87.62530112
+      ],
+      "location": "330 N MacChesney Court",
+      "title": "untitled",
+      "yearInstalled": "2019",
+      "yearRestored": null,
+      "ward": "42",
+      "media": "Exterior Paint and Spray Paint"
+    },
+    {
+      "artist": "Ricardo Martinez, FEDZ, Thomas, Axel",
+      "latLng": [
+        41.85776469,
+        -87.66138509
+      ],
+      "location": "1401 W 18th St",
+      "title": "Alley Wall Project",
+      "yearInstalled": "2013",
+      "yearRestored": null,
+      "ward": "25",
+      "media": "spray"
+    },
+    {
+      "artist": "Dredske, Zeye One, James Allen, Dmnology, James Jankowiak",
+      "latLng": [
+        41.79327456,
+        -87.72766409
+      ],
+      "location": "4150 W 55th St",
+      "title": "Health, Wealth, & Knowledge of Self",
+      "yearInstalled": "2019",
+      "yearRestored": null,
+      "ward": "23",
+      "media": "paint"
+    },
+    {
+      "artist": "Jesus \"Chucho\" Rodriguez",
+      "latLng": [
+        41.85615719,
+        -87.66141803
+      ],
+      "location": "1856 South Loomis",
+      "title": "Wall of Hope",
+      "yearInstalled": "2010",
+      "yearRestored": null,
+      "ward": "25",
+      "media": null
+    },
+    {
+      "artist": "Albert Zeno",
+      "latLng": [
+        41.79493407,
+        -87.58773626
+      ],
+      "location": "5506 South Lake Park Ave",
+      "title": "Alewives 1972/2009",
+      "yearInstalled": "1972",
+      "yearRestored": "2009",
+      "ward": "5",
+      "media": null
+    },
+    {
+      "artist": "Dwight White",
+      "latLng": [
+        41.88761537,
+        -87.62530112
+      ],
+      "location": "330 N MacChesney Court",
+      "title": "Face Lift",
+      "yearInstalled": "2019",
+      "yearRestored": null,
+      "ward": "42",
+      "media": "Spray Paint"
+    },
+    {
+      "artist": "Justus Roe",
+      "latLng": [
+        41.76470569,
+        -87.56555082
+      ],
+      "location": "7152 S Exchange Ave",
+      "title": "South Shore",
+      "yearInstalled": "2013",
+      "yearRestored": "2018",
+      "ward": "7",
+      "media": "Acrylic and exterior latex paint"
+    },
+    {
+      "artist": "Justus Roe",
+      "latLng": [
+        41.96319759,
+        -87.69655724
+      ],
+      "location": "2716 W Sunnyside Ave",
+      "title": "Graziano",
+      "yearInstalled": "2014",
+      "yearRestored": null,
+      "ward": "33",
+      "media": "Acrylic and exterior latex paint"
+    },
+    {
+      "artist": "Dzine and Olivia Gude",
+      "latLng": [
+        41.90262318,
+        -87.68686934
+      ],
+      "location": "1147 North Western Ave",
+      "title": "Aren't I A Womyn?",
+      "yearInstalled": "1993",
+      "yearRestored": null,
+      "ward": "1",
+      "media": null
+    },
+    {
+      "artist": "Ella & Pitr",
+      "latLng": [
+        41.87508903,
+        -87.63349916
+      ],
+      "location": "527 S Wells",
+      "title": "Untitled",
+      "yearInstalled": "2016",
+      "yearRestored": null,
+      "ward": "25",
+      "media": "Paint"
+    },
+    {
+      "artist": "Justus Roe",
+      "latLng": [
+        42.01167188,
+        -87.66589537
+      ],
+      "location": "1400 E Estes St",
+      "title": "Seiche",
+      "yearInstalled": "2013",
+      "yearRestored": "2017",
+      "ward": "49",
+      "media": "Acrylic and exterior latex paint"
+    },
+    {
+      "artist": "Justus Roe",
+      "latLng": [
+        41.98556984,
+        -87.65938409
+      ],
+      "location": "1150-1130 Hollywood",
+      "title": "Hollywood",
+      "yearInstalled": "2017",
+      "yearRestored": "2019",
+      "ward": "48",
+      "media": "Acrylic and exterior latex paint"
+    },
+    {
+      "artist": "Brett Whitacre",
+      "latLng": [
+        41.96614,
+        -87.65903
+      ],
+      "location": "4610 N Clifton Ave",
+      "title": "Ode to the Messenger",
+      "yearInstalled": "2020",
+      "yearRestored": null,
+      "ward": "46",
+      "media": null
+    },
+    {
+      "artist": "John Pitman Weber",
+      "latLng": [
+        41.92494372,
+        -87.69467615
+      ],
+      "location": "2654 W Fullerton",
+      "title": "TILT (Together Protect the Community)",
+      "yearInstalled": "1976",
+      "yearRestored": "2005",
+      "ward": "1",
+      "media": null
+    },
+    {
+      "artist": "Kristal Pacheco",
+      "latLng": [
+        41.7821713,
+        -87.6044919
+      ],
+      "location": "6200 South Drexel Ave",
+      "title": "People's Park Mural",
+      "yearInstalled": "2000",
+      "yearRestored": null,
+      "ward": "20",
+      "media": null
+    },
+    {
+      "artist": "Cyd Smillie with\nArts Alive Chicago",
+      "latLng": [
+        41.82169337,
+        -87.64086693
+      ],
+      "location": "4001 South Wallace St",
+      "title": "Homefront",
+      "yearInstalled": "2018",
+      "yearRestored": null,
+      "ward": "11",
+      "media": "Painting"
+    },
+    {
+      "artist": "Dmnology",
+      "latLng": [
+        41.87398405,
+        -87.62613334
+      ],
+      "location": "618 S Wabash",
+      "title": "Stars & Styles",
+      "yearInstalled": "2016",
+      "yearRestored": null,
+      "ward": "4",
+      "media": "Paint"
+    },
+    {
+      "artist": "Dzine and Olivia Gude",
+      "latLng": [
+        41.8829604,
+        -87.70082741
+      ],
+      "location": "2950 W Washington Blvd",
+      "title": "Still Deferred; Still Dreaming",
+      "yearInstalled": "1993",
+      "yearRestored": null,
+      "ward": "27",
+      "media": null
+    },
+    {
+      "artist": "Tony Passero",
+      "latLng": [
+        41.95312236,
+        -87.72284005
+      ],
+      "location": "3940 N Hamlin Ave",
+      "title": "Stained Glass Peacock",
+      "yearInstalled": "2014",
+      "yearRestored": null,
+      "ward": "45",
+      "media": "Paint"
+    },
+    {
+      "artist": "Brandin Hurley",
+      "latLng": [
+        41.89162075,
+        -87.62391965
+      ],
+      "location": "141-161 E Grand Ave",
+      "title": "Undercurrent Intercontinental Hotel Chicago Wall",
+      "yearInstalled": "2022",
+      "yearRestored": null,
+      "ward": "42",
+      "media": "Spraypaint"
+    },
+    {
+      "artist": "Matthew Hoffman",
+      "latLng": [
+        41.95505283,
+        -87.65441322
+      ],
+      "location": "4017 N Sheridan Road",
+      "title": "Do More with Less",
+      "yearInstalled": "2016",
+      "yearRestored": null,
+      "ward": "46",
+      "media": null
+    },
+    {
+      "artist": "Marry Tonnu",
+      "latLng": [
+        41.9142878,
+        -87.66281791
+      ],
+      "location": "1427 W Willow St",
+      "title": "Letter L",
+      "yearInstalled": "2019",
+      "yearRestored": null,
+      "ward": "2",
+      "media": null
+    },
+    {
+      "artist": "Chris Silva",
+      "latLng": [
+        41.84245725,
+        -87.72800235
+      ],
+      "location": "2659 S Kedvale Ave",
+      "title": null,
+      "yearInstalled": "2016",
+      "yearRestored": null,
+      "ward": "22",
+      "media": null
+    },
+    {
+      "artist": "Lea Pinsky, Dustin Harris",
+      "latLng": [
+        42.00851028,
+        -87.66634348
+      ],
+      "location": "N Glenwood Ave & W Estes Ave",
+      "title": "It Starts WithYou",
+      "yearInstalled": "2015",
+      "yearRestored": null,
+      "ward": "49",
+      "media": "Paint"
+    },
+    {
+      "artist": "Greenstar Movement",
+      "latLng": [
+        41.94529,
+        -87.66382224
+      ],
+      "location": "3501 N Southport Ave",
+      "title": "Community Mosiac",
+      "yearInstalled": "2022",
+      "yearRestored": null,
+      "ward": "44",
+      "media": "Mosaic / Tile"
+    },
+    {
+      "artist": "Northwest\nArts\nConnection with AnySquared Projects\nTracy Kostenbader, Rosa Pineda, and Holiday Gerry",
+      "latLng": [
+        41.94271413,
+        -87.73722091
+      ],
+      "location": "4400 W Roscoe St",
+      "title": "Becoming",
+      "yearInstalled": "2017",
+      "yearRestored": null,
+      "ward": "30",
+      "media": "Paint"
+    },
+    {
+      "artist": "Stephen Eric Lee",
+      "latLng": [
+        41.94335934,
+        -87.64499875
+      ],
+      "location": "3352 N Broadway",
+      "title": "\"Hide & Seek\"",
+      "yearInstalled": "2022",
+      "yearRestored": null,
+      "ward": "44",
+      "media": "Paint"
+    },
+    {
+      "artist": "Bruno Mosciaro (Bruno Big)",
+      "latLng": [
+        42.00857095,
+        -87.66634558
+      ],
+      "location": "W Lunt Ave & N Glenwood Ave",
+      "title": "Bike-Family",
+      "yearInstalled": "2013",
+      "yearRestored": null,
+      "ward": "49",
+      "media": "Paint"
+    },
+    {
+      "artist": "Sam Kirk",
+      "latLng": [
+        41.87046373,
+        -87.6793603
+      ],
+      "location": "2102 West Ogden Ave",
+      "title": "We Are Proud",
+      "yearInstalled": "2022",
+      "yearRestored": null,
+      "ward": "28",
+      "media": "Paint"
+    },
+    {
+      "artist": "Peyton Stewart",
+      "latLng": [
+        41.88514243,
+        -87.62962434
+      ],
+      "location": "170 N Dearborn St",
+      "title": "Psychedelic Portal",
+      "yearInstalled": "2019",
+      "yearRestored": null,
+      "ward": "42",
+      "media": "Spray Paint"
+    },
+    {
+      "artist": "Amuse126",
+      "latLng": [
+        41.89604872,
+        -87.67535123
+      ],
+      "location": "1916 W Chicago Ave",
+      "title": "untitled",
+      "yearInstalled": "2019",
+      "yearRestored": null,
+      "ward": "1",
+      "media": null
+    },
+    {
+      "artist": "Amuse 126",
+      "latLng": [
+        41.87185333,
+        -87.62738022
+      ],
+      "location": "777 S State St",
+      "title": "High Tide",
+      "yearInstalled": "2016",
+      "yearRestored": null,
+      "ward": "4",
+      "media": "Paint"
+    },
+    {
+      "artist": "Justus Roe",
+      "latLng": [
+        41.97698486,
+        -87.67957802
+      ],
+      "location": "5232 N Damen Ave",
+      "title": "AVHQ",
+      "yearInstalled": "2018",
+      "yearRestored": null,
+      "ward": "40",
+      "media": "Acrylic and exterior latex paint"
+    },
+    {
+      "artist": "Chris Silva",
+      "latLng": [
+        41.8522701,
+        -87.6768038
+      ],
+      "location": "2022 West Cermak Road",
+      "title": "Untitled",
+      "yearInstalled": "2016",
+      "yearRestored": null,
+      "ward": "25",
+      "media": null
+    },
+    {
+      "artist": "Marry Tonnu",
+      "latLng": [
+        41.91327975,
+        -87.66306441
+      ],
+      "location": "1411 W Wabansia Ave",
+      "title": "Letter S",
+      "yearInstalled": "2019",
+      "yearRestored": null,
+      "ward": "2",
+      "media": null
+    },
+    {
+      "artist": "ChrisRWK",
+      "latLng": [
+        41.89684822,
+        -87.66533242
+      ],
+      "location": "1509 W Fry St",
+      "title": "Lots of Bots Chicago 1",
+      "yearInstalled": "2024",
+      "yearRestored": null,
+      "ward": "1",
+      "media": "Paint"
+    },
+    {
+      "artist": "Heart & Bone",
+      "latLng": [
+        41.9670427,
+        -87.6581181
+      ],
+      "location": "4661 N Broadway",
+      "title": "I Will, We Will",
+      "yearInstalled": "2020",
+      "yearRestored": null,
+      "ward": "46",
+      "media": null
+    },
+    {
+      "artist": "John Vergara",
+      "latLng": [
+        41.90308144,
+        -87.6916373
+      ],
+      "location": "2554 W Division St",
+      "title": "Las Puertas de Paseo Boricua",
+      "yearInstalled": "2017",
+      "yearRestored": null,
+      "ward": "26",
+      "media": "Paint and Mixed Media"
+    },
+    {
+      "artist": "Czr Prz",
+      "latLng": [
+        41.9103642,
+        -87.67813043
+      ],
+      "location": "2013 W North Ave",
+      "title": "Asherah Bouquet",
+      "yearInstalled": "2022",
+      "yearRestored": null,
+      "ward": "1",
+      "media": "Paint"
+    },
+    {
+      "artist": "Marry Tonnu",
+      "latLng": [
+        41.91240433,
+        -87.66153051
+      ],
+      "location": "1324 W Concord Place",
+      "title": "Letter W",
+      "yearInstalled": "2019",
+      "yearRestored": null,
+      "ward": "2",
+      "media": null
+    },
+    {
+      "artist": "BboyB ABC",
+      "latLng": [
+        1914109.45,
+        1158665.31
+      ],
+      "location": "2135 N Milwaukee Ave",
+      "title": "Project Congress",
+      "yearInstalled": "2006",
+      "yearRestored": null,
+      "ward": "1",
+      "media": "Paint"
+    },
+    {
+      "artist": "Justin Suarez",
+      "latLng": [
+        41.89613654,
+        -87.6701092
+      ],
+      "location": "1708 W Chicago Ave",
+      "title": "Peregrine Falcon",
+      "yearInstalled": "2019",
+      "yearRestored": null,
+      "ward": "1",
+      "media": null
+    },
+    {
+      "artist": "Brett Whitacre",
+      "latLng": [
+        41.91096499,
+        -87.64132499
+      ],
+      "location": "507 West North Ave",
+      "title": "Mustard Seed Project",
+      "yearInstalled": "2022",
+      "yearRestored": null,
+      "ward": "2",
+      "media": "Paint"
+    },
+    {
+      "artist": "Anthony Lewellen",
+      "latLng": [
+        41.94091163,
+        -87.66935052
+      ],
+      "location": "3241 N Lincoln Ave",
+      "title": "Lake View",
+      "yearInstalled": "2017",
+      "yearRestored": null,
+      "ward": "47",
+      "media": null
+    },
+    {
+      "artist": "Luis Molina",
+      "latLng": [
+        41.80561226,
+        -87.68204209
+      ],
+      "location": "4834 S. Oakley Ave.",
+      "title": "Mortal Combat Vs. Street Fighter",
+      "yearInstalled": "2021",
+      "yearRestored": null,
+      "ward": "15",
+      "media": "Paint"
+    },
+    {
+      "artist": "Todd Osborne and Tracy VanDuinen",
+      "latLng": [
+        41.99014944,
+        -87.73627807
+      ],
+      "location": "4300 W Peterson Ave",
+      "title": "Sauganash Mural Project, North Wall",
+      "yearInstalled": "2013",
+      "yearRestored": null,
+      "ward": "39",
+      "media": "mosaic/tile"
+    },
+    {
+      "artist": "Pop Up Mural Shop",
+      "latLng": [
+        41.84607182,
+        -87.70523412
+      ],
+      "location": "2506 South Kedzie Ave",
+      "title": "Bidi Bidi Bom Bom",
+      "yearInstalled": "2014",
+      "yearRestored": null,
+      "ward": "22",
+      "media": "Spray + Brush"
+    },
+    {
+      "artist": "Afrokilla",
+      "latLng": [
+        41.945984,
+        -87.649499
+      ],
+      "location": "3522 N Halsted St",
+      "title": "Resist",
+      "yearInstalled": "2020",
+      "yearRestored": null,
+      "ward": "44",
+      "media": null
+    },
+    {
+      "artist": "Afrokilla",
+      "latLng": [
+        41.91720864,
+        -87.66683738
+      ],
+      "location": "1551 W Homer St",
+      "title": null,
+      "yearInstalled": "2018",
+      "yearRestored": null,
+      "ward": "2",
+      "media": "Paint"
+    },
+    {
+      "artist": "Ricardo Martinez, FEDZ, Thomas, Axel",
+      "latLng": [
+        41.85776469,
+        -87.66138509
+      ],
+      "location": "1401 W 18th St",
+      "title": "Alley Wall Project",
+      "yearInstalled": "2012",
+      "yearRestored": null,
+      "ward": "25",
+      "media": "Spray"
+    },
+    {
+      "artist": "Jesus \"Chucho\" Rodriguez",
+      "latLng": [
+        41.85791848,
+        -87.66550671
+      ],
+      "location": "1544 West 18th St",
+      "title": "Reach for Peace",
+      "yearInstalled": "2011",
+      "yearRestored": null,
+      "ward": "25",
+      "media": null
+    },
+    {
+      "artist": "Tony Passero",
+      "latLng": [
+        41.96202716,
+        -87.64663966
+      ],
+      "location": "4400 N Lake Shore Drive",
+      "title": "Under LSD Mural",
+      "yearInstalled": "2017",
+      "yearRestored": null,
+      "ward": "46",
+      "media": null
+    },
+    {
+      "artist": "Felix Maldonado",
+      "latLng": [
+        41.9436387,
+        -87.669088
+      ],
+      "location": "3406 N Ashland Ave",
+      "title": "Bears on Parade",
+      "yearInstalled": "2020",
+      "yearRestored": null,
+      "ward": "47",
+      "media": null
+    },
+    {
+      "artist": "Louise ï¿½Ouiziï¿½ Chen",
+      "latLng": [
+        41.86537627,
+        -87.62425345
+      ],
+      "location": "1312 S Michigan Ave",
+      "title": "China Truborn",
+      "yearInstalled": "2017",
+      "yearRestored": null,
+      "ward": "3",
+      "media": "Paint"
+    },
+    {
+      "artist": "Steven Teller",
+      "latLng": [
+        41.96171341,
+        -87.65132053
+      ],
+      "location": "835 W Montrose Ave",
+      "title": "An Ode to Eleanor (Youth)",
+      "yearInstalled": "2019",
+      "yearRestored": null,
+      "ward": "46",
+      "media": null
+    },
+    {
+      "artist": "You Are Beautiful",
+      "latLng": [
+        41.91720864,
+        -87.66683738
+      ],
+      "location": "1551 W Homer St",
+      "title": null,
+      "yearInstalled": "2018",
+      "yearRestored": null,
+      "ward": "2",
+      "media": "Paint"
+    },
+    {
+      "artist": "Nic Fonte",
+      "latLng": [
+        41.9666343,
+        -87.6586209
+      ],
+      "location": "4654 N Broadway",
+      "title": "Equality Crew",
+      "yearInstalled": "2020",
+      "yearRestored": null,
+      "ward": "46",
+      "media": null
+    },
+    {
+      "artist": "Tony Passero",
+      "latLng": [
+        41.95161876,
+        -87.74712077
+      ],
+      "location": "3901 N Cicero Ave",
+      "title": "JagLeo",
+      "yearInstalled": "2015",
+      "yearRestored": null,
+      "ward": "45",
+      "media": "Paint"
+    },
+    {
+      "artist": "Etty Hasak",
+      "latLng": [
+        41.99802474,
+        -87.66556346
+      ],
+      "location": "1401 W. Devon",
+      "title": "Wildflowers",
+      "yearInstalled": "2020",
+      "yearRestored": null,
+      "ward": "48",
+      "media": "Mosaic"
+    },
+    {
+      "artist": "Left Handed Wave",
+      "latLng": [
+        41.964697,
+        -87.658953
+      ],
+      "location": "1145 W Wilson Ave",
+      "title": "Beyond",
+      "yearInstalled": "2020",
+      "yearRestored": null,
+      "ward": "46",
+      "media": null
+    },
+    {
+      "artist": "Burroughs, Evans, Himmelfarb, & Jones",
+      "latLng": [
+        41.79529493,
+        -87.58752503
+      ],
+      "location": "5300 South Shore Dr",
+      "title": "Hyde Park Art Panels",
+      "yearInstalled": "2009",
+      "yearRestored": null,
+      "ward": "5",
+      "media": null
+    },
+    {
+      "artist": "Jospeh \"Sentrock\" Perez",
+      "latLng": [
+        41.839311,
+        -87.725158
+      ],
+      "location": "2845 S Komensky Ave",
+      "title": "Follow Your Dreams",
+      "yearInstalled": "2018",
+      "yearRestored": null,
+      "ward": "22",
+      "media": "Spray + Brush"
+    },
+    {
+      "artist": "REMED",
+      "latLng": [
+        41.85955978,
+        -87.66634385
+      ],
+      "location": "1600 South Ashland Ave",
+      "title": "Pajaro Cosmico",
+      "yearInstalled": "2013",
+      "yearRestored": null,
+      "ward": "25",
+      "media": null
+    },
+    {
+      "artist": "Anna Murphy",
+      "latLng": [
+        41.778832091928,
+        -87.71272561
+      ],
+      "location": "S Central Park Ave & W 63rd St",
+      "title": "Spread Your Wings and Fly",
+      "yearInstalled": "2024",
+      "yearRestored": null,
+      "ward": "14",
+      "media": "Paint"
+    },
+    {
+      "artist": "Jesus \"Chucho\" Rodriguez",
+      "latLng": [
+        41.8522701,
+        -87.6768038
+      ],
+      "location": "2022 West Cermak Road",
+      "title": "Libertad",
+      "yearInstalled": "2008",
+      "yearRestored": null,
+      "ward": "25",
+      "media": "Paint"
+    },
+    {
+      "artist": "Marry Tonnu",
+      "latLng": [
+        41.91361584,
+        -87.66285163
+      ],
+      "location": "1400 W Wabansia",
+      "title": "Letter Z",
+      "yearInstalled": "2019",
+      "yearRestored": null,
+      "ward": "2",
+      "media": null
+    },
+    {
+      "artist": "Ryan Tova Katz",
+      "latLng": [
+        41.95423881,
+        -87.66599005
+      ],
+      "location": "3998 N Janssen Ave",
+      "title": "Butterfly Girl",
+      "yearInstalled": "2021",
+      "yearRestored": null,
+      "ward": "47",
+      "media": "Paint"
+    },
+    {
+      "artist": "Justus Roe",
+      "latLng": [
+        41.93872608,
+        -87.70750408
+      ],
+      "location": "3141-3199 N Kedzie",
+      "title": "Belmont & Kedzie",
+      "yearInstalled": "2013",
+      "yearRestored": "2019",
+      "ward": "33",
+      "media": "Acrylic and exterior latex paint"
+    },
+    {
+      "artist": "Bojitt",
+      "latLng": [
+        41.9590136,
+        -87.6535134
+      ],
+      "location": "4234 N Broadway",
+      "title": "Out of Many, One",
+      "yearInstalled": "2020",
+      "yearRestored": null,
+      "ward": "46",
+      "media": null
+    },
+    {
+      "artist": "Marry Tonnu",
+      "latLng": [
+        41.9142878,
+        -87.66281791
+      ],
+      "location": "1427 W Willow St",
+      "title": "Letter V",
+      "yearInstalled": "2019",
+      "yearRestored": null,
+      "ward": "2",
+      "media": null
+    },
+    {
+      "artist": "Cyd Smillie",
+      "latLng": [
+        41.95358351,
+        -87.74312523
+      ],
+      "location": "4600 W Irving Park Rd",
+      "title": "\"...And The Bees\"",
+      "yearInstalled": "2022",
+      "yearRestored": null,
+      "ward": "45",
+      "media": "Paint"
+    },
+    {
+      "artist": "Maria Gaspar and Rahmaan Statik",
+      "latLng": [
+        41.85094816,
+        -87.71726618
+      ],
+      "location": "2221 South Lawndale",
+      "title": "We Are, Nosotros Somos...",
+      "yearInstalled": "2007",
+      "yearRestored": null,
+      "ward": "22",
+      "media": null
+    },
+    {
+      "artist": "Rahmaan Statik, Max Sansing",
+      "latLng": [
+        41.850922,
+        -87.715009
+      ],
+      "location": "2230 S Central Park Ave",
+      "title": "Sepia",
+      "yearInstalled": "2016",
+      "yearRestored": null,
+      "ward": "22",
+      "media": "Paint"
+    },
+    {
+      "artist": "Kayla Mahaffey",
+      "latLng": [
+        41.73391,
+        -87.58586
+      ],
+      "location": "8828 S Stony Island Ave",
+      "title": "Light the Spark",
+      "yearInstalled": "2020",
+      "yearRestored": null,
+      "ward": "8",
+      "media": null
+    },
+    {
+      "artist": "Afrokilla",
+      "latLng": [
+        41.88649773,
+        -87.6251595
+      ],
+      "location": "251 N Garland Court",
+      "title": "Your Place or Mime?",
+      "yearInstalled": "2019",
+      "yearRestored": null,
+      "ward": "42",
+      "media": "Spray Paint"
+    },
+    {
+      "artist": "Cyd Smillie with\nArts Alive Chicago",
+      "latLng": [
+        41.82168669,
+        -87.64116028
+      ],
+      "location": "4000 South Wallace St",
+      "title": "In Service",
+      "yearInstalled": "2018",
+      "yearRestored": null,
+      "ward": "11",
+      "media": "Painting"
+    },
+    {
+      "artist": "Rahmaan Statik",
+      "latLng": [
+        41.85244347,
+        -87.71609412
+      ],
+      "location": "2153 South Millard Ave",
+      "title": "Beacon of Light",
+      "yearInstalled": "2006",
+      "yearRestored": null,
+      "ward": "24",
+      "media": null
+    },
+    {
+      "artist": "Bunny!XLV (AKA James Nienhuis)",
+      "latLng": [
+        41.89584436,
+        -87.67441024
+      ],
+      "location": "1857 W Chicago Ave",
+      "title": "\"Take off\"",
+      "yearInstalled": "2018",
+      "yearRestored": null,
+      "ward": "1",
+      "media": "Paint"
+    },
+    {
+      "artist": "Sam Kirk",
+      "latLng": [
+        41.865789,
+        -87.62472
+      ],
+      "location": "13th and Michigan",
+      "title": "Si Se Puede",
+      "yearInstalled": "2017",
+      "yearRestored": null,
+      "ward": "3",
+      "media": "Paint"
+    },
+    {
+      "artist": "Chris Silva",
+      "latLng": [
+        41.84474582,
+        -87.69949581
+      ],
+      "location": "2944 West 26th St",
+      "title": "Triple Heart Bypass",
+      "yearInstalled": "2015",
+      "yearRestored": null,
+      "ward": "22",
+      "media": null
+    },
+    {
+      "artist": "Indira Freitas Johnson",
+      "latLng": [
+        41.99769631,
+        -87.69811829
+      ],
+      "location": "2720 W Devon Ave",
+      "title": "Community Is...",
+      "yearInstalled": "2024",
+      "yearRestored": null,
+      "ward": "50",
+      "media": "Paint"
+    },
+    {
+      "artist": "Jill Arena and Cyd Smillie",
+      "latLng": [
+        41.96086102,
+        -87.74516953
+      ],
+      "location": "4700 W Montrose Ave",
+      "title": "End of Watch",
+      "yearInstalled": "2011",
+      "yearRestored": null,
+      "ward": "45",
+      "media": "Paint"
+    },
+    {
+      "artist": "BOJITT ( Bojana Ilic)",
+      "latLng": [
+        41.9816866,
+        -87.68952358
+      ],
+      "location": "5508 N Western Ave",
+      "title": "Canine Social Club",
+      "yearInstalled": "2022",
+      "yearRestored": null,
+      "ward": "40",
+      "media": "Paint"
+    },
+    {
+      "artist": "Marina Zumi",
+      "latLng": [
+        41.8705633,
+        -87.62399297
+      ],
+      "location": "901 S Michigan Ave",
+      "title": "Impossible Meeting",
+      "yearInstalled": "2016",
+      "yearRestored": null,
+      "ward": "4",
+      "media": "Paint"
+    },
+    {
+      "artist": "Cards Against Humanity Design Team",
+      "latLng": [
+        41.91720864,
+        -87.66683738
+      ],
+      "location": "1551 W Homer St",
+      "title": null,
+      "yearInstalled": "2018",
+      "yearRestored": null,
+      "ward": "2",
+      "media": "Paint"
+    },
+    {
+      "artist": "Julio Cesar Montano-Montenegro",
+      "latLng": [
+        41.9030983,
+        -87.68997903
+      ],
+      "location": "2510 W Division St",
+      "title": "Las Puertas de Paseo Boricua",
+      "yearInstalled": "2017",
+      "yearRestored": null,
+      "ward": "26",
+      "media": "Paint and Mixed Media"
+    },
+    {
+      "artist": "Rodney Duran",
+      "latLng": [
+        41.9666343,
+        -87.6586209
+      ],
+      "location": "4654 N Broadway",
+      "title": "Street Queen",
+      "yearInstalled": "2020",
+      "yearRestored": null,
+      "ward": "46",
+      "media": null
+    },
+    {
+      "artist": "Reynaldo Rodriguez",
+      "latLng": [
+        41.90282362,
+        -87.69583673
+      ],
+      "location": "2735 W Division St",
+      "title": "Las Puertas de Paseo Boricua",
+      "yearInstalled": "2017",
+      "yearRestored": null,
+      "ward": "26",
+      "media": "Paint and Mixed Media"
+    },
+    {
+      "artist": "Jim Bachor",
+      "latLng": [
+        41.73681262,
+        -87.60090571
+      ],
+      "location": "938 East 87th St",
+      "title": "Meander",
+      "yearInstalled": "2018",
+      "yearRestored": null,
+      "ward": "8",
+      "media": "Mosaic Tiles"
+    },
+    {
+      "artist": "JC Rivera",
+      "latLng": [
+        41.94356,
+        -87.67097
+      ],
+      "location": "3407 N Paulina St",
+      "title": "Chicago Pride",
+      "yearInstalled": "2020",
+      "yearRestored": null,
+      "ward": "47",
+      "media": null
+    },
+    {
+      "artist": "Cyd Smillie",
+      "latLng": [
+        41.96912057,
+        -87.75960758
+      ],
+      "location": "5299 W Ainslie St",
+      "title": "Re:Thinking",
+      "yearInstalled": "2014",
+      "yearRestored": null,
+      "ward": "45",
+      "media": "Paint"
+    },
+    {
+      "artist": "Anthony Lewellen",
+      "latLng": [
+        41.89607519,
+        -87.67373584
+      ],
+      "location": "1838 W Chicago Ave",
+      "title": "Radial Fields",
+      "yearInstalled": "2018",
+      "yearRestored": null,
+      "ward": "1",
+      "media": null
+    },
+    {
+      "artist": "Raul Ra",
+      "latLng": [
+        41.88066939,
+        -87.62680815
+      ],
+      "location": "25 E Monroe St",
+      "title": "untitled",
+      "yearInstalled": "2017",
+      "yearRestored": null,
+      "ward": "42",
+      "media": "Spray Paint"
+    },
+    {
+      "artist": "Rojo",
+      "latLng": [
+        41.88066939,
+        -87.62680815
+      ],
+      "location": "25 E Monroe St",
+      "title": "untitled",
+      "yearInstalled": "2017",
+      "yearRestored": null,
+      "ward": "42",
+      "media": "Spray Paint"
+    },
+    {
+      "artist": "Kalen Ockerman",
+      "latLng": [
+        42.00858506,
+        -87.66561219
+      ],
+      "location": "W Farwell Ave & N Glenwood Ave",
+      "title": "The Sacred Guardians",
+      "yearInstalled": "2012",
+      "yearRestored": null,
+      "ward": "49",
+      "media": "Paint"
+    },
+    {
+      "artist": "Steve Seeley",
+      "latLng": [
+        41.91720864,
+        -87.66683738
+      ],
+      "location": "1551 W Homer St",
+      "title": null,
+      "yearInstalled": "2018",
+      "yearRestored": null,
+      "ward": "2",
+      "media": "Paint"
+    },
+    {
+      "artist": "Johanna Poethig",
+      "latLng": [
+        41.8856197,
+        -87.62576044
+      ],
+      "location": "63 E Lake St",
+      "title": "Loop Tattoo",
+      "yearInstalled": "2005",
+      "yearRestored": null,
+      "ward": "42",
+      "media": null
+    },
+    {
+      "artist": "Ouizi",
+      "latLng": [
+        41.89604998,
+        -87.67526671
+      ],
+      "location": "1914 W Chicago Ave",
+      "title": "West Town in bloom",
+      "yearInstalled": "2019",
+      "yearRestored": null,
+      "ward": "1",
+      "media": null
+    },
+    {
+      "artist": "James Jankowiak",
+      "latLng": [
+        41.93402709,
+        -87.71576662
+      ],
+      "location": "2912 N Milwaukee Ave",
+      "title": "Altered Translation",
+      "yearInstalled": "2017",
+      "yearRestored": null,
+      "ward": "35",
+      "media": "Paint"
+    },
+    {
+      "artist": "Brett Whitacre",
+      "latLng": [
+        41.96549603,
+        -87.65848068
+      ],
+      "location": "1124 W Wilson Ave",
+      "title": "Remain in Light",
+      "yearInstalled": "2021",
+      "yearRestored": null,
+      "ward": "46",
+      "media": null
+    },
+    {
+      "artist": "Shawnimals",
+      "latLng": [
+        41.91720864,
+        -87.66683738
+      ],
+      "location": "1551 W Homer St",
+      "title": null,
+      "yearInstalled": "2018",
+      "yearRestored": null,
+      "ward": "2",
+      "media": "Paint"
+    },
+    {
+      "artist": "JPAK",
+      "latLng": [
+        41.97339174,
+        -87.6571143
+      ],
+      "location": "1054 W Argyle St",
+      "title": "Bling",
+      "yearInstalled": "2021",
+      "yearRestored": null,
+      "ward": "46",
+      "media": null
+    },
+    {
+      "artist": "Lady Lucx & Sarah Stewart",
+      "latLng": [
+        41.87515022,
+        -87.62586678
+      ],
+      "location": "525 S Wabash",
+      "title": "Untitled",
+      "yearInstalled": "2016",
+      "yearRestored": null,
+      "ward": "42",
+      "media": "Paint"
+    },
+    {
+      "artist": "Jeff Zimmermann",
+      "latLng": [
+        42.00852441,
+        -87.6656101
+      ],
+      "location": "W Lunt Ave & N Glenwood Ave",
+      "title": "Chicago- Wind, Sun, and Shine",
+      "yearInstalled": "2013",
+      "yearRestored": null,
+      "ward": "49",
+      "media": "Paint"
+    },
+    {
+      "artist": "Gloria \"GLOE\" Talamantes",
+      "latLng": [
+        41.83714877,
+        -87.71444789
+      ],
+      "location": "3059 S Central Park Ave",
+      "title": "Temple of Bloom",
+      "yearInstalled": "2016",
+      "yearRestored": null,
+      "ward": "22",
+      "media": "Spray"
+    },
+    {
+      "artist": "Damon Reed and Siddha Webber",
+      "latLng": [
+        41.82770517,
+        -87.60847172
+      ],
+      "location": "707 East 37th St",
+      "title": "Donoghue School Mural",
+      "yearInstalled": "2009",
+      "yearRestored": null,
+      "ward": "4",
+      "media": null
+    },
+    {
+      "artist": "Marry Tonnu",
+      "latLng": [
+        41.91266881,
+        -87.66224173
+      ],
+      "location": "1668 N Ada St",
+      "title": "Letter R",
+      "yearInstalled": "2019",
+      "yearRestored": null,
+      "ward": "2",
+      "media": null
+    },
+    {
+      "artist": "Mac Blackout",
+      "latLng": [
+        41.92593792,
+        -87.64966458
+      ],
+      "location": "2424 N Lincoln Ave",
+      "title": "Alley of Dreams",
+      "yearInstalled": "2018",
+      "yearRestored": null,
+      "ward": "43",
+      "media": "Paint"
+    },
+    {
+      "artist": "Tracy Van Duinen and Todd Osborne",
+      "latLng": [
+        41.98398894,
+        -87.65271443
+      ],
+      "location": "910 W Bryn Mawr Ave",
+      "title": "Living",
+      "yearInstalled": "2007",
+      "yearRestored": null,
+      "ward": "48",
+      "media": null
+    },
+    {
+      "artist": "Tatyana Fazlalizadeh",
+      "latLng": [
+        41.87177833,
+        -87.62578912
+      ],
+      "location": "801 S Wabash",
+      "title": "Stop Telling Women To Smile",
+      "yearInstalled": "2015",
+      "yearRestored": null,
+      "ward": "4",
+      "media": "Paint"
+    },
+    {
+      "artist": "Andrea Dunn",
+      "latLng": [
+        41.8739881,
+        -87.62583967
+      ],
+      "location": "619 S. Wabash",
+      "title": "The Wave",
+      "yearInstalled": "2017",
+      "yearRestored": null,
+      "ward": "42",
+      "media": "Paint"
+    },
+    {
+      "artist": "Steven Carrelli",
+      "latLng": [
+        41.91800819,
+        -87.65246197
+      ],
+      "location": "939 W Armitage Ave",
+      "title": "Armitage Ghost Mural",
+      "yearInstalled": "2017",
+      "yearRestored": null,
+      "ward": "43",
+      "media": "Paint"
+    },
+    {
+      "artist": "Miguel A. Del Real",
+      "latLng": [
+        41.94183033,
+        -87.65431277
+      ],
+      "location": "3300 N Sheffield Ave",
+      "title": "Energy Conversion",
+      "yearInstalled": "2022",
+      "yearRestored": null,
+      "ward": "44",
+      "media": "Paint"
+    },
+    {
+      "artist": "Laura Marie Sanchez & T.J. Hine",
+      "latLng": [
+        41.9982597,
+        -87.66410999
+      ],
+      "location": "1324 W. Devon",
+      "title": "Prarie Hyacinth",
+      "yearInstalled": "2021",
+      "yearRestored": null,
+      "ward": "49",
+      "media": "Mosaic"
+    },
+    {
+      "artist": "Benjamin Stanley",
+      "latLng": [
+        41.96549603,
+        -87.65848068
+      ],
+      "location": "1124 W Wilson Ave",
+      "title": "I Love You",
+      "yearInstalled": "2021",
+      "yearRestored": null,
+      "ward": "46",
+      "media": null
+    },
+    {
+      "artist": "Molly Z",
+      "latLng": [
+        41.99577698,
+        -87.66029505
+      ],
+      "location": "6241 N Broadway",
+      "title": "Cultivating Harmony",
+      "yearInstalled": "2017",
+      "yearRestored": null,
+      "ward": "40",
+      "media": "Paint"
+    },
+    {
+      "artist": "Hanh Nguyen",
+      "latLng": [
+        41.97319167,
+        -87.65566879
+      ],
+      "location": "1017 W Argyle St",
+      "title": "Breeze",
+      "yearInstalled": "2021",
+      "yearRestored": null,
+      "ward": "46",
+      "media": null
+    },
+    {
+      "artist": "Daniel Wilson",
+      "latLng": [
+        41.9666343,
+        -87.6586209
+      ],
+      "location": "4654 N Broadway",
+      "title": "Reflection",
+      "yearInstalled": "2020",
+      "yearRestored": null,
+      "ward": "46",
+      "media": null
+    },
+    {
+      "artist": "Diana Berek, Chiara Padgett, Juan-Carlos Perez",
+      "latLng": [
+        42.0086457,
+        -87.66561428
+      ],
+      "location": "W Lunt Ave & N Glenwood Ave",
+      "title": "Patriotism in Everyday Life",
+      "yearInstalled": "2011",
+      "yearRestored": null,
+      "ward": "49",
+      "media": "Paint"
+    },
+    {
+      "artist": "Ruben Aguirre",
+      "latLng": [
+        41.9039488,
+        -87.62501932
+      ],
+      "location": "Division Street at Lakeshore Path",
+      "title": "Untitled",
+      "yearInstalled": "2017",
+      "yearRestored": null,
+      "ward": "43",
+      "media": null
+    },
+    {
+      "artist": "Reco The Great and Barrett Keithley",
+      "latLng": [
+        41.88761537,
+        -87.62530112
+      ],
+      "location": "330 N MacChesney Court",
+      "title": "King's Ranson",
+      "yearInstalled": "2019",
+      "yearRestored": null,
+      "ward": "42",
+      "media": "Satin Paint and Spray Paint"
+    },
+    {
+      "artist": "Hebru Brantley",
+      "latLng": [
+        41.90742564,
+        -87.67262251
+      ],
+      "location": "1401 N Milwaukee Ave",
+      "title": null,
+      "yearInstalled": "2018",
+      "yearRestored": null,
+      "ward": "1",
+      "media": "Paint"
+    },
+    {
+      "artist": "Justus Roe",
+      "latLng": [
+        41.8274976,
+        -87.68849845
+      ],
+      "location": "3631 S Maplewood Ave",
+      "title": "Brightoners",
+      "yearInstalled": "2019",
+      "yearRestored": null,
+      "ward": "12",
+      "media": "Acrylic and exterior latex paint"
+    },
+    {
+      "artist": "Carolyn Elaine and John Pitman Weber",
+      "latLng": [
+        41.80977529,
+        -87.59473652
+      ],
+      "location": "1306 East 47th St",
+      "title": "Reaching Back, Moving Forward, Lest We Forget the Song of 47th St",
+      "yearInstalled": "2009",
+      "yearRestored": null,
+      "ward": "4",
+      "media": null
+    },
+    {
+      "artist": "Tony Passero",
+      "latLng": [
+        41.95322543,
+        -87.72494811
+      ],
+      "location": "3945 N Springfield Ave",
+      "title": "PAiRROTS",
+      "yearInstalled": "2016",
+      "yearRestored": null,
+      "ward": "45",
+      "media": "Paint"
+    },
+    {
+      "artist": "jimmy williams",
+      "latLng": [
+        41.76047081,
+        -87.66352251
+      ],
+      "location": "7325 S Ashland Ave",
+      "title": "the soul pole",
+      "yearInstalled": "2022",
+      "yearRestored": null,
+      "ward": "17",
+      "media": "Paint"
+    },
+    {
+      "artist": "Heidi Unkefer",
+      "latLng": [
+        41.87390846,
+        -87.62583771
+      ],
+      "location": "623 S Wabash",
+      "title": "Slime Mountain",
+      "yearInstalled": "2015",
+      "yearRestored": null,
+      "ward": "42",
+      "media": "Paint"
+    },
+    {
+      "artist": "Damon Reed",
+      "latLng": [
+        41.86689419,
+        -87.69605988
+      ],
+      "location": "1146 S California Ave",
+      "title": "Chicago Christian Industrial League Mural & Bricolage",
+      "yearInstalled": "2008",
+      "yearRestored": null,
+      "ward": "28",
+      "media": null
+    },
+    {
+      "artist": "Eelco Van Den Berg",
+      "latLng": [
+        41.8655389,
+        -87.62425739
+      ],
+      "location": "1306 S Michigan",
+      "title": "Wild Life",
+      "yearInstalled": "2017",
+      "yearRestored": null,
+      "ward": "3",
+      "media": "Paint"
+    },
+    {
+      "artist": "Justus Roe",
+      "latLng": [
+        41.95448986,
+        -87.69193459
+      ],
+      "location": "4015 N Maplewood Ave",
+      "title": "North Center",
+      "yearInstalled": "2019",
+      "yearRestored": null,
+      "ward": "47",
+      "media": "Acrylic and exterior latex paint"
+    },
+    {
+      "artist": "Tanner Woodford",
+      "latLng": [
+        41.91720864,
+        -87.66683738
+      ],
+      "location": "1551 W Homer St",
+      "title": null,
+      "yearInstalled": "2018",
+      "yearRestored": null,
+      "ward": "2",
+      "media": "Paint"
+    },
+    {
+      "artist": "Steven Teller",
+      "latLng": [
+        41.96620602,
+        -87.65901114
+      ],
+      "location": "4628 N Clifton Ave",
+      "title": "If You Only Know",
+      "yearInstalled": "2019",
+      "yearRestored": null,
+      "ward": "46",
+      "media": null
+    },
+    {
+      "artist": "Cookie Kwan",
+      "latLng": [
+        41.97341501,
+        -87.65542231
+      ],
+      "location": "1010 W Argyle St",
+      "title": "Rocket",
+      "yearInstalled": "2021",
+      "yearRestored": null,
+      "ward": "46",
+      "media": null
+    },
+    {
+      "artist": "Caroline Brown",
+      "latLng": [
+        41.96543519,
+        -87.66117219
+      ],
+      "location": "4600 N Magnolia Ave",
+      "title": "Wagnolia Beach",
+      "yearInstalled": "2019",
+      "yearRestored": null,
+      "ward": "46",
+      "media": null
+    },
+    {
+      "artist": "Jason Watts",
+      "latLng": [
+        41.97222777,
+        -87.69071934
+      ],
+      "location": "5011 N Lincoln Ave",
+      "title": "The Announcenment",
+      "yearInstalled": "2018",
+      "yearRestored": null,
+      "ward": "40",
+      "media": "Paint"
+    },
+    {
+      "artist": "Tony Passero",
+      "latLng": [
+        41.95473475,
+        -87.74919278
+      ],
+      "location": "4063 N Milwaukee Ave",
+      "title": "Spin Cycles",
+      "yearInstalled": "2015",
+      "yearRestored": null,
+      "ward": "45",
+      "media": "Paint"
+    },
+    {
+      "artist": "Hera",
+      "latLng": [
+        41.87004169,
+        -87.6260414
+      ],
+      "location": "916 S Wabash",
+      "title": "Imagine If We Could Tolerate Each Other's Differences",
+      "yearInstalled": "2016",
+      "yearRestored": null,
+      "ward": "4",
+      "media": "Paint"
+    },
+    {
+      "artist": "Justus Roe",
+      "latLng": [
+        41.93761047,
+        -87.70253038
+      ],
+      "location": "3077 N Sacramento Ave",
+      "title": "Sacramento & Nelson",
+      "yearInstalled": "2019",
+      "yearRestored": null,
+      "ward": "33",
+      "media": "Acrylic and exterior latex paint"
+    },
+    {
+      "artist": "Juan De Lu Mora",
+      "latLng": [
+        41.84453962,
+        -87.71831109
+      ],
+      "location": "2555 S Ridgeway Ave",
+      "title": "De Generacion en Generacion",
+      "yearInstalled": "2018",
+      "yearRestored": null,
+      "ward": "22",
+      "media": "Paint"
+    },
+    {
+      "artist": "Justus Roe",
+      "latLng": [
+        41.86038369,
+        -87.65883644
+      ],
+      "location": "1551 S Blue Island Ave",
+      "title": "The Valley South",
+      "yearInstalled": "2019",
+      "yearRestored": null,
+      "ward": "25",
+      "media": "Acrylic and exterior latex paint"
+    },
+    {
+      "artist": "Shawnimals",
+      "latLng": [
+        41.88515323,
+        -87.62807348
+      ],
+      "location": "170 N State St",
+      "title": "Make It Good",
+      "yearInstalled": "2019",
+      "yearRestored": null,
+      "ward": "42",
+      "media": "Acrylic Paint and Spray Paint"
+    },
+    {
+      "artist": "Tony Passero",
+      "latLng": [
+        41.96893371,
+        -87.65838009
+      ],
+      "location": "1117 W Lawrence Ave",
+      "title": "Jazz It Up",
+      "yearInstalled": "2017",
+      "yearRestored": null,
+      "ward": "46",
+      "media": null
+    },
+    {
+      "artist": "Calvin Jones, Justine Devan, and Mitchell Caton",
+      "latLng": [
+        41.82040592,
+        -87.6044939
+      ],
+      "location": "4043 South Drexel Blvd",
+      "title": "A Time To Unite",
+      "yearInstalled": "1976",
+      "yearRestored": null,
+      "ward": "4",
+      "media": null
+    },
+    {
+      "artist": "Justus Roe",
+      "latLng": [
+        41.86983981,
+        -87.62733224
+      ],
+      "location": "1001 S State St",
+      "title": "Standing Wave",
+      "yearInstalled": "2016",
+      "yearRestored": "2018",
+      "ward": "4",
+      "media": "Acrylic and exterior latex paint"
+    },
+    {
+      "artist": "Antonio Beniquez",
+      "latLng": [
+        41.89413131,
+        -87.67685467
+      ],
+      "location": "701 N Damen Ave",
+      "title": "Temperance",
+      "yearInstalled": "2018",
+      "yearRestored": null,
+      "ward": "1",
+      "media": null
+    },
+    {
+      "artist": "Marry Tonnu",
+      "latLng": [
+        41.91695917,
+        -87.66535085
+      ],
+      "location": "1907 N Mendell St",
+      "title": "Letter K",
+      "yearInstalled": "2019",
+      "yearRestored": null,
+      "ward": "2",
+      "media": null
+    },
+    {
+      "artist": "Justus Roe",
+      "latLng": [
+        41.98417235,
+        -87.66875579
+      ],
+      "location": "5621 N. Clark St",
+      "title": "Clark & Olive",
+      "yearInstalled": "2014",
+      "yearRestored": "2019",
+      "ward": "48",
+      "media": "Acrylic and exterior latex paint"
+    },
+    {
+      "artist": "Kashink",
+      "latLng": [
+        41.87177833,
+        -87.62578912
+      ],
+      "location": "801 S Wabash",
+      "title": "Be The Change You Want To See",
+      "yearInstalled": "2015",
+      "yearRestored": null,
+      "ward": "4",
+      "media": "Paint"
+    },
+    {
+      "artist": "Kyle the Creative 1",
+      "latLng": [
+        41.9666343,
+        -87.6586209
+      ],
+      "location": "4654 N Broadway",
+      "title": "BUSY BOTS",
+      "yearInstalled": "2020",
+      "yearRestored": null,
+      "ward": "46",
+      "media": null
+    },
+    {
+      "artist": "Emmy Star Brown",
+      "latLng": [
+        41.91347166,
+        -87.71164696
+      ],
+      "location": "1757 N Kimball Ave",
+      "title": "Bend",
+      "yearInstalled": "2021",
+      "yearRestored": null,
+      "ward": "26",
+      "media": "Paint"
+    },
+    {
+      "artist": "Jenny Q.",
+      "latLng": [
+        41.90308512,
+        -87.69129673
+      ],
+      "location": "2546 W Division St",
+      "title": "Las Puertas de Paseo Boricua",
+      "yearInstalled": "2017",
+      "yearRestored": null,
+      "ward": "26",
+      "media": "Paint and Mixed Media"
+    },
+    {
+      "artist": "Collin Van Der Sluijs",
+      "latLng": [
+        41.86976756,
+        -87.62426641
+      ],
+      "location": "1006 S Michigan Ave",
+      "title": "From Boom To Doom",
+      "yearInstalled": "2016",
+      "yearRestored": null,
+      "ward": "4",
+      "media": "Paint"
+    },
+    {
+      "artist": "Corbin DeShazo",
+      "latLng": [
+        41.75784928,
+        -87.6637563
+      ],
+      "location": "7498 S Ashland Ave",
+      "title": "Myrtis Jackson",
+      "yearInstalled": "2020",
+      "yearRestored": null,
+      "ward": "17",
+      "media": "Paint"
+    },
+    {
+      "artist": "Christian Paz",
+      "latLng": [
+        41.9671,
+        -87.65898
+      ],
+      "location": "1137 W Leland Ave",
+      "title": "Lakefront",
+      "yearInstalled": "2020",
+      "yearRestored": null,
+      "ward": "46",
+      "media": null
+    },
+    {
+      "artist": "Antonio Beniquez",
+      "latLng": [
+        41.9436182,
+        -87.6683774
+      ],
+      "location": "3401 N Ashland Ave",
+      "title": "Untitled",
+      "yearInstalled": "2020",
+      "yearRestored": null,
+      "ward": "44",
+      "media": null
+    },
+    {
+      "artist": "Cara Feeney",
+      "latLng": [
+        41.987298,
+        -87.658921
+      ],
+      "location": "1124-1160 W Ardmore Ave",
+      "title": "Community Mural",
+      "yearInstalled": "2016",
+      "yearRestored": null,
+      "ward": "48",
+      "media": "Paint"
+    },
+    {
+      "artist": "Don't Fret",
+      "latLng": [
+        41.86769438,
+        -87.62597903
+      ],
+      "location": "1152 S Wabash",
+      "title": "Gift To The Class of 2016",
+      "yearInstalled": "2016",
+      "yearRestored": null,
+      "ward": "4",
+      "media": "Paint"
+    },
+    {
+      "artist": "Jim Bachor",
+      "latLng": [
+        41.965418,
+        -87.658876
+      ],
+      "location": "1140 Wilson Avenue",
+      "title": "Uptown Alley Cat",
+      "yearInstalled": "2019",
+      "yearRestored": null,
+      "ward": "46",
+      "media": "Tile"
+    },
+    {
+      "artist": "Damon Reed",
+      "latLng": [
+        41.78427743,
+        -87.5962122
+      ],
+      "location": "1200 East 61st St",
+      "title": "M.A.G.I.C.",
+      "yearInstalled": "2006",
+      "yearRestored": null,
+      "ward": "20",
+      "media": null
+    },
+    {
+      "artist": "Marry Tonnu",
+      "latLng": [
+        41.91240433,
+        -87.66153051
+      ],
+      "location": "1324 W Concord Place",
+      "title": "Letter M",
+      "yearInstalled": "2019",
+      "yearRestored": null,
+      "ward": "2",
+      "media": null
+    },
+    {
+      "artist": "Marcus Akinlana",
+      "latLng": [
+        41.78483675,
+        -87.66307056
+      ],
+      "location": "1525 West 60th St",
+      "title": "Memory Masks",
+      "yearInstalled": "1992",
+      "yearRestored": null,
+      "ward": "16",
+      "media": null
+    },
+    {
+      "artist": "Rahmaan Statik",
+      "latLng": [
+        41.77972307,
+        -87.63959602
+      ],
+      "location": "555 West 63rd St",
+      "title": "Openlands Mural",
+      "yearInstalled": "2009",
+      "yearRestored": null,
+      "ward": "20",
+      "media": null
+    },
+    {
+      "artist": "Ruben Aguirre",
+      "latLng": [
+        41.87436682,
+        -87.63450824
+      ],
+      "location": "231 W Harrison St",
+      "title": "Riverfront Roots",
+      "yearInstalled": "2019",
+      "yearRestored": null,
+      "ward": "25",
+      "media": "Paint"
+    },
+    {
+      "artist": "Justus Roe",
+      "latLng": [
+        41.97532879,
+        -87.83234712
+      ],
+      "location": "8213 W Berwyn Ave",
+      "title": "Norridge",
+      "yearInstalled": "2019",
+      "yearRestored": null,
+      "ward": "41",
+      "media": "Acrylic and exterior latex paint"
+    },
+    {
+      "artist": "Justus Roe",
+      "latLng": [
+        41.98169128,
+        -87.6699157
+      ],
+      "location": "5500 N Ashland",
+      "title": "Alpha Omega",
+      "yearInstalled": "2013",
+      "yearRestored": null,
+      "ward": "40",
+      "media": "Acrylic and exterior latex paint"
+    },
+    {
+      "artist": "Retna",
+      "latLng": [
+        41.87557316,
+        -87.62637611
+      ],
+      "location": "33 E Congress",
+      "title": "Provocateurs Series",
+      "yearInstalled": "2014",
+      "yearRestored": null,
+      "ward": "4",
+      "media": "Paint"
+    },
+    {
+      "artist": "Louise Jones",
+      "latLng": [
+        41.94134948,
+        -87.67855026
+      ],
+      "location": "3258 N Damen Ave",
+      "title": "Mural at 3258 N Damen",
+      "yearInstalled": "2022",
+      "yearRestored": null,
+      "ward": "32",
+      "media": "Paint"
+    },
+    {
+      "artist": "Daniel Manrique Arias",
+      "latLng": [
+        41.88026691,
+        -87.66661644
+      ],
+      "location": "37 S Ashland Ave",
+      "title": "Hands In Solidarity, Hands In Freedom",
+      "yearInstalled": "1997",
+      "yearRestored": null,
+      "ward": "28",
+      "media": null
+    },
+    {
+      "artist": "Pose",
+      "latLng": [
+        41.86940381,
+        -87.62483711
+      ],
+      "location": "72 E 11th Street",
+      "title": "Untitled",
+      "yearInstalled": "2014",
+      "yearRestored": null,
+      "ward": "4",
+      "media": "Paint"
+    },
+    {
+      "artist": "Justin Weidl",
+      "latLng": [
+        41.96589726,
+        -87.65871665
+      ],
+      "location": "4615 N Clifton Ave",
+      "title": "Uptown Love",
+      "yearInstalled": "2019",
+      "yearRestored": null,
+      "ward": "46",
+      "media": null
+    },
+    {
+      "artist": "Carol Yasko",
+      "latLng": [
+        41.79493407,
+        -87.58773626
+      ],
+      "location": "5506 South Lake Park Ave",
+      "title": "Under City stone",
+      "yearInstalled": "1972",
+      "yearRestored": "2015",
+      "ward": "5",
+      "media": "Paint"
+    },
+    {
+      "artist": "Sick Fisher",
+      "latLng": [
+        41.89580311,
+        -87.67698748
+      ],
+      "location": "1959 W Chicago Ave",
+      "title": "untitled",
+      "yearInstalled": "2019",
+      "yearRestored": null,
+      "ward": "1",
+      "media": null
+    },
+    {
+      "artist": "Cyd Smillie",
+      "latLng": [
+        41.83097343,
+        -87.63749845
+      ],
+      "location": "430 W 35th Street",
+      "title": "Baseball Rules",
+      "yearInstalled": "2016",
+      "yearRestored": null,
+      "ward": "11",
+      "media": "Paint"
+    },
+    {
+      "artist": "Ricardo Martinez, FEDZ, Thomas, Axel",
+      "latLng": [
+        41.85776469,
+        -87.66138509
+      ],
+      "location": "1401 W 18th St",
+      "title": "Alley Wall Project",
+      "yearInstalled": "2015",
+      "yearRestored": null,
+      "ward": "25",
+      "media": "spray"
+    },
+    {
+      "artist": "Jill Arena and  Cyd Smillie",
+      "latLng": [
+        41.96262415,
+        -87.75638065
+      ],
+      "location": "4508 N Milwaukee Ave",
+      "title": "First Responders",
+      "yearInstalled": "2011",
+      "yearRestored": null,
+      "ward": "45",
+      "media": "Paint"
+    },
+    {
+      "artist": "Sam Kirk and Sandra Antongiorgi",
+      "latLng": [
+        41.92979861,
+        -87.70837014
+      ],
+      "location": "2639 N Milwaukee Ave",
+      "title": "I Am Logan Square",
+      "yearInstalled": "2017",
+      "yearRestored": null,
+      "ward": "35",
+      "media": "Paint"
+    },
+    {
+      "artist": "Adrianne Hawthorne",
+      "latLng": [
+        1927972.892,
+        1163703.552
+      ],
+      "location": "Ravenswood and Berteau Aves",
+      "title": "For My Neighbors, With Love",
+      "yearInstalled": "2022",
+      "yearRestored": null,
+      "ward": "47",
+      "media": "Paint"
+    },
+    {
+      "artist": "Persue",
+      "latLng": [
+        41.89596285,
+        -87.6673493
+      ],
+      "location": "1601 W Chicago Ave",
+      "title": "reckless behavior",
+      "yearInstalled": "2017",
+      "yearRestored": null,
+      "ward": "1",
+      "media": null
+    },
+    {
+      "artist": "Mitchell Caton and William Walker",
+      "latLng": [
+        41.80946567,
+        -87.61831493
+      ],
+      "location": "328 East 47th St",
+      "title": "The Wall of Daydreaming and Man's Inhumanity to Man",
+      "yearInstalled": "1975",
+      "yearRestored": null,
+      "ward": "3",
+      "media": null
+    },
+    {
+      "artist": "Nate Otto",
+      "latLng": [
+        41.96549603,
+        -87.65848068
+      ],
+      "location": "1124 W Wilson Ave",
+      "title": "Uptown City",
+      "yearInstalled": "2021",
+      "yearRestored": null,
+      "ward": "46",
+      "media": null
+    },
+    {
+      "artist": "El Paseo\nCommunity\nGarden with Eric J. Garcia, Diana SolÃ­s, Katia PÃ©res-Fuentes",
+      "latLng": [
+        41.85401145,
+        -87.64989059
+      ],
+      "location": "944 West 21st St",
+      "title": "El Abrazo",
+      "yearInstalled": "2017",
+      "yearRestored": null,
+      "ward": "25",
+      "media": null
+    },
+    {
+      "artist": "Diego Aguilar",
+      "latLng": [
+        41.895811,
+        -87.699483
+      ],
+      "location": "2900 W Chicago Ave",
+      "title": "Airplanes",
+      "yearInstalled": "2020",
+      "yearRestored": null,
+      "ward": "26",
+      "media": null
+    },
+    {
+      "artist": "Justus Roe",
+      "latLng": [
+        41.86939111,
+        -87.62732369
+      ],
+      "location": "1023 S State St",
+      "title": "Devils Mile",
+      "yearInstalled": "2016",
+      "yearRestored": "2018",
+      "ward": "4",
+      "media": "Acrylic and exterior latex paint"
+    },
+    {
+      "artist": "Chris Silva",
+      "latLng": [
+        41.84637097,
+        -87.70860251
+      ],
+      "location": "2459 South Christiana",
+      "title": "Flower Shop",
+      "yearInstalled": "2015",
+      "yearRestored": null,
+      "ward": "22",
+      "media": null
+    },
+    {
+      "artist": "Jeffery Cook and Phil Schuster",
+      "latLng": [
+        41.9102243,
+        -87.70703651
+      ],
+      "location": "3200 West North Ave",
+      "title": "Calling Forth the Spirit of Peace",
+      "yearInstalled": "1993",
+      "yearRestored": null,
+      "ward": "26",
+      "media": null
+    },
+    {
+      "artist": "Missy Rosa",
+      "latLng": [
+        41.90287692,
+        -87.69018293
+      ],
+      "location": "2517 W Division St",
+      "title": "Las Puertas de Paseo Boricua",
+      "yearInstalled": "2017",
+      "yearRestored": null,
+      "ward": "26",
+      "media": "Paint and Mixed Media"
+    },
+    {
+      "artist": "Shepard Fairey",
+      "latLng": [
+        41.87004169,
+        -87.6260414
+      ],
+      "location": "916 S Wabash",
+      "title": "We Own The Future",
+      "yearInstalled": "2014",
+      "yearRestored": null,
+      "ward": "4",
+      "media": "Paint"
+    },
+    {
+      "artist": "Northwest\nArts\nConnection with Ken R. Klopack",
+      "latLng": [
+        41.9463173,
+        -87.74025468
+      ],
+      "location": "4520 W Addison St",
+      "title": "Neighborhood Renewed",
+      "yearInstalled": "2017",
+      "yearRestored": null,
+      "ward": "30",
+      "media": "Paint"
+    },
+    {
+      "artist": "Janis Pozzi",
+      "latLng": [
+        41.97155144,
+        -87.66095348
+      ],
+      "location": "1226 W Ainslie St",
+      "title": "Ingles",
+      "yearInstalled": "1974",
+      "yearRestored": "2017",
+      "ward": "46",
+      "media": null
+    },
+    {
+      "artist": "Mike McIntyre",
+      "latLng": [
+        41.92932129,
+        -87.64269257
+      ],
+      "location": "2471 N Clark St",
+      "title": "Love Mural",
+      "yearInstalled": "2020",
+      "yearRestored": null,
+      "ward": "43",
+      "media": null
+    },
+    {
+      "artist": "Blake Jones",
+      "latLng": [
+        41.91720864,
+        -87.66683738
+      ],
+      "location": "1551 W Homer St",
+      "title": null,
+      "yearInstalled": "2018",
+      "yearRestored": null,
+      "ward": "2",
+      "media": "Paint"
+    },
+    {
+      "artist": "James Jankowiak",
+      "latLng": [
+        41.8918416,
+        -87.6247877
+      ],
+      "location": "110-144 E Grand Ave",
+      "title": "Undercurrent Grand Ave Wall",
+      "yearInstalled": "2022",
+      "yearRestored": null,
+      "ward": "42",
+      "media": "Spraypaint"
+    },
+    {
+      "artist": "Molly Z",
+      "latLng": [
+        41.96549603,
+        -87.65848068
+      ],
+      "location": "1124 W Wilson Ave",
+      "title": "All Together Now",
+      "yearInstalled": "2021",
+      "yearRestored": null,
+      "ward": "46",
+      "media": null
+    },
+    {
+      "artist": "Lauren Asta",
+      "latLng": [
+        41.94362991,
+        -87.67106145
+      ],
+      "location": "3409 N Paulina",
+      "title": "This is Lakeview",
+      "yearInstalled": "2018",
+      "yearRestored": null,
+      "ward": "44",
+      "media": "Paint"
+    },
+    {
+      "artist": "Chris Silva",
+      "latLng": [
+        41.84057466,
+        -87.71820602
+      ],
+      "location": "2801 South Ridgeway",
+      "title": "With All Our Might",
+      "yearInstalled": "2013",
+      "yearRestored": null,
+      "ward": "22",
+      "media": null
+    },
+    {
+      "artist": "John Pitman Weber",
+      "latLng": [
+        41.90834907,
+        -87.69222102
+      ],
+      "location": "1458 N Rockwell St",
+      "title": "Rompiendo Las Cadenas/Breaking the Chains",
+      "yearInstalled": "1971",
+      "yearRestored": null,
+      "ward": "1",
+      "media": null
+    },
+    {
+      "artist": "Northwest\nArts\nConnection with",
+      "latLng": [
+        41.93910758,
+        -87.73434336
+      ],
+      "location": "4254 W Belmont Ave",
+      "title": "Neighborhood on the Rails",
+      "yearInstalled": "2017",
+      "yearRestored": null,
+      "ward": "30",
+      "media": "Paint"
+    },
+    {
+      "artist": "John Vergara",
+      "latLng": [
+        41.90898862,
+        -87.71444623
+      ],
+      "location": "3501 W Pierce Ave",
+      "title": "Legends",
+      "yearInstalled": "2018",
+      "yearRestored": null,
+      "ward": "26",
+      "media": "Paint"
+    },
+    {
+      "artist": "CERA",
+      "latLng": [
+        41.90162687,
+        -87.66730041
+      ],
+      "location": "1103 N Ashland Ave",
+      "title": "calmness & serenity",
+      "yearInstalled": "2018",
+      "yearRestored": null,
+      "ward": "2",
+      "media": null
+    },
+    {
+      "artist": "Lauren Asta",
+      "latLng": [
+        41.8958323,
+        -87.67514009
+      ],
+      "location": "1913 W Chicago Ave",
+      "title": "untitled",
+      "yearInstalled": "2017",
+      "yearRestored": null,
+      "ward": "1",
+      "media": null
+    },
+    {
+      "artist": "Matthew Hoffman",
+      "latLng": [
+        41.90314475,
+        -87.68599652
+      ],
+      "location": "2334 W Division St",
+      "title": "You Are Beautiful",
+      "yearInstalled": "2012",
+      "yearRestored": null,
+      "ward": "1",
+      "media": "Painted plywood"
+    },
+    {
+      "artist": "Marry Tonnu",
+      "latLng": [
+        41.91357484,
+        -87.66444475
+      ],
+      "location": "1720 N Elston Ave",
+      "title": "Letter I",
+      "yearInstalled": "2019",
+      "yearRestored": null,
+      "ward": "2",
+      "media": null
+    },
+    {
+      "artist": "William Walker",
+      "latLng": [
+        41.80571322,
+        -87.62421696
+      ],
+      "location": "4859 South Wabash Ave",
+      "title": "History of the Packinghouse Worker",
+      "yearInstalled": "1974",
+      "yearRestored": null,
+      "ward": "3",
+      "media": null
+    },
+    {
+      "artist": "Lunar New Year",
+      "latLng": [
+        41.84059445,
+        -87.71698352
+      ],
+      "location": "2801 South Lawndale Ave",
+      "title": "Welcome to Loyal Yolotl",
+      "yearInstalled": "2013",
+      "yearRestored": null,
+      "ward": "22",
+      "media": null
+    },
+    {
+      "artist": "Justine Presha' DeVan",
+      "latLng": [
+        41.81992522,
+        -87.60693771
+      ],
+      "location": "4112 South Cottage Grove Ave",
+      "title": "Black Women Emerging",
+      "yearInstalled": "1977",
+      "yearRestored": "2001",
+      "ward": "4",
+      "media": null
+    },
+    {
+      "artist": "Khosro Beik",
+      "latLng": [
+        41.88051378,
+        -87.73436187
+      ],
+      "location": "4333 W Madison Ave",
+      "title": "City Bricks Project: West Garfield Park",
+      "yearInstalled": "2019",
+      "yearRestored": null,
+      "ward": "28",
+      "media": "Paint"
+    },
+    {
+      "artist": "Tara McPherson",
+      "latLng": [
+        41.91720864,
+        -87.66683738
+      ],
+      "location": "1551 W Homer St",
+      "title": null,
+      "yearInstalled": "2018",
+      "yearRestored": null,
+      "ward": "2",
+      "media": "Paint"
+    },
+    {
+      "artist": "Sam Kirk",
+      "latLng": [
+        41.8655389,
+        -87.62425739
+      ],
+      "location": "1306 S Michigan Ave",
+      "title": "The Seeds We Plant Today Determine Our Growth For Tomorrow",
+      "yearInstalled": "2017",
+      "yearRestored": null,
+      "ward": "3",
+      "media": "Paint"
+    },
+    {
+      "artist": "Rodney Duran",
+      "latLng": [
+        41.96675345,
+        -87.65849862
+      ],
+      "location": "4654 N Broadway",
+      "title": "Bison",
+      "yearInstalled": "2019",
+      "yearRestored": null,
+      "ward": "46",
+      "media": null
+    },
+    {
+      "artist": "Cyd Smillie",
+      "latLng": [
+        41.83097343,
+        -87.63749845
+      ],
+      "location": "430 W 35th Street",
+      "title": "The Dream",
+      "yearInstalled": "2016",
+      "yearRestored": null,
+      "ward": "11",
+      "media": "Paint"
+    },
+    {
+      "artist": "Sam Kirk",
+      "latLng": [
+        41.90284248,
+        -87.69383254
+      ],
+      "location": "2647 W Division St",
+      "title": "Las Puertas de Paseo Boricua",
+      "yearInstalled": "2017",
+      "yearRestored": null,
+      "ward": "26",
+      "media": "Paint and Mixed Media"
+    },
+    {
+      "artist": "Frank Quintero",
+      "latLng": [
+        41.96548895,
+        -87.6591587
+      ],
+      "location": "1140 Wilson Avenue",
+      "title": "Home in Uptown",
+      "yearInstalled": "2019",
+      "yearRestored": null,
+      "ward": "46",
+      "media": "paint"
+    },
+    {
+      "artist": "Renee Robbins",
+      "latLng": [
+        41.86769438,
+        -87.62597903
+      ],
+      "location": "1152 S Wabash",
+      "title": "X Marks The Milky Way",
+      "yearInstalled": "2016",
+      "yearRestored": null,
+      "ward": "4",
+      "media": "Paint"
+    },
+    {
+      "artist": "Justus Roe",
+      "latLng": [
+        41.86001454,
+        -87.64710553
+      ],
+      "location": "808 W 16th St",
+      "title": "16th & Halsted",
+      "yearInstalled": "2015",
+      "yearRestored": "2019",
+      "ward": "25",
+      "media": "Acrylic and exterior latex paint"
+    },
+    {
+      "artist": "Jill Arena",
+      "latLng": [
+        41.9529842,
+        -87.78908383
+      ],
+      "location": "6500 W Irving Park Rd",
+      "title": "\"Birds of a Feather\"",
+      "yearInstalled": "2021",
+      "yearRestored": null,
+      "ward": "45",
+      "media": "Paint"
+    },
+    {
+      "artist": "Andy Bellomo, Bernard Williams",
+      "latLng": [
+        41.8545508,
+        -87.63028972
+      ],
+      "location": "2026 South Clark St",
+      "title": "Chinatown Centenial Mural",
+      "yearInstalled": "2015",
+      "yearRestored": null,
+      "ward": "25",
+      "media": "Paint and Mixed Media"
+    },
+    {
+      "artist": "Matthew Hoffman",
+      "latLng": [
+        41.96895857,
+        -87.65636687
+      ],
+      "location": "1039 W Lawrence Ave",
+      "title": "You Are Beautiful",
+      "yearInstalled": "2016",
+      "yearRestored": null,
+      "ward": "46",
+      "media": null
+    },
+    {
+      "artist": "Czr Prz",
+      "latLng": [
+        41.86361937,
+        -87.62559588
+      ],
+      "location": "1415 S Wabash",
+      "title": "Fry",
+      "yearInstalled": "2016",
+      "yearRestored": null,
+      "ward": "3",
+      "media": "Paint"
+    },
+    {
+      "artist": "A Zak",
+      "latLng": [
+        41.96525,
+        -87.66192
+      ],
+      "location": "1265 W Wilson Ave",
+      "title": "City Mindset",
+      "yearInstalled": "2020",
+      "yearRestored": null,
+      "ward": "46",
+      "media": null
+    },
+    {
+      "artist": "Lauren Asta",
+      "latLng": [
+        41.89638219,
+        -87.65506733
+      ],
+      "location": "1062 W Chicago Ave",
+      "title": "swelligant",
+      "yearInstalled": "2016",
+      "yearRestored": null,
+      "ward": "27",
+      "media": null
+    },
+    {
+      "artist": "Sam Kirk",
+      "latLng": [
+        41.88499046,
+        -87.63077318
+      ],
+      "location": "99 W Couch Place",
+      "title": "Power to the People",
+      "yearInstalled": "2017",
+      "yearRestored": null,
+      "ward": "42",
+      "media": "Paint"
+    },
+    {
+      "artist": "Chema Skandal",
+      "latLng": [
+        41.84059445,
+        -87.71698352
+      ],
+      "location": "2801 S Lawndale Ave",
+      "title": null,
+      "yearInstalled": "2018",
+      "yearRestored": null,
+      "ward": "22",
+      "media": "Spray + Brush"
+    },
+    {
+      "artist": "Revise CMW",
+      "latLng": [
+        41.88761537,
+        -87.62530112
+      ],
+      "location": "330 N MacChesney Court",
+      "title": "untitled",
+      "yearInstalled": "2019",
+      "yearRestored": null,
+      "ward": "42",
+      "media": "Spray Paint"
+    },
+    {
+      "artist": "Sub(urban) Warrior",
+      "latLng": [
+        41.91720864,
+        -87.66683738
+      ],
+      "location": "1551 W Homer St",
+      "title": null,
+      "yearInstalled": "2018",
+      "yearRestored": null,
+      "ward": "2",
+      "media": "Paint"
+    },
+    {
+      "artist": "Tony Passero",
+      "latLng": [
+        41.82963829,
+        -87.68029189
+      ],
+      "location": "3524 S Leavitt St",
+      "title": "Adios",
+      "yearInstalled": "2021",
+      "yearRestored": null,
+      "ward": "12",
+      "media": "Paint"
+    },
+    {
+      "artist": "Chad Kouri",
+      "latLng": [
+        41.94375528,
+        -87.66407359
+      ],
+      "location": "3410 N Southport Ave",
+      "title": "Imitation Aura",
+      "yearInstalled": "2019",
+      "yearRestored": null,
+      "ward": "44",
+      "media": "Paint"
+    },
+    {
+      "artist": "Rocio Urbano",
+      "latLng": [
+        41.85792077,
+        -87.66535929
+      ],
+      "location": "1540 West 18th St",
+      "title": "Quetzalcoatl 18",
+      "yearInstalled": "2018",
+      "yearRestored": null,
+      "ward": "25",
+      "media": "Spray + Brush"
+    },
+    {
+      "artist": "Bernard Williams",
+      "latLng": [
+        41.803892,
+        -87.60544
+      ],
+      "location": "819 E 50th St",
+      "title": "Feed Your Child the Truth",
+      "yearInstalled": "1994",
+      "yearRestored": null,
+      "ward": "4",
+      "media": null
+    },
+    {
+      "artist": "Matt Bourque",
+      "latLng": [
+        42.01912648,
+        -87.66685958
+      ],
+      "location": "1419 W Howard St",
+      "title": "Creative Collective",
+      "yearInstalled": "2016",
+      "yearRestored": null,
+      "ward": "49",
+      "media": "Paint"
+    },
+    {
+      "artist": "Connor Young",
+      "latLng": [
+        41.94933813,
+        -87.64969635
+      ],
+      "location": "3706 N Halsted St",
+      "title": "Salivation",
+      "yearInstalled": "2024",
+      "yearRestored": null,
+      "ward": "46",
+      "media": "Paint"
+    },
+    {
+      "artist": "Cyd Smillie",
+      "latLng": [
+        41.77926508,
+        -87.66967833
+      ],
+      "location": "1813 W 63rd Street",
+      "title": "What We Create",
+      "yearInstalled": "2017",
+      "yearRestored": null,
+      "ward": "15",
+      "media": "Paint"
+    },
+    {
+      "artist": "ASVP",
+      "latLng": [
+        41.87298295,
+        -87.62752137
+      ],
+      "location": "1 E Balbo",
+      "title": "Make Your Own Luck",
+      "yearInstalled": "2015",
+      "yearRestored": null,
+      "ward": "4",
+      "media": "Paint"
+    },
+    {
+      "artist": "Renee Robins",
+      "latLng": [
+        41.9262128,
+        -87.63140532
+      ],
+      "location": "100 W Fullerton Pkwy",
+      "title": "Kaleidoscope of Hidden Worlds",
+      "yearInstalled": "2017",
+      "yearRestored": null,
+      "ward": "43",
+      "media": "Paint"
+    },
+    {
+      "artist": "Sentrock, Cujo, Nikko Washington, Dred Ske, Tubs,\nStatik, Milton Coronado and Max Sansing",
+      "latLng": [
+        41.75293,
+        -87.58423362
+      ],
+      "location": "1640 E 79th St",
+      "title": "Black Love, Brown Pride Mural",
+      "yearInstalled": "2020",
+      "yearRestored": null,
+      "ward": "8",
+      "media": "Paint"
+    },
+    {
+      "artist": "Jacob Watts",
+      "latLng": [
+        41.87557316,
+        -87.62637611
+      ],
+      "location": "33 E. Congress",
+      "title": "Moose Bubblegum Bubble",
+      "yearInstalled": "2014",
+      "yearRestored": null,
+      "ward": "4",
+      "media": "Paint"
+    },
+    {
+      "artist": "Marry Tonnu",
+      "latLng": [
+        41.91290391,
+        -87.66394498
+      ],
+      "location": "1690 N Elston Ave",
+      "title": "Letter D",
+      "yearInstalled": "2019",
+      "yearRestored": null,
+      "ward": "2",
+      "media": null
+    },
+    {
+      "artist": "Lisa Wronski",
+      "latLng": [
+        1909270.064,
+        1164306.816
+      ],
+      "location": "1372 N Milwaukee Ave",
+      "title": "Lisa Wronski Mural",
+      "yearInstalled": "2023",
+      "yearRestored": null,
+      "ward": "1",
+      "media": "Paint"
+    },
+    {
+      "artist": "Brandin Hurley",
+      "latLng": [
+        41.95717,
+        -87.65202
+      ],
+      "location": "4101 N Broadway",
+      "title": "Community Sparks Innovation",
+      "yearInstalled": "2020",
+      "yearRestored": null,
+      "ward": "46",
+      "media": null
+    },
+    {
+      "artist": "Marcos Raya",
+      "latLng": [
+        41.85743699,
+        -87.68541235
+      ],
+      "location": "2350 West 18th St",
+      "title": "Preventing WWIII",
+      "yearInstalled": "1980",
+      "yearRestored": "2016",
+      "ward": "25",
+      "media": "Paint"
+    },
+    {
+      "artist": "EELCO",
+      "latLng": [
+        41.89589515,
+        -87.67140623
+      ],
+      "location": "1741 W Chicago Ave",
+      "title": "untitled",
+      "yearInstalled": "2017",
+      "yearRestored": null,
+      "ward": "1",
+      "media": null
+    },
+    {
+      "artist": "Marry Tonnu",
+      "latLng": [
+        41.91290391,
+        -87.66394498
+      ],
+      "location": "1690 N Elston Ave",
+      "title": "Letter N",
+      "yearInstalled": "2019",
+      "yearRestored": null,
+      "ward": "2",
+      "media": null
+    },
+    {
+      "artist": "Josue Pellot",
+      "latLng": [
+        41.90308328,
+        -87.69146702
+      ],
+      "location": "2550 West Division St",
+      "title": "Las Puertas de Paseo Boricua",
+      "yearInstalled": "2017",
+      "yearRestored": null,
+      "ward": "26",
+      "media": "Paint and Mixed Media"
+    },
+    {
+      "artist": "Damon Reed",
+      "latLng": [
+        42.00780563,
+        -87.6657006
+      ],
+      "location": "1349 W Morse Ave",
+      "title": "The Heart of Rogers Park",
+      "yearInstalled": "2007",
+      "yearRestored": null,
+      "ward": "49",
+      "media": null
+    },
+    {
+      "artist": "Miguel A. Del Real",
+      "latLng": [
+        41.89595361,
+        -87.66790007
+      ],
+      "location": "1615 W Chicago Ave",
+      "title": "Abrazando La Vida/Embracing Life",
+      "yearInstalled": "2017",
+      "yearRestored": null,
+      "ward": "1",
+      "media": "Painting"
+    },
+    {
+      "artist": "Ivan Brunetti",
+      "latLng": [
+        41.8739881,
+        -87.62583967
+      ],
+      "location": "619 S Wabash",
+      "title": "Rectangular Women",
+      "yearInstalled": "2017",
+      "yearRestored": null,
+      "ward": "42",
+      "media": "Paint"
+    },
+    {
+      "artist": "Cathy Cajandig, John Weber",
+      "latLng": [
+        41.91374686,
+        -87.69723595
+      ],
+      "location": "1760 N California Ave",
+      "title": "Children are our Future",
+      "yearInstalled": "1979",
+      "yearRestored": "2015",
+      "ward": "26",
+      "media": "Paint and Mixed Media"
+    },
+    {
+      "artist": "Ben Eine",
+      "latLng": [
+        41.87517906,
+        -87.62747379
+      ],
+      "location": "525 S State St",
+      "title": "Harmony",
+      "yearInstalled": "2015",
+      "yearRestored": null,
+      "ward": "4",
+      "media": "Paint"
+    },
+    {
+      "artist": "Spifster and Chris Silva",
+      "latLng": [
+        41.84061275,
+        -87.71576395
+      ],
+      "location": "2801 S Millard Ave",
+      "title": null,
+      "yearInstalled": "2018",
+      "yearRestored": null,
+      "ward": "22",
+      "media": "Spray + brush"
+    },
+    {
+      "artist": "Justus Roe",
+      "latLng": [
+        41.94468083,
+        -87.72606579
+      ],
+      "location": "3928 W Cornelia Ave",
+      "title": "South Old Irving",
+      "yearInstalled": "2019",
+      "yearRestored": null,
+      "ward": "30",
+      "media": "Acrylic and exterior latex paint"
+    },
+    {
+      "artist": "Sam Kirk",
+      "latLng": [
+        41.90305045,
+        -87.6951529
+      ],
+      "location": "2716 W Division St",
+      "title": "Las Puertas de Paseo Boricua",
+      "yearInstalled": "2017",
+      "yearRestored": null,
+      "ward": "26",
+      "media": "Paint and Mixed Media"
+    },
+    {
+      "artist": "Elaine Miller",
+      "latLng": [
+        41.72102669,
+        -87.66812934
+      ],
+      "location": "1815 W 95th St",
+      "title": "Farmer's Market Mural",
+      "yearInstalled": "2017",
+      "yearRestored": null,
+      "ward": "19",
+      "media": "Paint, mosaic tile/ceramic"
+    },
+    {
+      "artist": "Justus Roe",
+      "latLng": [
+        42.00534589,
+        -87.66591766
+      ],
+      "location": "1401 W Pratt",
+      "title": "Pratt-a-tat-tat",
+      "yearInstalled": "2015",
+      "yearRestored": "2019",
+      "ward": "49",
+      "media": "Acrylic and exterior latex paint"
+    },
+    {
+      "artist": "Jay Jasso",
+      "latLng": [
+        41.84442031,
+        -87.71860171
+      ],
+      "location": "2598 S Ridgeway Ave",
+      "title": "Passage of souls",
+      "yearInstalled": "2015",
+      "yearRestored": null,
+      "ward": "22",
+      "media": "Paint"
+    },
+    {
+      "artist": "Justus Roe",
+      "latLng": [
+        41.95439275,
+        -87.66958709
+      ],
+      "location": "1612 W Irving Park Rd #1",
+      "title": "The Longroom",
+      "yearInstalled": "2013",
+      "yearRestored": "2019",
+      "ward": "47",
+      "media": "Acrylic and exterior latex paint"
+    },
+    {
+      "artist": "Justus Roe",
+      "latLng": [
+        41.85971662,
+        -87.66623522
+      ],
+      "location": "1600 W 16th St",
+      "title": "16th & Ashland",
+      "yearInstalled": "2013",
+      "yearRestored": "2019",
+      "ward": "25",
+      "media": "Acrylic and exterior latex paint"
+    },
+    {
+      "artist": "Brett Whitacre",
+      "latLng": [
+        41.98555677,
+        -87.65336148
+      ],
+      "location": "5659 N Lake Shore Dr",
+      "title": "Come to Light",
+      "yearInstalled": "2011",
+      "yearRestored": null,
+      "ward": "48",
+      "media": null
+    },
+    {
+      "artist": "Kate Lewis",
+      "latLng": [
+        41.94375528,
+        -87.66407359
+      ],
+      "location": "3410 N Southport",
+      "title": "Impossible Geometry",
+      "yearInstalled": "2021",
+      "yearRestored": null,
+      "ward": "44",
+      "media": "Paint"
+    },
+    {
+      "artist": "Edra Soto",
+      "latLng": [
+        41.90306694,
+        -87.69322403
+      ],
+      "location": "2630 W Division St",
+      "title": "Las Puertas de Paseo Boricua",
+      "yearInstalled": "2017",
+      "yearRestored": null,
+      "ward": "26",
+      "media": "Paint and Mixed Media"
+    },
+    {
+      "artist": "Justus Roe",
+      "latLng": [
+        41.88529,
+        -87.62949
+      ],
+      "location": "100 W Couch Pl",
+      "title": "Couch Place",
+      "yearInstalled": "2016",
+      "yearRestored": "2018",
+      "ward": "42",
+      "media": "Acrylic and exterior latex paint"
+    },
+    {
+      "artist": "Englewood Arts Collective",
+      "latLng": [
+        41.79052302,
+        -87.65478001
+      ],
+      "location": "57th Street and Racine Avenue",
+      "title": "Love Letter To Englewood",
+      "yearInstalled": "2024",
+      "yearRestored": null,
+      "ward": "16",
+      "media": "Paint"
+    },
+    {
+      "artist": "Fonte",
+      "latLng": [
+        41.88519764,
+        -87.62778079
+      ],
+      "location": "173 N State St",
+      "title": "Fonte's World",
+      "yearInstalled": "2017",
+      "yearRestored": null,
+      "ward": "42",
+      "media": "spray paint"
+    },
+    {
+      "artist": "William Walker",
+      "latLng": [
+        41.7934746,
+        -87.58686328
+      ],
+      "location": "1556 East 56th St",
+      "title": "Childhood is Without Prejudice",
+      "yearInstalled": "1972",
+      "yearRestored": "2018",
+      "ward": "5",
+      "media": "Paint"
+    },
+    {
+      "artist": "Tarachy",
+      "latLng": [
+        41.86940381,
+        -87.62483711
+      ],
+      "location": "72 E 11th Street",
+      "title": "Who Do You Love?",
+      "yearInstalled": "2016",
+      "yearRestored": null,
+      "ward": "4",
+      "media": "Paint"
+    },
+    {
+      "artist": "Ruben Aguirre, Cheri Charlton. Andrea Jablonski, Anthony Lewellen, Tyrue Slang Jones, Chris Silva",
+      "latLng": [
+        42.00846376,
+        -87.665608
+      ],
+      "location": "W Greenleaf Ave & N Glenwood Ave",
+      "title": "Audubon Mural Project",
+      "yearInstalled": "2016",
+      "yearRestored": null,
+      "ward": "49",
+      "media": "Paint"
+    },
+    {
+      "artist": "William Weyna",
+      "latLng": [
+        41.95661815,
+        -87.75117717
+      ],
+      "location": "4156 N Milwaukee",
+      "title": "Urban Growth",
+      "yearInstalled": "2012",
+      "yearRestored": null,
+      "ward": "45",
+      "media": "Paint"
+    },
+    {
+      "artist": "Olivia Gude, Marcus Jefferson, and Jon Pounds",
+      "latLng": [
+        41.68989352,
+        -87.61035692
+      ],
+      "location": "11235 S Cottage Grove Ave",
+      "title": "I Welcome Myself to a New Place",
+      "yearInstalled": "1988",
+      "yearRestored": null,
+      "ward": "9",
+      "media": null
+    },
+    {
+      "artist": "Hector Duarte",
+      "latLng": [
+        41.90560086,
+        -87.69214278
+      ],
+      "location": "2601 W Evergreen Ave",
+      "title": "Honor Boricua",
+      "yearInstalled": "1993",
+      "yearRestored": null,
+      "ward": "26",
+      "media": null
+    },
+    {
+      "artist": "Justus Roe",
+      "latLng": [
+        41.92359712,
+        -87.69871397
+      ],
+      "location": "2338 N Milwaukee Ave",
+      "title": "Coles",
+      "yearInstalled": "2018",
+      "yearRestored": "2019",
+      "ward": "1",
+      "media": "Acrylic and exterior latex paint"
+    },
+    {
+      "artist": "Green Star Movement",
+      "latLng": [
+        41.77759275,
+        -87.59169546
+      ],
+      "location": "6442 S Dorchester Ave",
+      "title": "Woodlawn Gateway at 65th",
+      "yearInstalled": "2017",
+      "yearRestored": null,
+      "ward": "20",
+      "media": "Mosaic"
+    },
+    {
+      "artist": "SentRock, Cujo, Nikko Washington, Dred Ske, Tubs, Rahmaan Statik, Milton Coronado, AfroKilla, Rico Chingas and Max Sansing",
+      "latLng": [
+        41.75161068,
+        -87.5843543
+      ],
+      "location": "1636-1640 E 79  St",
+      "title": "Black Love Brown Pride Unity Mural",
+      "yearInstalled": "2020",
+      "yearRestored": null,
+      "ward": "8",
+      "media": "Paint"
+    },
+    {
+      "artist": "Nick Fisher (Sick Fisher)",
+      "latLng": [
+        42.01926996,
+        -87.6720333
+      ],
+      "location": "1615 W Howard St",
+      "title": "Big Fruit",
+      "yearInstalled": "2015",
+      "yearRestored": null,
+      "ward": "49",
+      "media": "Paint"
+    },
+    {
+      "artist": "Chris Silva",
+      "latLng": [
+        41.841405,
+        -87.727103
+      ],
+      "location": "2730 Karlov",
+      "title": null,
+      "yearInstalled": "2016",
+      "yearRestored": null,
+      "ward": "22",
+      "media": "Spray"
+    },
+    {
+      "artist": "Gloria Talamantes",
+      "latLng": [
+        41.87557316,
+        -87.62637611
+      ],
+      "location": "33 E Congress",
+      "title": "Las Magia De Luzia",
+      "yearInstalled": "2017",
+      "yearRestored": null,
+      "ward": "4",
+      "media": "Paint"
+    },
+    {
+      "artist": "Mitch Reardon",
+      "latLng": [
+        41.9665012,
+        -87.6590481
+      ],
+      "location": "4628 N Clifton Ave",
+      "title": "Seascape",
+      "yearInstalled": "2020",
+      "yearRestored": null,
+      "ward": "46",
+      "media": null
+    },
+    {
+      "artist": "Marry Tonnu",
+      "latLng": [
+        41.91695917,
+        -87.66535085
+      ],
+      "location": "1907 N Mendell St",
+      "title": "Letter X",
+      "yearInstalled": "2019",
+      "yearRestored": null,
+      "ward": "2",
+      "media": null
+    },
+    {
+      "artist": "Rodney Duran",
+      "latLng": [
+        41.96543519,
+        -87.66117219
+      ],
+      "location": "4600 N Magnolia Ave",
+      "title": "King of the Streets",
+      "yearInstalled": "2019",
+      "yearRestored": null,
+      "ward": "46",
+      "media": "Paint"
+    },
+    {
+      "artist": "Rahmann Statik, Damon Lamar Reed, Max Sansing, Bernard Williams",
+      "latLng": [
+        41.77501949,
+        -87.59105335
+      ],
+      "location": "1401 East Marquette Road",
+      "title": "Woodlawn Works",
+      "yearInstalled": "2015",
+      "yearRestored": null,
+      "ward": "5",
+      "media": "Paint"
+    },
+    {
+      "artist": "Rowan Tree Residents",
+      "latLng": [
+        41.78090936,
+        -87.63761782
+      ],
+      "location": "500 W Englewood Ave",
+      "title": "The Rowan Tree",
+      "yearInstalled": "2019",
+      "yearRestored": null,
+      "ward": "20",
+      "media": "mosaic"
+    },
+    {
+      "artist": "Rahmaan Statik, Max Sansing",
+      "latLng": [
+        41.85156086,
+        -87.71073393
+      ],
+      "location": "3415 W Cermak Rd",
+      "title": "Sepia",
+      "yearInstalled": "2016",
+      "yearRestored": null,
+      "ward": "22",
+      "media": "Paint"
+    },
+    {
+      "artist": "Justus Roe",
+      "latLng": [
+        42.0016378,
+        -87.66904354
+      ],
+      "location": "1523 W Albion Ave",
+      "title": "Rogers",
+      "yearInstalled": "2019",
+      "yearRestored": null,
+      "ward": "40",
+      "media": "Acrylic and exterior latex paint"
+    },
+    {
+      "artist": "InsomniaBird",
+      "latLng": [
+        41.97339413,
+        -87.65695653
+      ],
+      "location": "1050-52 W Argyle St",
+      "title": "Arowana",
+      "yearInstalled": "2021",
+      "yearRestored": null,
+      "ward": "46",
+      "media": null
+    },
+    {
+      "artist": "Hector Duarte",
+      "latLng": [
+        41.8655389,
+        -87.62425739
+      ],
+      "location": "1306 S Michigan",
+      "title": "Desenredando Fronteras (Unraveling Borders #2)",
+      "yearInstalled": "2017",
+      "yearRestored": null,
+      "ward": "3",
+      "media": "Paint"
+    },
+    {
+      "artist": "Marry Tonnu",
+      "latLng": [
+        41.91290391,
+        -87.66394498
+      ],
+      "location": "1690 N Elston Ave",
+      "title": "Letter B",
+      "yearInstalled": "2019",
+      "yearRestored": null,
+      "ward": "2",
+      "media": null
+    },
+    {
+      "artist": "Marcus Akinlana and Olivia Gude",
+      "latLng": [
+        41.76591555,
+        -87.58119192
+      ],
+      "location": "1801 East 71st St",
+      "title": "Where There Is Discord, Harmony:The Power of Art",
+      "yearInstalled": "1991",
+      "yearRestored": null,
+      "ward": "7",
+      "media": null
+    },
+    {
+      "artist": "Chema Skandal",
+      "latLng": [
+        41.84777119,
+        -87.71503378
+      ],
+      "location": "2406 South Central Park Ave",
+      "title": "Together We Fly Higher",
+      "yearInstalled": "2017",
+      "yearRestored": null,
+      "ward": "22",
+      "media": "Spray + Brush"
+    },
+    {
+      "artist": "Jasmine Petersen",
+      "latLng": [
+        41.90310194,
+        -87.68955175
+      ],
+      "location": "2500 W Division St",
+      "title": "Las Puertas de Paseo Boricua",
+      "yearInstalled": "2017",
+      "yearRestored": null,
+      "ward": "26",
+      "media": "Paint and Mixed Media"
+    },
+    {
+      "artist": "Todd Osborne and Tracy VanDuinen",
+      "latLng": [
+        41.99014944,
+        -87.73627807
+      ],
+      "location": "4300 W Peterson Ave",
+      "title": "Sauganash Mural Project, South Wall",
+      "yearInstalled": "2013",
+      "yearRestored": null,
+      "ward": "39",
+      "media": "mosaic/tile"
+    },
+    {
+      "artist": "Reynaldo Rodriguez",
+      "latLng": [
+        41.90283677,
+        -87.69453754
+      ],
+      "location": "2701 W Division St",
+      "title": "Las Puertas de Paseo Boricua",
+      "yearInstalled": "2017",
+      "yearRestored": null,
+      "ward": "26",
+      "media": "Paint and Mixed Media"
+    },
+    {
+      "artist": "Penny Pinch, Shawnimals, Carly Derec, Kathryn Eli, Cyd Smillie",
+      "latLng": [
+        41.95326366,
+        -87.75131
+      ],
+      "location": "4935-37 W Irving Park Rd",
+      "title": "Music You Can See",
+      "yearInstalled": "2022",
+      "yearRestored": "N/A",
+      "ward": "45",
+      "media": "Paint"
+    },
+    {
+      "artist": "Christoper Balboa Jr",
+      "latLng": [
+        41.93213562,
+        -87.68155661
+      ],
+      "location": "2125 W. Diversey Ave",
+      "title": "N/A",
+      "yearInstalled": "2021",
+      "yearRestored": null,
+      "ward": "1",
+      "media": "Paint"
+    },
+    {
+      "artist": "Ryan Tova Katz",
+      "latLng": [
+        1934931.121,
+        1165095.382
+      ],
+      "location": "5225 N Clark",
+      "title": "Wildflowers Mural",
+      "yearInstalled": "2023",
+      "yearRestored": null,
+      "ward": "48",
+      "media": "Paint"
+    },
+    {
+      "artist": "James Mosher",
+      "latLng": [
+        41.96639,
+        -87.65873
+      ],
+      "location": "4631 N Clifton Avenue",
+      "title": "Matter of Time",
+      "yearInstalled": "2020",
+      "yearRestored": null,
+      "ward": "46",
+      "media": null
+    },
+    {
+      "artist": "Caroline Liu",
+      "latLng": [
+        41.97359429,
+        -87.65759488
+      ],
+      "location": "5009 N Winthrop Ave",
+      "title": "Dragon Gate",
+      "yearInstalled": "2021",
+      "yearRestored": null,
+      "ward": "46",
+      "media": null
+    },
+    {
+      "artist": "Collaboration: Lie and Lucx",
+      "latLng": [
+        41.89610267,
+        -87.67211595
+      ],
+      "location": "1760 W Chicago Ave",
+      "title": "rise & shine",
+      "yearInstalled": "2016",
+      "yearRestored": null,
+      "ward": "1",
+      "media": null
+    },
+    {
+      "artist": "Pop Up Mural Shop",
+      "latLng": [
+        41.84425035,
+        -87.71652732
+      ],
+      "location": "3645 West 26th St",
+      "title": "Bonita Finca de Adobe",
+      "yearInstalled": "2014",
+      "yearRestored": null,
+      "ward": "22",
+      "media": null
+    },
+    {
+      "artist": "Greve",
+      "latLng": [
+        41.91720864,
+        -87.66683738
+      ],
+      "location": "1551 W Homer St",
+      "title": null,
+      "yearInstalled": "2018",
+      "yearRestored": null,
+      "ward": "2",
+      "media": "Paint"
+    },
+    {
+      "artist": "Cyd Smillie with\nArts Alive Chicago",
+      "latLng": [
+        41.7882892,
+        -87.67428131
+      ],
+      "location": "5804-5856 S Damen Ave",
+      "title": "King of Peace",
+      "yearInstalled": "2018",
+      "yearRestored": null,
+      "ward": "15",
+      "media": "Painting"
+    },
+    {
+      "artist": "Cristian Roldan",
+      "latLng": [
+        41.90306762,
+        -87.69314756
+      ],
+      "location": "2628 W Division St",
+      "title": "Las Puertas de Paseo Boricua",
+      "yearInstalled": "2017",
+      "yearRestored": null,
+      "ward": "26",
+      "media": "Paint and Mixed Media"
+    },
+    {
+      "artist": "Ginny Sykes",
+      "latLng": [
+        41.89399188,
+        -87.64284995
+      ],
+      "location": "536 W Erie St",
+      "title": "RORA",
+      "yearInstalled": "1999",
+      "yearRestored": null,
+      "ward": "42",
+      "media": null
+    },
+    {
+      "artist": "Amanda Paulson",
+      "latLng": [
+        42.00547,
+        -87.66628
+      ],
+      "location": "1400 W Pratt Blvd",
+      "title": "Tribute to the Fish of Lake Michigan",
+      "yearInstalled": "2011",
+      "yearRestored": null,
+      "ward": "49",
+      "media": "Paint"
+    },
+    {
+      "artist": "Jeff Zimmermann (with SkyART)",
+      "latLng": [
+        41.73019968,
+        -87.55002787
+      ],
+      "location": "3026 East 91st St",
+      "title": "Sky Art Mural",
+      "yearInstalled": "2017",
+      "yearRestored": null,
+      "ward": "10",
+      "media": "Painting"
+    },
+    {
+      "artist": "Danny Duffy",
+      "latLng": [
+        41.96549603,
+        -87.65848068
+      ],
+      "location": "1124 W Wilson Ave",
+      "title": "Get Rhythm",
+      "yearInstalled": "2021",
+      "yearRestored": null,
+      "ward": "46",
+      "media": null
+    },
+    {
+      "artist": "SENTROCK",
+      "latLng": [
+        41.89485807,
+        -87.77273753
+      ],
+      "location": "5908 W Chicago Ave",
+      "title": "Chicago Love",
+      "yearInstalled": "2022",
+      "yearRestored": null,
+      "ward": "34",
+      "media": "Paint"
+    },
+    {
+      "artist": "Shinique Smith",
+      "latLng": [
+        41.8601185,
+        -87.62740831
+      ],
+      "location": "1600 S State St",
+      "title": "I Am Love",
+      "yearInstalled": "2017",
+      "yearRestored": null,
+      "ward": "3",
+      "media": "Paint"
+    },
+    {
+      "artist": "Salvador Jimenez",
+      "latLng": [
+        41.85776469,
+        -87.66138509
+      ],
+      "location": "1401 West 18th St",
+      "title": "Declaration of Immigration",
+      "yearInstalled": "2009",
+      "yearRestored": null,
+      "ward": "25",
+      "media": "spray"
+    },
+    {
+      "artist": "Sam Kirk",
+      "latLng": [
+        41.85789813,
+        -87.66628976
+      ],
+      "location": "1724 S Ashland Ave",
+      "title": "Viva Fï¿½tbol!",
+      "yearInstalled": "2017",
+      "yearRestored": null,
+      "ward": "25",
+      "media": "Paint"
+    },
+    {
+      "artist": "Jeffrey Green",
+      "latLng": [
+        42.00863165,
+        -87.66634767
+      ],
+      "location": "N Glenwood Ave & W Morse Ave",
+      "title": "The Digital Frontier",
+      "yearInstalled": "2012",
+      "yearRestored": null,
+      "ward": "49",
+      "media": "Paint"
+    },
+    {
+      "artist": "Ricardo Martinez, FEDZ, Thomas, Axel",
+      "latLng": [
+        41.85776469,
+        -87.66138509
+      ],
+      "location": "1401 W 18th St",
+      "title": "Alley Wall Project",
+      "yearInstalled": "2014",
+      "yearRestored": null,
+      "ward": "25",
+      "media": "spray"
+    },
+    {
+      "artist": "Zor Zor Zor",
+      "latLng": [
+        41.87437162,
+        -87.62437953
+      ],
+      "location": "600 S Michigan",
+      "title": "Goralu, Czy Ci Nie Zal",
+      "yearInstalled": "2016",
+      "yearRestored": null,
+      "ward": "42",
+      "media": "Paint"
+    },
+    {
+      "artist": "Olivia Gude and Marcus Akinlana",
+      "latLng": [
+        41.76591785,
+        -87.5809089
+      ],
+      "location": "1809 E 71st Street",
+      "title": "Where there is Discord, Harmony; The Power Of Art",
+      "yearInstalled": "1991",
+      "yearRestored": null,
+      "ward": "7",
+      "media": "Paint"
+    },
+    {
+      "artist": "Max Sansing",
+      "latLng": [
+        41.75163005,
+        -87.5828544
+      ],
+      "location": "1850 E 79th St",
+      "title": "Rise as One",
+      "yearInstalled": "2022",
+      "yearRestored": null,
+      "ward": "8",
+      "media": "Paint"
+    },
+    {
+      "artist": "Mirtes Zwierzynski, Ruben Aguirre",
+      "latLng": [
+        41.90364882,
+        -87.64046322
+      ],
+      "location": "459 W Division St",
+      "title": "Parkside of Old Town",
+      "yearInstalled": "2017",
+      "yearRestored": null,
+      "ward": "27",
+      "media": "Paint and Mixed Media"
+    },
+    {
+      "artist": "Cristian Roldan",
+      "latLng": [
+        41.90308696,
+        -87.69112645
+      ],
+      "location": "2542 W Division St",
+      "title": "Las Puertas de Paseo Boricua",
+      "yearInstalled": "2017",
+      "yearRestored": null,
+      "ward": "26",
+      "media": "Paint and Mixed Media"
+    },
+    {
+      "artist": "Barrett Keithley",
+      "latLng": [
+        41.88066939,
+        -87.62680815
+      ],
+      "location": "25 E Monroe St",
+      "title": "Intergallactic Lovers or nah",
+      "yearInstalled": "2017",
+      "yearRestored": null,
+      "ward": "42",
+      "media": "Spray Paint"
+    },
+    {
+      "artist": "Brett Whitacre",
+      "latLng": [
+        41.9569868,
+        -87.6549112
+      ],
+      "location": "4108 N Sheridan Rd",
+      "title": "Welcome to Buena Park",
+      "yearInstalled": "2020",
+      "yearRestored": null,
+      "ward": "46",
+      "media": null
+    },
+    {
+      "artist": "JC Rivera",
+      "latLng": [
+        41.94534756,
+        -87.79705315
+      ],
+      "location": "6825 W Addison St.",
+      "title": "Smile!",
+      "yearInstalled": "2023",
+      "yearRestored": null,
+      "ward": "38",
+      "media": "Paint"
+    },
+    {
+      "artist": "John Vergara",
+      "latLng": [
+        41.90988647,
+        -87.71653031
+      ],
+      "location": "3553 W North Ave",
+      "title": "THE RAZZ",
+      "yearInstalled": "2024",
+      "yearRestored": null,
+      "ward": "26",
+      "media": "Paint"
+    },
+    {
+      "artist": "Kayla Mahaffey, assist by Abie Vasquez and\nHenry Annan",
+      "latLng": [
+        41.73421192,
+        -87.58573489
+      ],
+      "location": "8828 S Stony Island Ave",
+      "title": "Light the Spark",
+      "yearInstalled": "2022",
+      "yearRestored": null,
+      "ward": "8",
+      "media": "Paint"
+    },
+    {
+      "artist": "Restored by Bernard Williams",
+      "latLng": [
+        41.79143823,
+        -87.58806134
+      ],
+      "location": "1525 East 57th St",
+      "title": "Spirit of Hyde Park",
+      "yearInstalled": "2010",
+      "yearRestored": null,
+      "ward": "5",
+      "media": null
+    },
+    {
+      "artist": "Sandra Antongiorgi",
+      "latLng": [
+        41.9028643,
+        -87.69141411
+      ],
+      "location": "2547 W Division St",
+      "title": "Las Puertas de Paseo Boricua",
+      "yearInstalled": "2017",
+      "yearRestored": null,
+      "ward": "26",
+      "media": "Paint and Mixed Media"
+    },
+    {
+      "artist": "Chema Skandal",
+      "latLng": [
+        41.84224508,
+        -87.706336
+      ],
+      "location": "2712 South Sawyer Ave",
+      "title": "Mother Nature",
+      "yearInstalled": "2017",
+      "yearRestored": null,
+      "ward": "22",
+      "media": "Spray + Brush"
+    },
+    {
+      "artist": "Chema Skandal",
+      "latLng": [
+        41.84559878,
+        -87.73122946
+      ],
+      "location": "2510 S Kildare Ave",
+      "title": "Far Beyond",
+      "yearInstalled": "2017",
+      "yearRestored": null,
+      "ward": "22",
+      "media": "Spray + Brush"
+    },
+    {
+      "artist": "Marry Tonnu",
+      "latLng": [
+        41.91604997,
+        -87.66628047
+      ],
+      "location": "1850 N Elston Ave",
+      "title": "Letter Q",
+      "yearInstalled": "2019",
+      "yearRestored": null,
+      "ward": "2",
+      "media": null
+    },
+    {
+      "artist": "Jospeh \"Sentrock\" Perez",
+      "latLng": [
+        41.84039883,
+        -87.71849427
+      ],
+      "location": "2806 S Ridgeway",
+      "title": "Las Flores de las Almas Muertas",
+      "yearInstalled": "2017",
+      "yearRestored": null,
+      "ward": "22",
+      "media": "Spray"
+    },
+    {
+      "artist": "Marry Tonnu",
+      "latLng": [
+        41.91290391,
+        -87.66394498
+      ],
+      "location": "1690 N Elston Ave",
+      "title": "Letter O",
+      "yearInstalled": "2019",
+      "yearRestored": null,
+      "ward": "2",
+      "media": null
+    },
+    {
+      "artist": "Todd McCafrey",
+      "latLng": [
+        41.93972,
+        -87.66367245
+      ],
+      "location": "3159 N Southport Ave",
+      "title": "Punk Pigeon",
+      "yearInstalled": "2022",
+      "yearRestored": null,
+      "ward": "44",
+      "media": "Paint"
+    },
+    {
+      "artist": "Green Star Movement",
+      "latLng": [
+        41.77682307,
+        -87.5902564
+      ],
+      "location": "1415 East 65th St",
+      "title": "Woodlawn Gateway at 65th",
+      "yearInstalled": "2018",
+      "yearRestored": null,
+      "ward": "20",
+      "media": null
+    },
+    {
+      "artist": "Miriam Socoloff and Cynthia Weiss",
+      "latLng": [
+        42.01185028,
+        -87.70464009
+      ],
+      "location": "3003 W Touhy Ave",
+      "title": "Fabric of Our Lives",
+      "yearInstalled": "1980",
+      "yearRestored": null,
+      "ward": "50",
+      "media": null
+    },
+    {
+      "artist": "Andy Bellomo",
+      "latLng": [
+        41.8903,
+        -87.62428964
+      ],
+      "location": "450 E Hubbard St",
+      "title": "Undercurrent 430 N Michigan Pair",
+      "yearInstalled": "2022",
+      "yearRestored": null,
+      "ward": "42",
+      "media": "Spraypaint"
+    },
+    {
+      "artist": "Siddha Webbe",
+      "latLng": [
+        41.82204495,
+        -87.61680123
+      ],
+      "location": "3993 South King Dr",
+      "title": "Have A Dream",
+      "yearInstalled": "1995",
+      "yearRestored": null,
+      "ward": "3",
+      "media": null
+    },
+    {
+      "artist": "Rahmaan Statik",
+      "latLng": [
+        41.69287446,
+        -87.61037058
+      ],
+      "location": "480 East 111th St",
+      "title": "Historic Pullman Mural",
+      "yearInstalled": "2017",
+      "yearRestored": null,
+      "ward": "9",
+      "media": "Painting"
+    },
+    {
+      "artist": "Pop Up Mural Shop",
+      "latLng": [
+        41.84444042,
+        -87.71839492
+      ],
+      "location": "3724 West 26th St",
+      "title": "Remembering Mayahuel",
+      "yearInstalled": "2014",
+      "yearRestored": null,
+      "ward": "22",
+      "media": "Brush"
+    },
+    {
+      "artist": "Marry Tonnu",
+      "latLng": [
+        41.91664982,
+        -87.66608117
+      ],
+      "location": "1516 W Cortland St",
+      "title": "Letter U",
+      "yearInstalled": "2019",
+      "yearRestored": null,
+      "ward": "2",
+      "media": null
+    },
+    {
+      "artist": "Tracy Van Duinen",
+      "latLng": [
+        41.96813738,
+        -87.65495695
+      ],
+      "location": "4730 N Sheridan Rd",
+      "title": "I Will...",
+      "yearInstalled": null,
+      "yearRestored": null,
+      "ward": "46",
+      "media": null
+    },
+    {
+      "artist": "Green Star Movement",
+      "latLng": [
+        41.74963234,
+        -87.70153712
+      ],
+      "location": "3141 West 79th St",
+      "title": "We Are One",
+      "yearInstalled": "2018",
+      "yearRestored": null,
+      "ward": "18",
+      "media": null
+    },
+    {
+      "artist": "Mary Fedorowski",
+      "latLng": [
+        41.96549603,
+        -87.65848068
+      ],
+      "location": "1124 W Wilson Ave",
+      "title": "Arrival",
+      "yearInstalled": "2021",
+      "yearRestored": null,
+      "ward": "46",
+      "media": null
+    },
+    {
+      "artist": "Justus Roe",
+      "latLng": [
+        41.94366353,
+        -87.73362103
+      ],
+      "location": "3434 N Tripp",
+      "title": "Kilbourn",
+      "yearInstalled": "2019",
+      "yearRestored": null,
+      "ward": "30",
+      "media": "Acrylic and exterior latex paint"
+    },
+    {
+      "artist": "Green Star Movement",
+      "latLng": [
+        41.780539,
+        -87.590428
+      ],
+      "location": "S Dorchester Ave & E 63rd St",
+      "title": "63rd Street Gateway",
+      "yearInstalled": "2018",
+      "yearRestored": null,
+      "ward": "20",
+      "media": null
+    },
+    {
+      "artist": "Astrid Fuller",
+      "latLng": [
+        41.79169657,
+        -87.5868573
+      ],
+      "location": "5656 South Stony Island Ave",
+      "title": "Pioneer Social Work",
+      "yearInstalled": "2011",
+      "yearRestored": null,
+      "ward": "5",
+      "media": null
+    },
+    {
+      "artist": "Max Sansing",
+      "latLng": [
+        41.75168051,
+        -87.5788281
+      ],
+      "location": "1850 E 79th St",
+      "title": "Discover in Plain Site",
+      "yearInstalled": "2019",
+      "yearRestored": null,
+      "ward": "8",
+      "media": "Paint"
+    },
+    {
+      "artist": "Jenny Vyas",
+      "latLng": [
+        41.96675345,
+        -87.65849862
+      ],
+      "location": "4654 N Broadway",
+      "title": "HowWillYouRise",
+      "yearInstalled": "2019",
+      "yearRestored": null,
+      "ward": "46",
+      "media": null
+    },
+    {
+      "artist": "Tony Passero",
+      "latLng": [
+        41.93931332,
+        -87.70784365
+      ],
+      "location": "3176 N Kedzie Ave",
+      "title": "Toro Totem",
+      "yearInstalled": "2017",
+      "yearRestored": null,
+      "ward": "33",
+      "media": "Paint"
+    },
+    {
+      "artist": "David Heo",
+      "latLng": [
+        41.94723011,
+        -87.66086909
+      ],
+      "location": "1242 W Addison St",
+      "title": "Paradise Unlost",
+      "yearInstalled": "2018",
+      "yearRestored": null,
+      "ward": "44",
+      "media": "Paint"
+    },
+    {
+      "artist": "Bunny Reiss",
+      "latLng": [
+        1171147.442,
+        1919626.616
+      ],
+      "location": "2902 N Clark St",
+      "title": "Lucky Wall",
+      "yearInstalled": "2019",
+      "yearRestored": null,
+      "ward": "44",
+      "media": "Paint"
+    },
+    {
+      "artist": "Andrea Cook",
+      "latLng": [
+        41.96549603,
+        -87.65848068
+      ],
+      "location": "1124 W Wilson Ave",
+      "title": "Up",
+      "yearInstalled": "2021",
+      "yearRestored": null,
+      "ward": "46",
+      "media": null
+    },
+    {
+      "artist": "Andrea Dunn",
+      "latLng": [
+        41.87390846,
+        -87.62583771
+      ],
+      "location": "623 S Wabash",
+      "title": "Peacock",
+      "yearInstalled": "2016",
+      "yearRestored": null,
+      "ward": "42",
+      "media": "Paint"
+    },
+    {
+      "artist": "Andrew Cooper",
+      "latLng": [
+        41.86745273,
+        -87.63233424
+      ],
+      "location": "150 W Roosevelt Road",
+      "title": "Wildflowers",
+      "yearInstalled": "2019",
+      "yearRestored": null,
+      "ward": "25",
+      "media": "Paint"
+    },
+    {
+      "artist": "Cyd Smillie",
+      "latLng": [
+        41.97739667,
+        -87.75546963
+      ],
+      "location": "5300 N Elston Ave",
+      "title": "\"After Vivaldi\"",
+      "yearInstalled": "2014",
+      "yearRestored": null,
+      "ward": "45",
+      "media": "Paint"
+    },
+    {
+      "artist": "Brett Whitacre",
+      "latLng": [
+        41.97941448,
+        -87.66814328
+      ],
+      "location": "5347 N Clark St",
+      "title": "upnup",
+      "yearInstalled": "2018",
+      "yearRestored": null,
+      "ward": "48",
+      "media": "Paint"
+    },
+    {
+      "artist": "David Orozco",
+      "latLng": [
+        41.934048,
+        -87.71538
+      ],
+      "location": "2901-03 N Milwaukee Ave",
+      "title": "The Blue Goose Mural",
+      "yearInstalled": "2020",
+      "yearRestored": null,
+      "ward": "35",
+      "media": null
+    },
+    {
+      "artist": "John Pitman Weber and Bernard Williams",
+      "latLng": [
+        41.89444828,
+        -87.72620305
+      ],
+      "location": "730 N Pulaski Road",
+      "title": "Urban Worlds at the Crossroads",
+      "yearInstalled": "1997",
+      "yearRestored": null,
+      "ward": "37",
+      "media": null
+    },
+    {
+      "artist": "Darryll Schiff",
+      "latLng": [
+        41.87291134,
+        -87.62610847
+      ],
+      "location": "710 S Wabash",
+      "title": "Descending To Heavan",
+      "yearInstalled": "2015",
+      "yearRestored": null,
+      "ward": "4",
+      "media": "Paint"
+    },
+    {
+      "artist": "Anthony Lewellen",
+      "latLng": [
+        41.96589726,
+        -87.65871665
+      ],
+      "location": "4615 N Clifton Ave",
+      "title": "Untitled",
+      "yearInstalled": "2019",
+      "yearRestored": null,
+      "ward": "46",
+      "media": null
+    },
+    {
+      "artist": "Cyd Smillie",
+      "latLng": [
+        41.86471673,
+        -87.67114434
+      ],
+      "location": "1309 S Wood",
+      "title": "\"Stay Tuned\"",
+      "yearInstalled": "2022",
+      "yearRestored": null,
+      "ward": "28",
+      "media": "Paint"
+    },
+    {
+      "artist": "Anthony Lewellen",
+      "latLng": [
+        41.96181488,
+        -87.65193176
+      ],
+      "location": "844 W Montrose Ave",
+      "title": "The Reservoir",
+      "yearInstalled": "2020",
+      "yearRestored": null,
+      "ward": "46",
+      "media": null
+    },
+    {
+      "artist": "Marry Tonnu",
+      "latLng": [
+        41.91361584,
+        -87.66285163
+      ],
+      "location": "1400 W Wabansia Ave",
+      "title": "Letter C",
+      "yearInstalled": "2019",
+      "yearRestored": null,
+      "ward": "2",
+      "media": null
+    },
+    {
+      "artist": "Gretchen Hasse",
+      "latLng": [
+        42.0084496,
+        -87.66634139
+      ],
+      "location": "W Pratt Blvd & N Glenwood Ave",
+      "title": "Resilience",
+      "yearInstalled": "2017",
+      "yearRestored": null,
+      "ward": "49",
+      "media": "Paint"
+    },
+    {
+      "artist": "Chad Kouri",
+      "latLng": [
+        41.91000379,
+        -87.68340625
+      ],
+      "location": "1549 N Bell Ave",
+      "title": "MAKE",
+      "yearInstalled": "2011",
+      "yearRestored": null,
+      "ward": "1",
+      "media": "Paint"
+    },
+    {
+      "artist": "Justus Roe",
+      "latLng": [
+        41.93284869,
+        -87.70973589
+      ],
+      "location": "2827 N Spaulding Ave",
+      "title": "Logan",
+      "yearInstalled": "2019",
+      "yearRestored": null,
+      "ward": "35",
+      "media": "Acrylic and exterior latex paint"
+    },
+    {
+      "artist": "Marry Tonnu",
+      "latLng": [
+        41.91719946,
+        -87.66038688
+      ],
+      "location": "1304 W Cortland St",
+      "title": "Letter F",
+      "yearInstalled": "2019",
+      "yearRestored": null,
+      "ward": "2",
+      "media": null
+    },
+    {
+      "artist": "Levar Hoard",
+      "latLng": [
+        41.848486,
+        -87.64665517
+      ],
+      "location": "2424 S Halstead",
+      "title": "2424 S Halsted Riverwalk Mural",
+      "yearInstalled": "2024",
+      "yearRestored": null,
+      "ward": "11",
+      "media": "Paint"
+    },
+    {
+      "artist": "Rahmaan Statik",
+      "latLng": [
+        41.79519,
+        -87.59685
+      ],
+      "location": "1160 E 55th St",
+      "title": "Yes, And",
+      "yearInstalled": "2020",
+      "yearRestored": null,
+      "ward": "5",
+      "media": null
+    },
+    {
+      "artist": "Marcos Rios",
+      "latLng": [
+        41.90308236,
+        -87.69155216
+      ],
+      "location": "2552 W Division St",
+      "title": "Las Puertas de Paseo Boricua",
+      "yearInstalled": "2017",
+      "yearRestored": null,
+      "ward": "26",
+      "media": "Paint and Mixed Media"
+    },
+    {
+      "artist": "Marry Tonnu",
+      "latLng": [
+        41.91285533,
+        -87.66357259
+      ],
+      "location": "1685 N Elston Ave",
+      "title": "Letter T",
+      "yearInstalled": "2019",
+      "yearRestored": null,
+      "ward": "2",
+      "media": null
+    },
+    {
+      "artist": "Tony Passero and Arts Alive Chicago",
+      "latLng": [
+        41.95281566,
+        -87.78582729
+      ],
+      "location": "6343 West Irving Park Road",
+      "title": "Feather Run",
+      "yearInstalled": "2017",
+      "yearRestored": null,
+      "ward": "38",
+      "media": null
+    },
+    {
+      "artist": "Tony Passero",
+      "latLng": [
+        41.91455946,
+        -87.67770003
+      ],
+      "location": "1800 N Damen Ave",
+      "title": "CoyWolf",
+      "yearInstalled": "2017",
+      "yearRestored": null,
+      "ward": "32",
+      "media": "Paint"
+    },
+    {
+      "artist": "Eduardo Kobra",
+      "latLng": [
+        41.88245665,
+        -87.62770005
+      ],
+      "location": "17 N State",
+      "title": "Muddy Waters Tribute",
+      "yearInstalled": "2016",
+      "yearRestored": null,
+      "ward": "42",
+      "media": "Paint"
+    },
+    {
+      "artist": "JJ McLuckie",
+      "latLng": [
+        41.87437162,
+        -87.62437953
+      ],
+      "location": "600 S. Michigan",
+      "title": "My Exploding Head",
+      "yearInstalled": "2016",
+      "yearRestored": null,
+      "ward": "42",
+      "media": "Paint"
+    },
+    {
+      "artist": "Rahmann Statik",
+      "latLng": [
+        41.80953478,
+        -87.59245022
+      ],
+      "location": "4700 South Lake Park Ave",
+      "title": "HPKO Project: Instinctive Movements",
+      "yearInstalled": "2008",
+      "yearRestored": null,
+      "ward": "4",
+      "media": null
+    },
+    {
+      "artist": "Erik DeBat",
+      "latLng": [
+        41.89694425,
+        -87.61721674
+      ],
+      "location": "380 East Chicago Ave",
+      "title": "The Heart Project",
+      "yearInstalled": "2017",
+      "yearRestored": null,
+      "ward": "2",
+      "media": "Nova Acrylic Paint"
+    },
+    {
+      "artist": "Eduardo Kobra",
+      "latLng": [
+        41.91049264,
+        -87.66975616
+      ],
+      "location": "1651-53 W North Ave",
+      "title": "Vivian Maier",
+      "yearInstalled": "2017",
+      "yearRestored": null,
+      "ward": "2",
+      "media": "Paint"
+    },
+    {
+      "artist": "Rahmaan Statik",
+      "latLng": [
+        41.736157,
+        -87.645218
+      ],
+      "location": "8701 S Vincennes Ave",
+      "title": "The Great Wall of Chicago",
+      "yearInstalled": "2018",
+      "yearRestored": null,
+      "ward": "21",
+      "media": "Painting"
+    },
+    {
+      "artist": "Sharon Dowell",
+      "latLng": [
+        41.9147051,
+        -87.6678529
+      ],
+      "location": "3418 N Ashland Ave",
+      "title": "Untitled",
+      "yearInstalled": "2020",
+      "yearRestored": "NA",
+      "ward": "47",
+      "media": null
+    },
+    {
+      "artist": "Cathy Cajandig and Ivan Watkins",
+      "latLng": [
+        41.91732348,
+        -87.72235908
+      ],
+      "location": "3816 W Armitage Ave",
+      "title": "Rhythms of the Park",
+      "yearInstalled": "1990",
+      "yearRestored": null,
+      "ward": "26",
+      "media": null
+    },
+    {
+      "artist": "Marry Tonnu",
+      "latLng": [
+        41.91372879,
+        -87.66422291
+      ],
+      "location": "1721 N Elston Ave",
+      "title": "Letter A",
+      "yearInstalled": "2019",
+      "yearRestored": null,
+      "ward": "2",
+      "media": null
+    },
+    {
+      "artist": "Morley",
+      "latLng": [
+        41.87635127,
+        -87.6261892
+      ],
+      "location": "424 S Wabash",
+      "title": "Penny For Your Thoughts",
+      "yearInstalled": "2015",
+      "yearRestored": null,
+      "ward": "4",
+      "media": "Paint"
+    },
+    {
+      "artist": "Liz Flores",
+      "latLng": [
+        41.9666343,
+        -87.6586209
+      ],
+      "location": "4654 N Broadway",
+      "title": "For The Bears Fans",
+      "yearInstalled": "2020",
+      "yearRestored": null,
+      "ward": "46",
+      "media": null
+    },
+    {
+      "artist": "Frank Quintero",
+      "latLng": [
+        41.90824936,
+        -87.66776837
+      ],
+      "location": "1440 N Ashland Ave",
+      "title": "Frank Quintero Mural",
+      "yearInstalled": "2021",
+      "yearRestored": null,
+      "ward": "1",
+      "media": "Paint"
+    },
+    {
+      "artist": "Justus Roe",
+      "latLng": [
+        41.86038369,
+        -87.65883644
+      ],
+      "location": "1551 S Blue Island Ave",
+      "title": "The Valley North",
+      "yearInstalled": "2019",
+      "yearRestored": null,
+      "ward": "25",
+      "media": "Acrylic and exterior latex paint"
+    },
+    {
+      "artist": "Never 2501",
+      "latLng": [
+        41.87687878,
+        -87.625411
+      ],
+      "location": "59 E Van Buren",
+      "title": "The Buckingham",
+      "yearInstalled": "2015",
+      "yearRestored": null,
+      "ward": "42",
+      "media": "Paint"
+    },
+    {
+      "artist": "Christian  Estrada Paz",
+      "latLng": [
+        41.94391,
+        -87.70361
+      ],
+      "location": "3036 W. Newport Ave",
+      "title": "Monarch Odyssey",
+      "yearInstalled": "2020",
+      "yearRestored": null,
+      "ward": "33",
+      "media": null
+    },
+    {
+      "artist": "Ricky Lee Gordon",
+      "latLng": [
+        41.87366551,
+        -87.62612548
+      ],
+      "location": "634 S Wabash",
+      "title": "I am you, you are me",
+      "yearInstalled": "2016",
+      "yearRestored": null,
+      "ward": "4",
+      "media": "Paint"
+    },
+    {
+      "artist": "Mirtes Zwierzynski",
+      "latLng": [
+        41.885114,
+        -87.721068
+      ],
+      "location": "N Hamlin Ave and Lake St",
+      "title": "Garfield Park Conservatory Alliance Mosaic",
+      "yearInstalled": "2007",
+      "yearRestored": null,
+      "ward": "28",
+      "media": null
+    },
+    {
+      "artist": "Sam Ramirez",
+      "latLng": [
+        41.97215652,
+        -87.6677201
+      ],
+      "location": "4913 N Clark St",
+      "title": "Scully on Clark",
+      "yearInstalled": "2016",
+      "yearRestored": null,
+      "ward": "47",
+      "media": "Paint"
+    },
+    {
+      "artist": "Darius Dennis, Robin Alcantara, Jared Diaz, Ephraim Gebre",
+      "latLng": [
+        41.90686,
+        -87.673088
+      ],
+      "location": "1379 N Wolcott Ave",
+      "title": "I Am A Man",
+      "yearInstalled": "2020",
+      "yearRestored": null,
+      "ward": "1",
+      "media": null
+    },
+    {
+      "artist": "Ruben Aguirre",
+      "latLng": [
+        41.8756261,
+        -87.62587904
+      ],
+      "location": "501 S Wabash",
+      "title": "Drowning City",
+      "yearInstalled": "2016",
+      "yearRestored": null,
+      "ward": "42",
+      "media": "Paint"
+    },
+    {
+      "artist": "Nora Kate",
+      "latLng": [
+        41.88664527,
+        -87.66524751
+      ],
+      "location": "1520 W Fulton St",
+      "title": "Maud the Octopus",
+      "yearInstalled": "2018",
+      "yearRestored": null,
+      "ward": "27",
+      "media": "Paint"
+    },
+    {
+      "artist": "Cole Pierce",
+      "latLng": [
+        42.002489,
+        -87.663091
+      ],
+      "location": "N Lakewood Ave & W Albion Ave",
+      "title": "Triangle is the Strongest Shape",
+      "yearInstalled": "2016",
+      "yearRestored": null,
+      "ward": "49",
+      "media": "Paint"
+    },
+    {
+      "artist": "Sandra Antongiorgi, Andy Bellomo, and Sam Kirk",
+      "latLng": [
+        41.94130275,
+        -87.64916269
+      ],
+      "location": "3245 N Halstead St",
+      "title": "The Love I Vibrate",
+      "yearInstalled": "2017",
+      "yearRestored": null,
+      "ward": "44",
+      "media": null
+    },
+    {
+      "artist": "John Pitman Weber and Oscar Martinez",
+      "latLng": [
+        41.93255169,
+        -87.65249341
+      ],
+      "location": "925 W Diversey Ave",
+      "title": "For A New World/Para un Nuevo Mundo",
+      "yearInstalled": "1973",
+      "yearRestored": null,
+      "ward": "43",
+      "media": null
+    },
+    {
+      "artist": "Justus Roe",
+      "latLng": [
+        41.88849669,
+        -87.65003207
+      ],
+      "location": "372 N Peoria",
+      "title": "Kinzie Train Depot",
+      "yearInstalled": "2017",
+      "yearRestored": "2019",
+      "ward": "27",
+      "media": "Acrylic and exterior latex paint"
+    },
+    {
+      "artist": "Molly Z",
+      "latLng": [
+        41.9652373,
+        -87.6633694
+      ],
+      "location": "1319 W Wilson Avenue",
+      "title": "Grow and Flow",
+      "yearInstalled": "2020",
+      "yearRestored": null,
+      "ward": "46",
+      "media": null
+    },
+    {
+      "artist": "Justus Roe",
+      "latLng": [
+        41.86011054,
+        -87.65663713
+      ],
+      "location": "1550 S Racine",
+      "title": "Racine",
+      "yearInstalled": "2019",
+      "yearRestored": null,
+      "ward": "25",
+      "media": "Acrylic and exterior latex paint"
+    },
+    {
+      "artist": "Louise Chen",
+      "latLng": [
+        41.9481786,
+        -87.66389687
+      ],
+      "location": "3637 N Southport Ave",
+      "title": "Urbs in Horto",
+      "yearInstalled": "2019",
+      "yearRestored": null,
+      "ward": "44",
+      "media": "Paint"
+    },
+    {
+      "artist": "Concetta Morales",
+      "latLng": [
+        41.91000631,
+        -87.72560703
+      ],
+      "location": "3942 West North Ave",
+      "title": "Positive Moves in the Game of Life",
+      "yearInstalled": "1988",
+      "yearRestored": null,
+      "ward": "26",
+      "media": null
+    },
+    {
+      "artist": "Tony Passero",
+      "latLng": [
+        41.82963829,
+        -87.68029189
+      ],
+      "location": "3524 S Leavitt St",
+      "title": "Hola",
+      "yearInstalled": "2021",
+      "yearRestored": null,
+      "ward": "12",
+      "media": "Paint"
+    },
+    {
+      "artist": "Casey Van Loon",
+      "latLng": [
+        41.99785221,
+        -87.6628738
+      ],
+      "location": "6351 N Lakewood",
+      "title": "Lotus",
+      "yearInstalled": "2021",
+      "yearRestored": null,
+      "ward": "48",
+      "media": "Mosaic"
+    },
+    {
+      "artist": "Thomas Kong, Nathan Smith",
+      "latLng": [
+        42.00840311,
+        -87.66560591
+      ],
+      "location": "W Greenleaf Ave & N Glenwood Ave",
+      "title": "Be Happy",
+      "yearInstalled": "2017",
+      "yearRestored": null,
+      "ward": "49",
+      "media": "Paint"
+    },
+    {
+      "artist": "Olivia Gude and Juan Angel Chavez",
+      "latLng": [
+        41.83665368,
+        -87.64609834
+      ],
+      "location": "3149 S Halsted St",
+      "title": "Fellows and Others Mural",
+      "yearInstalled": "1997",
+      "yearRestored": null,
+      "ward": "11",
+      "media": null
+    },
+    {
+      "artist": "Sam Kirk and Sandra Antongiorgi",
+      "latLng": [
+        41.85983376,
+        -87.65907732
+      ],
+      "location": "1302 West 16th St",
+      "title": "Weaving Cultures",
+      "yearInstalled": "2016",
+      "yearRestored": null,
+      "ward": "25",
+      "media": "Paint"
+    },
+    {
+      "artist": "Key Detail",
+      "latLng": [
+        41.89589266,
+        -87.67156245
+      ],
+      "location": "1745 W Chicago Ave",
+      "title": "otherworldly",
+      "yearInstalled": "2017",
+      "yearRestored": null,
+      "ward": "1",
+      "media": null
+    },
+    {
+      "artist": "Port\nMinistries with\nGloria \"Gloe\"ï¿½\nTalamantes",
+      "latLng": [
+        41.794471,
+        -87.640385
+      ],
+      "location": "Garfield Boulevard and Wallace St",
+      "title": "We Grow Here Too",
+      "yearInstalled": "2017",
+      "yearRestored": null,
+      "ward": "20",
+      "media": "Painting"
+    },
+    {
+      "artist": "Max Sansing",
+      "latLng": [
+        41.77962053,
+        -87.6461237
+      ],
+      "location": "833 West 63rd St",
+      "title": "63rd and Infinity",
+      "yearInstalled": null,
+      "yearRestored": null,
+      "ward": "16",
+      "media": "Painting"
+    },
+    {
+      "artist": "Laura Berger",
+      "latLng": [
+        41.91127477,
+        -87.67928033
+      ],
+      "location": "2045 W Concord Pl",
+      "title": null,
+      "yearInstalled": "2011",
+      "yearRestored": null,
+      "ward": "2",
+      "media": "Paint"
+    },
+    {
+      "artist": "Peter Hurley",
+      "latLng": [
+        42.00838892,
+        -87.6663393
+      ],
+      "location": "W Lunt Ave & N Glenwood Ave",
+      "title": "Chicago Musicians Past & Present",
+      "yearInstalled": "2022",
+      "yearRestored": null,
+      "ward": "49",
+      "media": "Paint"
+    },
+    {
+      "artist": "Max Sansing assist by Rahmaan Statik, Cujo,RkCrew",
+      "latLng": [
+        41.73051757,
+        -87.58491993
+      ],
+      "location": "9031 S Stony Island Ave",
+      "title": "Stony Island Soul",
+      "yearInstalled": "2022",
+      "yearRestored": null,
+      "ward": "8",
+      "media": "Paint"
+    },
+    {
+      "artist": "Justus Roe",
+      "latLng": [
+        41.94228994,
+        -87.65767253
+      ],
+      "location": "3319 N Clifton Ave",
+      "title": "Hawthorne",
+      "yearInstalled": "2019",
+      "yearRestored": null,
+      "ward": "44",
+      "media": "Acrylic and exterior latex paint"
+    },
+    {
+      "artist": "Uneek and Flash",
+      "latLng": [
+        41.95502071,
+        -87.74979329
+      ],
+      "location": "4080 N Milwaukee",
+      "title": "Block by Block",
+      "yearInstalled": "2012",
+      "yearRestored": null,
+      "ward": "45",
+      "media": "Spray"
+    },
+    {
+      "artist": "Jesse Hora",
+      "latLng": [
+        41.96549603,
+        -87.65848068
+      ],
+      "location": "1124 W Wilson Avenue",
+      "title": "Here, There, Everywhere",
+      "yearInstalled": "2021",
+      "yearRestored": null,
+      "ward": "46",
+      "media": null
+    },
+    {
+      "artist": "Michelle Lytle",
+      "latLng": [
+        41.96548895,
+        -87.6591587
+      ],
+      "location": "1140 Wilson Ave",
+      "title": "The Essanay",
+      "yearInstalled": "2019",
+      "yearRestored": null,
+      "ward": "46",
+      "media": null
+    },
+    {
+      "artist": "John Pitman Weber",
+      "latLng": [
+        41.90325452,
+        -87.67982505
+      ],
+      "location": "2100 West Division St",
+      "title": "Together We Overcome/Unidos Para Triunfar",
+      "yearInstalled": "1971",
+      "yearRestored": null,
+      "ward": "2",
+      "media": null
+    },
+    {
+      "artist": "Michelle Caton and Calvin Jones",
+      "latLng": [
+        41.82241688,
+        -87.62303736
+      ],
+      "location": "3947 South Michigan Ave",
+      "title": "Another Time Remembers my Passion's Humanity",
+      "yearInstalled": "1979",
+      "yearRestored": "2018",
+      "ward": "3",
+      "media": "Paint"
+    },
+    {
+      "artist": "Max Sansing",
+      "latLng": [
+        41.75163005,
+        -87.5828544
+      ],
+      "location": "1706 E 79th St",
+      "title": "YOU, ME AND WE ARE THE KEY",
+      "yearInstalled": "2022",
+      "yearRestored": null,
+      "ward": "8",
+      "media": "Paint"
+    },
+    {
+      "artist": "Aurelio Diaz",
+      "latLng": [
+        41.85983376,
+        -87.65907732
+      ],
+      "location": "1302 West 16th St",
+      "title": "Galeria del Barrio",
+      "yearInstalled": "1972",
+      "yearRestored": "2016",
+      "ward": "25",
+      "media": "Paint"
+    },
+    {
+      "artist": "Kristen Kula",
+      "latLng": [
+        41.86940381,
+        -87.62483711
+      ],
+      "location": "72 E. 11th Street",
+      "title": "Tornado",
+      "yearInstalled": "2014",
+      "yearRestored": null,
+      "ward": "4",
+      "media": "Paint"
+    },
+    {
+      "artist": "Dalton Brown, Dzine, and Bernard Williams",
+      "latLng": [
+        41.88331129,
+        -87.67313444
+      ],
+      "location": "1832 W Washington",
+      "title": "Knowledge Is Power Project 5",
+      "yearInstalled": "1992",
+      "yearRestored": null,
+      "ward": "27",
+      "media": null
+    },
+    {
+      "artist": "Mauricio Ramirez Art",
+      "latLng": [
+        41.94388,
+        -87.66856
+      ],
+      "location": "3415 N Ashland Ave",
+      "title": "Year Round 2020",
+      "yearInstalled": "2020",
+      "yearRestored": "NA",
+      "ward": "44",
+      "media": null
+    },
+    {
+      "artist": "Northwest\nArts\nConnection with Erika Doyle",
+      "latLng": [
+        41.942618,
+        -87.737338
+      ],
+      "location": "Roscoe Ave at Kostner Ave",
+      "title": "Jardin Kilbourn",
+      "yearInstalled": "2017",
+      "yearRestored": null,
+      "ward": "30",
+      "media": "Paint"
+    },
+    {
+      "artist": "Damon Reed & Moses Ball",
+      "latLng": [
+        41.8522179,
+        -87.72024856
+      ],
+      "location": "3819 Ogden Ave",
+      "title": "Change Makers",
+      "yearInstalled": "2006",
+      "yearRestored": null,
+      "ward": "22",
+      "media": null
+    },
+    {
+      "artist": "Justus Roe",
+      "latLng": [
+        41.86983981,
+        -87.62733224
+      ],
+      "location": "1001 S State",
+      "title": "Standing Wave",
+      "yearInstalled": "2016",
+      "yearRestored": null,
+      "ward": "4",
+      "media": "Paint"
+    },
+    {
+      "artist": "Tracy Van Duinen",
+      "latLng": [
+        41.96813738,
+        -87.65495695
+      ],
+      "location": "4730 N Sheridan Rd",
+      "title": "I Will...",
+      "yearInstalled": null,
+      "yearRestored": null,
+      "ward": "46",
+      "media": null
+    },
+    {
+      "artist": "Levar Hoard",
+      "latLng": [
+        41.848486,
+        -87.64665517
+      ],
+      "location": "2424 S Halstead",
+      "title": "2424 S HALSTED RIVERWALK MURAL",
+      "yearInstalled": "2024",
+      "yearRestored": null,
+      "ward": "11",
+      "media": "Paint"
+    },
+    {
+      "artist": "Marcus Akinlana",
+      "latLng": [
+        41.82241688,
+        -87.62303736
+      ],
+      "location": "3947 South Michigan Ave",
+      "title": "The Great Migration",
+      "yearInstalled": "1995",
+      "yearRestored": null,
+      "ward": "3",
+      "media": null
+    },
+    {
+      "artist": "A.Zak",
+      "latLng": [
+        41.96549603,
+        -87.65848068
+      ],
+      "location": "1124 W Wilson Ave",
+      "title": "Path Home",
+      "yearInstalled": "2021",
+      "yearRestored": null,
+      "ward": "46",
+      "media": null
+    },
+    {
+      "artist": "Chris Silva with Yollocalli",
+      "latLng": [
+        41.94375528,
+        -87.66407359
+      ],
+      "location": "3410 N Southport Ave",
+      "title": "Flight Patterns",
+      "yearInstalled": "2018",
+      "yearRestored": null,
+      "ward": "44",
+      "media": "spray"
+    }
+  ]
+}

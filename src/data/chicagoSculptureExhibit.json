@@ -1,0 +1,44 @@
+{
+  "sources": [
+    "https://www.chicagosculptureexhibit.org/"
+  ],
+  "filters": [
+    {
+      "field": "sponsor",
+      "label": "Sponsor",
+      "type": "string"
+    },
+    {
+      "contains": true,
+      "field": "yearsExhibited",
+      "label": "Years Exhibited",
+      "type": "string"
+    }
+  ],
+  "styles": {
+    "fill": "#EF002B",
+    "fontSize": 45,
+    "icon": "InterestsOutlinedIcon",
+    "stroke": "black",
+    "strokeWidth": 1
+  },
+  "popup": {
+    "header": "{title}",
+    "content": "{artist}"
+  },
+  "points": [
+    {
+      "artist": "Abby Palen",
+      "image": "https://www.chicagosculptureexhibit.org/W2024/Abby-Palen-2024.jpg",
+      "latLng": [
+        41.960945771620004,
+        -87.73267040196689
+      ],
+      "location": "Montrose/Keeler NE corner",
+      "materials": "Thermoplastic, Chicken Wire, Wood, Glass Paint, Concrete",
+      "sponsor": "Pulaski Elston Business Association SSA #79",
+      "title": "Silver MapleSun Lantern",
+      "yearsExhibited": "2024"
+    }
+  ]
+}
