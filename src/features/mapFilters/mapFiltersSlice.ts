@@ -99,7 +99,7 @@ export const mapFiltersSlice = createSlice({
     setFilters: (state, action) => {
       return deepMerge(state, action.payload);
     },
-    resetFilters: (state) => DEFAULT_MAP_FILTERS
+    resetFilters: () => DEFAULT_MAP_FILTERS
   }
 });
 

@@ -1,6 +1,6 @@
 import { InfoWindow, useMap, useMapsLibrary } from '@vis.gl/react-google-maps';
 import React, { useEffect, useRef, useState } from 'react';
-import { Popup, PointOfInterest } from '../../models/MapMarkers';
+import { Popup } from '../../models/MapMarkers';
 import { PopupContent } from './PopupContent';
 
 type Props = {
