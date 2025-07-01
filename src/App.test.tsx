@@ -9,4 +9,4 @@ describe('App.tsx', () => {
     expect(screen.getByTestId('map')).not.toBeNull();
     expect(screen.getByTestId('control-panel')).not.toBeNull();
   });
-})
+});

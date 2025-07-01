@@ -1,8 +1,8 @@
 .control-panel-container {
   width: 310px;
   max-height: 90%;
-  background: rgb(237, 234, 234, .9);
-  box-shadow: 10px 10px 5px  rgba(0, 0, 0, 0.15);
+  background: rgb(237, 234, 234, 0.9);
+  box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.15);
   margin: 24px;
   padding: 12px 24px;
   position: absolute;
@@ -44,7 +44,7 @@
   }
 
   .form-check-label {
-    font-size: 14px
+    font-size: 14px;
   }
 }
 

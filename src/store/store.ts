@@ -1,12 +1,12 @@
-import {configureStore} from "@reduxjs/toolkit";
-import {MapFilters, mapFiltersSlice} from "../features/mapFilters/mapFiltersSlice";
+import { configureStore } from '@reduxjs/toolkit';
+import { MapFilters, mapFiltersSlice } from '../features/mapFilters/mapFiltersSlice';
 
 export type MapStore = {
-    mapFilters: MapFilters;
-}
+  mapFilters: MapFilters;
+};
 
 export default configureStore({
-    reducer: {
-        mapFilters: mapFiltersSlice.reducer
-    }
+  reducer: {
+    mapFilters: mapFiltersSlice.reducer
+  }
 });

@@ -1,7 +1,5 @@
 {
-  "sources": [
-    "https://www.chicagosculptureexhibit.org/"
-  ],
+  "sources": ["https://www.chicagosculptureexhibit.org/"],
   "filters": [
     {
       "field": "sponsor",
@@ -30,10 +28,7 @@
     {
       "artist": "Abby Palen",
       "image": "https://www.chicagosculptureexhibit.org/W2024/Abby-Palen-2024.jpg",
-      "latLng": [
-        41.960945771620004,
-        -87.73267040196689
-      ],
+      "latLng": [41.960945771620004, -87.73267040196689],
       "location": "Montrose/Keeler NE corner",
       "materials": "Thermoplastic, Chicken Wire, Wood, Glass Paint, Concrete",
       "sponsor": "Pulaski Elston Business Association SSA #79",
