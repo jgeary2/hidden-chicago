@@ -1,5 +1,5 @@
 import React from 'react';
-import { getFormattedHeader } from '../../common/utils';
+import { splitCamelCaseAndCapitalize } from '../../common/utils';
 import { MapFilters, setFilters } from '../../features/mapFilters/mapFiltersSlice';
 import { useDispatch, useSelector } from 'react-redux';
 import { MapStore } from '../../store/store';
@@ -25,7 +25,7 @@ export const FilterGroupHeader = ({ filterParentKey }: Props) => {
       checked={showGroup}
       className='filter-group-header'
       id={filterParentKey}
-      label={getFormattedHeader(filterParentKey)}
+      label={splitCamelCaseAndCapitalize(filterParentKey)}
       onChange={handleCheck}
     />
   );

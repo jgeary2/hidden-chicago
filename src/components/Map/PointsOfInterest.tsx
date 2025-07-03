@@ -1,10 +1,12 @@
-import React, { useEffect, useState } from 'react';
+import React, { useCallback, useEffect, useState } from 'react';
 
 import tiedHouseJson from '../../data/tiedHouses.json';
 import chicagoSculptureExhibitJson from '../../data/chicagoSculptureExhibit.json';
 import muralsJson from '../../data/murals.json';
 import neighborhoodJson from '../../data/neighborhoods.json';
 import landmarkJson from '../../data/landmarks.json';
+import beachJson from '../../data/beaches.json';
+import parkJson from '../../data/parks.json';
 
 import { Point, PointOfInterest } from '../../models/MapMarkers';
 import { useSelector } from 'react-redux';
@@ -19,25 +21,43 @@ export const PointsOfInterest = () => {
 
   const mapFilters: MapFilters = useSelector((state: MapStore) => state.mapFilters);
 
+  const getPoints = useCallback(
+    (displayedPOIs: any[]) => {
+      displayedPOIs.push(
+        getMapPointsFromJsonData(tiedHouseJson, mapFilters.tiedHouses, 'tiedHouses')
+      );
+      displayedPOIs.push(
+        getMapPointsFromJsonData(
+          chicagoSculptureExhibitJson,
+          mapFilters.chicagoSculptureExhibit,
+          'chicagoSculptureExhibit'
+        )
+      );
+      displayedPOIs.push(getMapPointsFromJsonData(beachJson, mapFilters.beaches, 'beaches'));
+    },
+    [mapFilters]
+  );
+
+  const getPolygons = useCallback(
+    (displayedPOIs: any[]) => {
+      displayedPOIs.push(getMapPointsFromJsonData(muralsJson, mapFilters.murals, 'murals'));
+      displayedPOIs.push(
+        getMapPolygonsFromJsonData(neighborhoodJson, mapFilters.neighborhoods, 'neighborhoods')
+      );
+      displayedPOIs.push(
+        getMapPolygonsFromJsonData(landmarkJson, mapFilters.landmarks, 'landmarks')
+      );
+      displayedPOIs.push(getMapPolygonsFromJsonData(parkJson, mapFilters.parks, 'parks'));
+    },
+    [mapFilters]
+  );
+
   useEffect(() => {
     const displayedPOIs = [];
-    displayedPOIs.push(
-      getMapPointsFromJsonData(tiedHouseJson, mapFilters.tiedHouses, 'tiedHouses')
-    );
-    displayedPOIs.push(
-      getMapPointsFromJsonData(
-        chicagoSculptureExhibitJson,
-        mapFilters.chicagoSculptureExhibit,
-        'chicagoSculptureExhibit'
-      )
-    );
-    displayedPOIs.push(getMapPointsFromJsonData(muralsJson, mapFilters.murals, 'murals'));
-    displayedPOIs.push(
-      getMapPolygonsFromJsonData(neighborhoodJson, mapFilters.neighborhoods, 'neighborhoods')
-    );
-    displayedPOIs.push(getMapPolygonsFromJsonData(landmarkJson, mapFilters.landmarks, 'landmarks'));
+    getPoints(displayedPOIs);
+    getPolygons(displayedPOIs);
     setPointOfInterests(displayedPOIs);
-  }, [mapFilters]);
+  }, [getPoints, getPolygons]);
 
   return (
     <React.Fragment>

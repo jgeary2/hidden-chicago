@@ -2,9 +2,22 @@ import { FilterType } from '../components/ControlPanel/Filter';
 import { PointOfInterestType } from '../models/MapMarkers';
 import { MapFilters } from '../features/mapFilters/mapFiltersSlice';
 
-export const getFormattedHeader = (val: string): string => {
+export const splitCamelCaseAndCapitalize = (val: string): string => {
   const result = val.replace(/([A-Z])/g, ' $1');
   return result.charAt(0).toUpperCase() + result.slice(1);
+};
+
+export const capitalizeFirstLetters = (val: string): string => {
+  if (!val) {
+    return '';
+  }
+
+  const lower = val.toLowerCase();
+  const words = lower.split(' ');
+
+  const capitalizedWords = words.map((word) => word.charAt(0).toUpperCase() + word.slice(1));
+
+  return capitalizedWords.join(' ');
 };
 
 const applyMapFilters = (data: any, groupFilters: any) => {
@@ -85,6 +98,7 @@ export const getMapPointsFromJsonData = (data: any, mapFilterGroup: any, groupNa
     styles
   };
 };
+
 export const getFilterDataFromJsonData = (data: any) => {
   const filters = data.filters;
 

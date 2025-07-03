@@ -1,0 +1,146 @@
+{
+  "sources": ["www.google.com/maps/"],
+  "filters": [
+    {
+      "field": "name",
+      "label": "Name",
+      "type": "string"
+    }
+  ],
+  "styles": {
+    "fill": "#ebba34",
+    "fontSize": 45,
+    "icon": "BeachAccessIcon",
+    "stroke": "black",
+    "strokeWidth": 1
+  },
+  "popup": {
+    "header": "{name}"
+  },
+  "points": [
+    {
+      "name": "Juneway Beach",
+      "latLng": [42.02250129284321, -87.6650459134557]
+    },
+    {
+      "name": "Rogers Beach",
+      "latLng": [42.02152628777736, -87.6644010666697]
+    },
+    {
+      "name": "Howard Beach",
+      "latLng": [42.0188806075378, -87.66375877388845]
+    },
+    {
+      "name": "Fargo Beach",
+      "latLng": [42.017050611509035, -87.66274216424674]
+    },
+    {
+      "name": "Jarvis Beach",
+      "latLng": [42.016024825286166, -87.66227190181617]
+    },
+    {
+      "name": "Leone Beach",
+      "latLng": [42.01320588514359, -87.66102004962596]
+    },
+    {
+      "name": "Loyola Beach",
+      "latLng": [42.00837279008051, -87.65745145898904]
+    },
+    {
+      "name": "Columbia Beach",
+      "latLng": [42.005448399733204, -87.65699055318593]
+    },
+    {
+      "name": "North Shore Beach",
+      "latLng": [42.00395043083802, -87.65743049761363]
+    },
+    {
+      "name": "Hartigan Beach",
+      "latLng": [42.00257441533882, -87.6568329611386]
+    },
+    {
+      "name": "Rosemont Avenue Beach",
+      "latLng": [41.99607646605504, -87.65439603731538]
+    },
+    {
+      "name": "Lane Beach",
+      "latLng": [41.9899492199085, -87.65402345446597]
+    },
+    {
+      "name": "Kathy Osterman Beach",
+      "latLng": [41.98626182339872, -87.65202428661325]
+    },
+    {
+      "name": "Foster Beach",
+      "latLng": [41.97905351811562, -87.64978807938171]
+    },
+    {
+      "name": "Montrose Beach",
+      "latLng": [41.966869980093364, -87.63838927976155]
+    },
+    {
+      "name": "North Avenue Beach",
+      "latLng": [41.91727030417337, -87.62706883292356]
+    },
+    {
+      "name": "The Concrete Beach",
+      "latLng": [41.90526987689591, -87.62419696439686]
+    },
+    {
+      "name": "Oak Street Beach",
+      "latLng": [41.90309015338183, -87.6228364430074]
+    },
+    {
+      "name": "Ohio Street Beach",
+      "latLng": [41.89378412970219, -87.61286980328603]
+    },
+    {
+      "name": "12th Street Beach",
+      "latLng": [41.863688167161165, -87.60756545100855]
+    },
+    {
+      "name": "31st Street Beach",
+      "latLng": [41.839406086853046, -87.60688237536523]
+    },
+    {
+      "name": "Oakwood Beach",
+      "latLng": [41.82150045944811, -87.59634056326215]
+    },
+    {
+      "name": "49th Street Beach",
+      "latLng": [41.80670801805423, -87.58436069393652]
+    },
+    {
+      "name": "57th Street Beach",
+      "latLng": [41.79113809396465, -87.57859108031344]
+    },
+    {
+      "name": "63rd Street Beach",
+      "latLng": [41.78234165195276, -87.57386889925209]
+    },
+    {
+      "name": "67th Street Beach",
+      "latLng": [41.77635715330803, -87.56781783575059]
+    },
+    {
+      "name": "South Shore Beach",
+      "latLng": [41.768953901057536, -87.5611425568348]
+    },
+    {
+      "name": "Rainbow Beach",
+      "latLng": [41.75912040702172, -87.55051628106084]
+    },
+    {
+      "name": "Calumet Beach",
+      "latLng": [41.71453703313235, -87.52885532721871]
+    },
+    {
+      "name": "Munson Beach",
+      "latLng": [41.71042807776292, -87.52762467887011]
+    },
+    {
+      "name": "Humboldt Park Beach",
+      "latLng": [41.90643546731655, -87.70392786318344]
+    }
+  ]
+}

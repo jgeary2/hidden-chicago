@@ -1,72 +1,39 @@
 import { createSlice } from '@reduxjs/toolkit';
 
-type BaseFilter = {
+interface BaseFilter extends Record<string, any> {
   showGroup: boolean;
-};
-
-interface TiedHouseFilter extends BaseFilter {
-  brewery: string;
-  hasLogo: boolean;
 }
-
-interface MuralFilter extends BaseFilter {
-  artist: string;
-  ward: string;
-  yearInstalled: string;
-  media: string;
-}
-
-interface ChicagoSculptureExhibitFilter extends BaseFilter {
-  sponsor: string;
-  yearsExhibited: string;
-}
-
-interface NeighborhoodFilter extends BaseFilter {}
-
-interface LandmarkFilter extends BaseFilter {
-  architect: string;
-  landmarkYear: string;
-}
-
-export type MapFilter =
-  | TiedHouseFilter
-  | MuralFilter
-  | ChicagoSculptureExhibitFilter
-  | NeighborhoodFilter
-  | LandmarkFilter;
 
 export type MapFilters = {
-  neighborhoods: NeighborhoodFilter;
-  tiedHouses: TiedHouseFilter;
-  murals: MuralFilter;
-  chicagoSculptureExhibit: ChicagoSculptureExhibitFilter;
-  landmarks: LandmarkFilter;
+  neighborhoods: BaseFilter;
+  beaches: BaseFilter;
+  tiedHouses: BaseFilter;
+  murals: BaseFilter;
+  parks: BaseFilter;
+  landmarks: BaseFilter;
+  chicagoSculptureExhibit: BaseFilter;
 };
 
 export const DEFAULT_MAP_FILTERS: MapFilters = {
   neighborhoods: {
     showGroup: true
   },
+  beaches: {
+    showGroup: false
+  },
   tiedHouses: {
-    brewery: '',
-    hasLogo: false,
-    showGroup: true
+    showGroup: false
   },
   murals: {
-    artist: '',
-    ward: '',
-    yearInstalled: '',
-    media: '',
+    showGroup: false
+  },
+  parks: {
+    showGroup: false
+  },
+  landmarks: {
     showGroup: false
   },
   chicagoSculptureExhibit: {
-    sponsor: '',
-    yearsExhibited: '',
-    showGroup: true
-  },
-  landmarks: {
-    architect: '',
-    landmarkYear: '',
     showGroup: false
   }
 };

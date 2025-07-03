@@ -6,7 +6,7 @@
   "filters": [
     {
       "field": "neighborhood",
-      "label": "All",
+      "label": "Neighborhood",
       "type": "string"
     }
   ],
