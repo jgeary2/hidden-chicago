@@ -23,16 +23,16 @@ describe('ControlPanel.tsx', () => {
     (getClearedFilters as jest.Mock).mockImplementation(() => 'clearedFilters');
   });
 
-  it('should render the control panel', () => {
+  it('should render the control panel', async () => {
     render(<ControlPanel />);
 
-    expect(screen.getByTestId('control-panel')).not.toBeNull();
+    expect(await screen.findByTestId('control-panel')).not.toBeNull();
   });
 
-  it('should dispatch reset filters on reset button press', () => {
+  it('should dispatch reset filters on reset button press', async () => {
     render(<ControlPanel />);
 
-    userEvent.click(screen.getByTestId('button-reset'));
+    userEvent.click(await screen.findByTestId('button-reset'));
 
     expect(mockDispatch).toHaveBeenCalledWith({
       payload: undefined,
@@ -40,10 +40,10 @@ describe('ControlPanel.tsx', () => {
     });
   });
 
-  it('should dispatch filter update with correct filters on clear all button press', () => {
+  it('should dispatch filter update with correct filters on clear all button press', async () => {
     render(<ControlPanel />);
 
-    userEvent.click(screen.getByTestId('button-clear-all'));
+    userEvent.click(await screen.findByTestId('button-clear-all'));
 
     expect(mockDispatch).toHaveBeenCalledWith({
       payload: 'clearedFilters',
