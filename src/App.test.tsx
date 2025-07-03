@@ -3,10 +3,10 @@ import { render, screen } from './common/test-utils';
 import App from './App';
 
 describe('App.tsx', () => {
-  it('should render the map and control panel', () => {
+  it('should render the map and control panel', async () => {
     render(<App />);
 
-    expect(screen.getByTestId('map')).not.toBeNull();
-    expect(screen.getByTestId('control-panel')).not.toBeNull();
+    expect(await screen.findByTestId('map')).not.toBeNull();
+    expect(await screen.findByTestId('control-panel')).not.toBeNull();
   });
 });

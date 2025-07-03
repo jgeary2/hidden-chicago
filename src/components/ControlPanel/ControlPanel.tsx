@@ -61,7 +61,11 @@ export const ControlPanel = () => {
             <FilterGroupHeader filterParentKey={filterParentKey} />
             {mapFilters[filterParentKey].showGroup
               ? filterGroup[filterParentKey].map((filter: any) => (
-                  <Filter filter={filter} filterParentKey={filterParentKey} />
+                  <Filter
+                    key={`filter-${filterParentKey}-${filter.label}`}
+                    filter={filter}
+                    filterParentKey={filterParentKey}
+                  />
                 ))
               : null}
             {index < controlPanelFilters.length - 1 ? <hr className='horizontal-break' /> : null}
