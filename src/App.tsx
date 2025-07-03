@@ -6,7 +6,7 @@ import { PointsOfInterest } from './components/Map/PointsOfInterest';
 import { ControlPanel } from './components/ControlPanel/ControlPanel';
 import { Provider } from 'react-redux';
 import store from './store/store';
-import { processorFunctions } from './common/data.processing.utils';
+import { processorFunctions } from './common/dataProcessingUtils';
 
 const App = () => {
   const pathname = window.location.pathname;

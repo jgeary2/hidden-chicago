@@ -27,7 +27,6 @@ export const CustomInfoWindow = ({
     if (!streetViewLibrary || !map) {
       return;
     }
-    console.log(ref.current);
     setStreetViewService(
       new streetViewLibrary.StreetViewPanorama(ref.current, {
         position: location,

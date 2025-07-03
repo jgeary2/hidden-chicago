@@ -1,8 +1,9 @@
-// Utils for processing
+// Utils for processing raw data from assorted sources
+
+import { capitalizeFirstLetters } from './utils';
 
 export const processMuralRegistry = () => {
   const data = require('../data/rawData/Mural Registry_20250619.json');
-  console.log(data);
 
   const result = data.features.map((feature: any) => {
     const { properties } = feature;
@@ -45,7 +46,6 @@ export const processNeighborhoodData = () => {
 
 export const processLandmarksData = () => {
   const data = require('../data/rawData/landmarks_data.json');
-  console.log(data);
 
   const result = data.map((entry) => {
     const { the_geom, name, id, address, date_built, architect, landmark } = entry;
@@ -66,8 +66,31 @@ export const processLandmarksData = () => {
   console.log(result);
 };
 
+export const processParksData = () => {
+  const data = require('../data/rawData/parks_data.json');
+
+  const result = data.map((entry) => {
+    const { the_geom, label, park_no, location, ward, park_class } = entry;
+    const { coordinates } = the_geom;
+
+    const formattedWard = Math.trunc(ward);
+
+    return {
+      name: label,
+      id: park_no,
+      address: capitalizeFirstLetters(location),
+      ward: formattedWard,
+      parkType: capitalizeFirstLetters(park_class),
+      coordinates: coordinates[0][0]
+    };
+  });
+
+  console.log(result);
+};
+
 export const processorFunctions = {
   processMuralRegistry: () => processMuralRegistry(),
   processNeighborhoodData: () => processNeighborhoodData(),
-  processLandmarksData: () => processLandmarksData()
+  processLandmarksData: () => processLandmarksData(),
+  processParksData: () => processParksData()
 };
