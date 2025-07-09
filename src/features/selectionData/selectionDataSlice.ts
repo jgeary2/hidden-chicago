@@ -7,7 +7,7 @@ export type SelectionData = {
   location: google.maps.LatLngLiteral | null;
 };
 
-const DEFAULT_SELECTION_DATA: SelectionData = {
+export const DEFAULT_SELECTION_DATA: SelectionData = {
   showDrawer: false,
   header: '',
   content: '',
@@ -15,7 +15,7 @@ const DEFAULT_SELECTION_DATA: SelectionData = {
 };
 
 export const selectionDataSlice = createSlice({
-  name: 'selectionDetails',
+  name: 'selectionData',
   initialState: DEFAULT_SELECTION_DATA,
   reducers: {
     setShowDrawer: (state, action: PayloadAction<boolean>) => {

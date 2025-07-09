@@ -8,6 +8,8 @@
 
 A work in progress. Adding data sources as I find interesting things.
 
-![img.png](public/img.png)
+![img1.png](public/imgs/img1.png)
+![img2.png](public/imgs/img2.png)
+![img3.png](public/imgs/img3.png)
 
 Credit: this project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
