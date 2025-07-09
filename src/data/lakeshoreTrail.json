@@ -1,0 +1,399 @@
+{
+  "sources": ["www.google.com/maps"],
+  "filters": [
+
+  ],
+  "styles": {
+
+  },
+  "popup": {
+
+  },
+  "points": [
+    {
+      "name": "Hollywood Beach Pierhead Light",
+      "latLng": [41.986287930051674, -87.64944750950939],
+      "type": "Lighthouse/Beacon"
+    },
+    {
+      "name": "Kathy Osterman Beach House at Hollywood Beach",
+      "latLng": [41.98624806044078, -87.65277040097823],
+      "type": "Beach House"
+    },
+    {
+      "name": "Lincoln Park Edgewater Beach Community Garden",
+      "latLng": [41.97917058730478, -87.65303243221443],
+      "type": "Garden"
+    },
+    {
+      "name": "Foster Beach Outdoor Gym",
+      "latLng": [41.97963955058209, -87.65089137156947],
+      "type": "Sports/Recreation"
+    },
+    {
+      "name": "Foster Beach Basketball Courts",
+      "latLng": [41.97780631080695, -87.65006935721779],
+      "type": "Sports/Recreation"
+    },
+    {
+      "name": "Foster Beach - Lakeside Cafe",
+      "latLng": [41.97777433520404, -87.64908007248859],
+      "type": "Food/Drink"
+    },
+    {
+      "name": "Get A Grip Trapeze",
+      "latLng": [41.977045998169025, -87.64755552261245],
+      "type": "Sports/Recreation"
+    },
+    {
+      "name": "Foster Avenue Pierhead Light",
+      "latLng": [41.97785960336607, -87.64614567241628],
+      "type": "Lighthouse/Beacon"
+    },
+    {
+      "name": "Lincoln Park North Soccer Fields",
+      "latLng": [41.971879895482026, -87.64762243075073],
+      "type": "Sports/Recreation"
+    },
+    {
+      "name": "Montrose Beach Track & Field",
+      "latLng": [41.964675585435614, -87.6447348853292],
+      "type": "Sports/Recreation"
+    },
+    {
+      "name": "Clarendon Park Community Garden",
+      "latLng": [41.96300183015543, -87.6493993388701],
+      "type": "Garden"
+    },
+    {
+      "name": "Montrose Point Bird Sanctuary",
+      "latLng": [41.96320936461261, -87.63318245763762],
+      "type": "Natural Area"
+    },
+    {
+      "name": "The Dock at Montrose Beach",
+      "latLng": [41.9650003818827, -87.63620288246466],
+      "type": "Food/Drink"
+    },
+    {
+      "name": "Montrose Harbor",
+      "latLng": [41.96312407682014, -87.63814321866683],
+      "type": "Harbor"
+    },
+    {
+      "name": "Montrose Harbor Beacon",
+      "latLng": [41.9687670396811, -87.63099360542805],
+      "type": "Lighthouse/Beacon"
+    },
+    {
+      "name": "Marovitz Savanna Natural Area",
+      "latLng": [41.961525432265006, -87.64484505075932],
+      "type": "Natural Area"
+    },
+    {
+      "name": "Peace Garden",
+      "latLng": [41.95865223373825, -87.64542119807263],
+      "type": "Natural Area"
+    },
+    {
+      "name": "Sydney R. Marovitz Golf Course",
+      "latLng": [41.95232624460249, -87.64094473251994],
+      "type": "Sports/Recreation"
+    },
+    {
+      "name": "The Clocktower Cafe",
+      "latLng": [41.95226129331535, -87.641575182077],
+      "type": "Food/Drink"
+    },
+    {
+      "name": "Waveland Tennis Courts & Softball Fields",
+      "latLng": [41.95156181434563, -87.64306457840739],
+      "type": "Sports/Recreation"
+    },
+    {
+      "name": "Jarvis Bird Sanctuary",
+      "latLng": [41.948776772304484, -87.64096187914227],
+      "type": "Natural Area"
+    },
+    {
+      "name": "Kwa-Ma-Rolas",
+      "latLng": [41.94901110149587, -87.6424298101318],
+      "type": "Public Art"
+    },
+    {
+      "name": "Belmont Harbor",
+      "latLng": [41.94412220543266, -87.63777495612814],
+      "type": "Harbor"
+    },
+    {
+      "name": "Roscoe Community Garden",
+      "latLng": [41.94330850107083, -87.63926324835832],
+      "type": "Garden"
+    },
+    {
+      "name": "AIDS Garden Chicago",
+      "latLng": [41.93897584159782, -87.63445157187269],
+      "type": "Garden"
+    },
+    {
+      "name": "The Alarm (by John J. Boyle)",
+      "latLng": [41.93635499721341, -87.63255570217984],
+      "type": "Public Art"
+    },
+    {
+      "name": "Diversey Natural Area",
+      "latLng": [41.93710515482166, -87.63551705639698],
+      "type": "Natural Area"
+    },
+    {
+      "name": "Bacino's Italian Grill",
+      "latLng": [41.93361229408342, -87.63544335129293],
+      "type": "Food/Drink"
+    },
+    {
+      "name": "Lakeview Community Gardens At Diversey",
+      "latLng": [41.933643066548235, -87.63575772770997],
+      "type": "Garden"
+    },
+    {
+      "name": "A Signal of Peace (by Cyrus Edwin Dallin)",
+      "latLng": [41.93348920406731, -87.63064497440021],
+      "type": "Public Art"
+    },
+    {
+      "name": "Diversey Harbor",
+      "latLng": [41.9298040947615, -87.63371830960378],
+      "type": "Harbor"
+    },
+    {
+      "name": "Emanuel Swedenborg Monument",
+      "latLng": [41.93152645256455, -87.6316900467873],
+      "type": "Public Art"
+    },
+    {
+      "name": "Ten Thousand Ripples",
+      "latLng": [41.92873543734278, -87.6314283953934],
+      "type": "Public Art"
+    },
+    {
+      "name": "Theater on the Lake",
+      "latLng": [41.92712876611769, -87.63066186735537],
+      "type": "Food/Drink"
+    },
+    {
+      "name": "Lakefront Lounge",
+      "latLng": [41.926004620568776, -87.62944942640712],
+      "type": "Food/Drink"
+    },
+    {
+      "name": "Sandbox Beach Cafe",
+      "latLng": [41.92150590600628, -87.62949969301653],
+      "type": "Food/Drink"
+    },
+    {
+      "name": "North Avenue Beach Volleyball Courts",
+      "latLng": [41.91898607243703, -87.62850263052397],
+      "type": "Sports/Recreation"
+    },
+    {
+      "name": "North Avenue Beach Dunes",
+      "latLng": [41.91658502832223, -87.62771664264875],
+      "type": "Natural Area"
+    },
+    {
+      "name": "Shore Club Chicago",
+      "latLng": [41.914941207516804, -87.62640982600706],
+      "type": "Food/Drink"
+    },
+    {
+      "name": "Castaways Beach Club",
+      "latLng": [41.913527603098274, -87.6242478305748],
+      "type": "Food/Drink"
+    },
+    {
+      "name": "The Pit Volleyball Courts",
+      "latLng": [41.91280421820974, -87.62373283235713],
+      "type": "Sports/Recreation"
+    },
+    {
+      "name": "North Avenue Beach Pier",
+      "latLng": [41.914832352856095, -87.62095872519349],
+      "type": "Lighthouse/Beacon"
+    },
+    {
+      "name": "Lincoln Park Chess Pavillion",
+      "latLng": [41.91139531572988, -87.62496499091523],
+      "type": "Sports/Recreation"
+    },
+    {
+      "name": "Oak Street Beach Restaurant",
+      "latLng": [41.90177127800165, -87.62184980722321],
+      "type": "Food/Drink"
+    },
+    {
+      "name": "Caffe Olivia at Ohio Street Beach",
+      "latLng": [41.89310726628066, -87.61288559355582],
+      "type": "Food/Drink"
+    },
+    {
+      "name": "Navy Pier",
+      "latLng": [41.89157421644177, -87.60958905834322],
+      "type": "Navy Pier"
+    },
+    {
+      "name": "Cafe Michelle @ Dusable Harbor",
+      "latLng": [41.886129458031654, -87.61291289607489],
+      "type": "Food/Drink"
+    },
+    {
+      "name": "Dusable Harbor",
+      "latLng": [41.885491441224154, -87.61250102614142],
+      "type": "Harbor"
+    },
+    {
+      "name": "Monroe Harbor",
+      "latLng": [41.88252270918801, -87.61534175198159],
+      "type": "Harbor"
+    },
+    {
+      "name": "Destino by Mark di Suvero",
+      "latLng": [41.87452614123391, -87.61678904382478],
+      "type": "Public Art"
+    },
+    {
+      "name": "Habakuk",
+      "latLng": [41.86889908829331, -87.61711424522902],
+      "type": "Public Art"
+    },
+    {
+      "name": "Olmec Head, Number 8",
+      "latLng": [41.86702952154674, -87.61551028424651],
+      "type": "Public Art"
+    },
+    {
+      "name": "Man With Fish",
+      "latLng": [41.867155359484066, -87.61466807062827],
+      "type": "Public Art"
+    },
+    {
+      "name": "Shedd Aquarium",
+      "latLng": [41.86761476572042, -87.61400556500358],
+      "type": "Museum"
+    },
+    {
+      "name": "Statue of Karel Havlicek Borovsky",
+      "latLng": [41.86635987011217, -87.61045406425728],
+      "type": "Public Art"
+    },
+    {
+      "name": "Nicolaus Copernicus Monument",
+      "latLng": [41.866371278698644, -87.60776383994035],
+      "type": "Public Art"
+    },
+    {
+      "name": "Spiral Galaxy",
+      "latLng": [41.86603370873921, -87.6071415674581],
+      "type": "Public Art"
+    },
+    {
+      "name": "Man Enters The Cosmos",
+      "latLng": [41.86679673415598, -87.60709596990552],
+      "type": "Public Art"
+    },
+    {
+      "name": "Adler Planetarium",
+      "latLng": [41.866447181756755, -87.60679556248539],
+      "type": "Museum"
+    },
+    {
+      "name": "America's Courtyard",
+      "latLng": [41.86567016986556, -87.60656489251352],
+      "type": "Public Art"
+    },
+    {
+      "name": "",
+      "latLng": [],
+      "type": ""
+    },
+    {
+      "name": "",
+      "latLng": [],
+      "type": ""
+    },
+    {
+      "name": "",
+      "latLng": [],
+      "type": ""
+    },
+    {
+      "name": "",
+      "latLng": [],
+      "type": ""
+    },
+    {
+      "name": "",
+      "latLng": [],
+      "type": ""
+    },
+    {
+      "name": "",
+      "latLng": [],
+      "type": ""
+    },
+    {
+      "name": "",
+      "latLng": [],
+      "type": ""
+    },
+    {
+      "name": "",
+      "latLng": [],
+      "type": ""
+    },
+    {
+      "name": "",
+      "latLng": [],
+      "type": ""
+    },
+    {
+      "name": "",
+      "latLng": [],
+      "type": ""
+    },
+    {
+      "name": "",
+      "latLng": [],
+      "type": ""
+    },
+    {
+      "name": "",
+      "latLng": [],
+      "type": ""
+    },
+    {
+      "name": "",
+      "latLng": [],
+      "type": ""
+    },
+    {
+      "name": "",
+      "latLng": [],
+      "type": ""
+    },
+    {
+      "name": "",
+      "latLng": [],
+      "type": ""
+    },
+    {
+      "name": "",
+      "latLng": [],
+      "type": ""
+    },
+    {
+      "name": "",
+      "latLng": [],
+      "type": ""
+    }
+  ]
+}

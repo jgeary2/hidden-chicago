@@ -1,0 +1,6408 @@
+{
+  "sources": ["https://data.cityofchicago.org/Parks-Recreation/Parks-Dog-Friendly-Map-deprecated-November-2016-/p97q-qace"],
+  "filters": [
+    {
+      "field": "name",
+      "label": "Park Name",
+      "type": "string"
+    },
+    {
+      "field": "type",
+      "label": "Type",
+      "type": "string"
+    }
+  ],
+  "styles": {
+    "fill": "#bf855c",
+    "fontSize": 25,
+    "icon": "PetsIcon",
+    "stroke": "black",
+    "strokeWidth": 1
+  },
+  "popup": {
+    "header": "{name}",
+    "content": "{type}. {location}."
+  },
+  "points":[
+    {
+      "id": "1162",
+      "name": "Mckeon (joseph)",
+      "ward": "11",
+      "type": "Mini-park",
+      "location": "600 W 36th St",
+      "latLng": [
+        41.82903552510654,
+        -87.64121494764093
+      ]
+    },
+    {
+      "id": "1139",
+      "name": "Ohio",
+      "ward": "37",
+      "type": "Mini-park",
+      "location": "4712 W Ohio St",
+      "latLng": [
+        41.89145773962588,
+        -87.74324905079695
+      ]
+    },
+    {
+      "id": "206",
+      "name": "Altgeld (john)",
+      "ward": "27",
+      "type": "Community Park",
+      "location": "515 S Washtenaw Ave",
+      "latLng": [
+        41.87472755936259,
+        -87.69364670414106
+      ]
+    },
+    {
+      "id": "468",
+      "name": "Park No. 468",
+      "ward": "13",
+      "type": "Unimproved Park",
+      "location": "4556 W 56th St",
+      "latLng": [
+        41.791344140064204,
+        -87.73694106533623
+      ]
+    },
+    {
+      "id": "33",
+      "name": "Rainey (edward)",
+      "ward": "13",
+      "type": "Regional Park",
+      "location": "4350 W 79th St",
+      "latLng": [
+        41.749472777639994,
+        -87.73073129753891
+      ]
+    },
+    {
+      "id": "260",
+      "name": "Kelly (edward)",
+      "ward": "12",
+      "type": "Community Park",
+      "location": "2725 W 41st St",
+      "latLng": [
+        41.81925144080563,
+        -87.6935789046583
+      ]
+    },
+    {
+      "id": "59",
+      "name": "Oriole",
+      "ward": "41",
+      "type": "Regional Park",
+      "location": "5430 N Olcott Ave",
+      "latLng": [
+        41.979752471520555,
+        -87.81386669629548
+      ]
+    },
+    {
+      "id": "1288",
+      "name": "Jacolik (florian S.)",
+      "ward": "11",
+      "type": "Mini-park",
+      "location": "2731 S Eleanor St",
+      "latLng": [
+        41.84436269126238,
+        -87.66051993335817
+      ]
+    },
+    {
+      "id": "1109",
+      "name": "Hubbard (gurdon)",
+      "ward": "37",
+      "type": "Mini-park",
+      "location": "4950 W Hubbard St",
+      "latLng": [
+        41.888705639096074,
+        -87.74927358256419
+      ]
+    },
+    {
+      "id": "10",
+      "name": "Marquette (jacques)",
+      "ward": "0",
+      "type": "Citywide Park",
+      "location": "6734 S Kedzie Ave",
+      "latLng": [
+        41.77145233302823,
+        -87.70305177751246
+      ]
+    },
+    {
+      "id": "450",
+      "name": "Lazarus (emma)",
+      "ward": "49",
+      "type": "Mini-park",
+      "location": "1257 W Columbia Ave",
+      "latLng": [
+        42.004467508894585,
+        -87.66241713234905
+      ]
+    },
+    {
+      "id": "124",
+      "name": "Simons (almira)",
+      "ward": "31",
+      "type": "Community Park",
+      "location": "1640 N Drake Ave",
+      "latLng": [
+        41.910765224265056,
+        -87.71501213124064
+      ]
+    },
+    {
+      "id": "382",
+      "name": "Park No. 382",
+      "ward": "21",
+      "type": "Neighborhood Park",
+      "location": "8116 S Halsted St",
+      "latLng": [
+        41.74665876685081,
+        -87.64400366412234
+      ]
+    },
+    {
+      "id": "288",
+      "name": "Golden Gate",
+      "ward": "9",
+      "type": "Community Park",
+      "location": "500 E 130th St",
+      "latLng": [
+        null,
+        null
+      ]
+    },
+    {
+      "id": "1094",
+      "name": "Dobson",
+      "ward": "6",
+      "type": "Mini-park",
+      "location": "7521 S Dobson Ave",
+      "latLng": [
+        41.75771290874223,
+        -87.59920670615877
+      ]
+    },
+    {
+      "id": "388",
+      "name": "Washington (dinah)",
+      "ward": "8",
+      "type": "Mini-park",
+      "location": "8215 S Euclid Ave",
+      "latLng": [
+        41.74599224839152,
+        -87.57701688886063
+      ]
+    },
+    {
+      "id": "436",
+      "name": "Periwinkle",
+      "ward": "16",
+      "type": "Neighborhood Park",
+      "location": "100 W 66th St",
+      "latLng": [
+        41.77458348452712,
+        -87.62779942846547
+      ]
+    },
+    {
+      "id": "322",
+      "name": "Birch",
+      "ward": "3",
+      "type": "Mini-park",
+      "location": "427 E 45th St",
+      "latLng": [
+        41.81297972282735,
+        -87.61570665840489
+      ]
+    },
+    {
+      "id": "65",
+      "name": "Fernwood",
+      "ward": "34",
+      "type": "Community Park",
+      "location": "10436 S Wallace St",
+      "latLng": [
+        41.704483995705026,
+        -87.63796824326396
+      ]
+    },
+    {
+      "id": "428",
+      "name": "Warren (laurence)",
+      "ward": "50",
+      "type": "Citywide Park",
+      "location": "6621 N Western Ave",
+      "latLng": [
+        42.001903187081425,
+        -87.68991553987459
+      ]
+    },
+    {
+      "id": "451",
+      "name": "Sun Yat-sen",
+      "ward": "1",
+      "type": "Mini-park",
+      "location": "300 W 24th Pl",
+      "latLng": [
+        41.84827120012017,
+        -87.63475430693008
+      ]
+    },
+    {
+      "id": "518",
+      "name": "Park No. 518",
+      "ward": "49",
+      "type": "Passive Park",
+      "location": "1750 W Juneway Ter",
+      "latLng": [
+        42.022583471519035,
+        -87.67364469534711
+      ]
+    },
+    {
+      "id": "131",
+      "name": "Cragin",
+      "ward": "30",
+      "type": "Neighborhood Park",
+      "location": "2611 N Lockwood Ave",
+      "latLng": [
+        41.92807626727084,
+        -87.7586887027268
+      ]
+    },
+    {
+      "id": "232",
+      "name": "Eckersall (walter Herbert)",
+      "ward": "7",
+      "type": "Neighborhood Park",
+      "location": "2430 E 82nd St",
+      "latLng": [
+        41.746325150537416,
+        -87.56549178643115
+      ]
+    },
+    {
+      "id": "1058",
+      "name": "Pietrowski (sylvester)",
+      "ward": "10",
+      "type": "Neighborhood Park",
+      "location": "9650 S Avenue M",
+      "latLng": [
+        41.72038840136307,
+        -87.53775699966637
+      ]
+    },
+    {
+      "id": "373",
+      "name": "Blackwelder (i.s., Gertrude)",
+      "ward": "19",
+      "type": "Community Park",
+      "location": "1800 W 115th St",
+      "latLng": [
+        41.68478426640253,
+        -87.66639909058227
+      ]
+    },
+    {
+      "id": "391",
+      "name": "Edmonds (molly)",
+      "ward": "16",
+      "type": "Mini-park",
+      "location": "711 W 60th Pl",
+      "latLng": [
+        41.78415225636046,
+        -87.64278433276343
+      ]
+    },
+    {
+      "id": "93",
+      "name": "Gladstone (william)",
+      "ward": "45",
+      "type": "Neighborhood Park",
+      "location": "5421 N Menard Ave",
+      "latLng": [
+        41.979014285330436,
+        -87.7731836878807
+      ]
+    },
+    {
+      "id": "562",
+      "name": "Park No. 562",
+      "ward": "7",
+      "type": "Nature Preserve Park",
+      "location": "1735-37 E 96th St",
+      "latLng": [
+        41.696250000000134,
+        -87.66084000000001
+      ]
+    },
+    {
+      "id": "254",
+      "name": "Beverly",
+      "ward": "19",
+      "type": "Community Park",
+      "location": "2460 W 102nd St",
+      "latLng": [
+        41.70826182926257,
+        -87.6831926368982
+      ]
+    },
+    {
+      "id": "201",
+      "name": "La Follette (robert)",
+      "ward": "37",
+      "type": "Regional Park",
+      "location": "1333 N Laramie Ave",
+      "latLng": [
+        41.90466174990119,
+        -87.75574100187293
+      ]
+    },
+    {
+      "id": "1220",
+      "name": "Levin (john)",
+      "ward": "37",
+      "type": "Community Park",
+      "location": "462 N Pine Ave",
+      "latLng": [
+        41.88898696426592,
+        -87.76339047119167
+      ]
+    },
+    {
+      "id": "384",
+      "name": "Goldberg (louis)",
+      "ward": "49",
+      "type": "Mini-park",
+      "location": "7053 N Glenwood Ave",
+      "latLng": [
+        42.010627371867415,
+        -87.66577619072899
+      ]
+    },
+    {
+      "id": "538",
+      "name": "Thillens",
+      "ward": "0",
+      "type": "Citywide Park",
+      "location": "6400 N Kedzie",
+      "latLng": [
+        41.99744163905919,
+        -87.70939373367877
+      ]
+    },
+    {
+      "id": "1071",
+      "name": "Wilson (john)",
+      "ward": "11",
+      "type": "Neighborhood Park",
+      "location": "1122 W 34th Pl",
+      "latLng": [
+        41.831621507167334,
+        -87.65398994915431
+      ]
+    },
+    {
+      "id": "426",
+      "name": "Brighton",
+      "ward": "12",
+      "type": "Neighborhood Park",
+      "location": "3501 S Richmond St",
+      "latLng": [
+        41.82989607617184,
+        -87.69841765816344
+      ]
+    },
+    {
+      "id": "280",
+      "name": "Spruce",
+      "ward": "4",
+      "type": "Neighborhood Park",
+      "location": "1437 E 54th St",
+      "latLng": [
+        41.79798471680102,
+        -87.59074419562707
+      ]
+    },
+    {
+      "id": "550",
+      "name": "Chicago Women's Park And Gardens",
+      "ward": "2",
+      "type": "Neighborhood Park",
+      "location": "1801 S Indiana Ave",
+      "latLng": [
+        41.8576063949842,
+        -87.62230975314412
+      ]
+    },
+    {
+      "id": "1079",
+      "name": "Krause (francis Vernon)",
+      "ward": "10",
+      "type": "Mini-park",
+      "location": "10558 S Avenue L",
+      "latLng": [
+        41.70348915878308,
+        -87.53652862909928
+      ]
+    },
+    {
+      "id": "165",
+      "name": "Indian Boundary",
+      "ward": "50",
+      "type": "Regional Park",
+      "location": "2500 W Lunt Ave",
+      "latLng": [
+        42.00866637970455,
+        -87.6922073994986
+      ]
+    },
+    {
+      "id": "1036",
+      "name": "Hoyne (thomas)",
+      "ward": "12",
+      "type": "Neighborhood Park",
+      "location": "3417 S Hamilton Ave",
+      "latLng": [
+        41.831860596609225,
+        -87.67891846917935
+      ]
+    },
+    {
+      "id": "1223",
+      "name": "Myrtle Grove",
+      "ward": "41",
+      "type": "Passive Park",
+      "location": "6113 N Neva Ave",
+      "latLng": [
+        41.99248187596033,
+        -87.80555118896103
+      ]
+    },
+    {
+      "id": "1001",
+      "name": "Rainbow Beach",
+      "ward": "10",
+      "type": "Citywide Park",
+      "location": "2873 E 75th St",
+      "latLng": [
+        41.761489999999924,
+        -87.56871999999998
+      ]
+    },
+    {
+      "id": "485",
+      "name": "Kennicott (jonathan)",
+      "ward": "4",
+      "type": "Community Park",
+      "location": "4434 S Lake Park Ave",
+      "latLng": [
+        41.813990680663416,
+        -87.5968030911139
+      ]
+    },
+    {
+      "id": "1091",
+      "name": "Clybourn (archibald)",
+      "ward": "43",
+      "type": "Mini-park",
+      "location": "1755 N Clybourn Ave",
+      "latLng": [
+        41.913068067405,
+        -87.65243755879715
+      ]
+    },
+    {
+      "id": "1033",
+      "name": "Harding (george)",
+      "ward": "3",
+      "type": "Neighborhood Park",
+      "location": "4912 S Calumet Ave",
+      "latLng": [
+        41.80544231703133,
+        -87.61812558678079
+      ]
+    },
+    {
+      "id": "275",
+      "name": "Ronan (george)",
+      "ward": "33",
+      "type": "Neighborhood Park",
+      "location": "3000 W Argyle St",
+      "latLng": [
+        41.972180578990766,
+        -87.70386394284618
+      ]
+    },
+    {
+      "id": "13",
+      "name": "Palmer (potter)",
+      "ward": "9",
+      "type": "Regional Park",
+      "location": "200 E 111th St",
+      "latLng": [
+        41.69271709407591,
+        -87.61818119094679
+      ]
+    },
+    {
+      "id": "9",
+      "name": "Hamilton (alexander)",
+      "ward": "17",
+      "type": "Regional Park",
+      "location": "513 W 72nd St",
+      "latLng": [
+        41.763434745308714,
+        -87.63746326323128
+      ]
+    },
+    {
+      "id": "1132",
+      "name": "Morgan (thomas Leeds) Field",
+      "ward": "34",
+      "type": "Neighborhood Park",
+      "location": "11710 S Morgan St",
+      "latLng": [
+        41.68113721674697,
+        -87.6469446831586
+      ]
+    },
+    {
+      "id": "1052",
+      "name": "Munroe",
+      "ward": "19",
+      "type": "Community Park",
+      "location": "2617 W 105th St",
+      "latLng": [
+        41.702625366216125,
+        -87.68705830121839
+      ]
+    },
+    {
+      "id": "66",
+      "name": "Euclid",
+      "ward": "21",
+      "type": "Community Park",
+      "location": "9800 S Parnell Ave",
+      "latLng": [
+        41.71607792886038,
+        -87.63706013315687
+      ]
+    },
+    {
+      "id": "1053",
+      "name": "Murray (david)",
+      "ward": "17",
+      "type": "Neighborhood Park",
+      "location": "1743 W 73rd St",
+      "latLng": [
+        41.76116223710329,
+        -87.66758737973429
+      ]
+    },
+    {
+      "id": "532",
+      "name": "Park No. 532",
+      "ward": "4",
+      "type": "Neighborhood Park",
+      "location": "4101 S. Lake Park Ave",
+      "latLng": [
+        41.819601888571725,
+        -87.6004776351086
+      ]
+    },
+    {
+      "id": "1260",
+      "name": "North Shore Beach",
+      "ward": "49",
+      "type": "Passive Park",
+      "location": "1040 W North Shore Ave",
+      "latLng": [
+        42.00372118627414,
+        -87.65806654411683
+      ]
+    },
+    {
+      "id": "19",
+      "name": "Jackson (andrew)",
+      "ward": "5",
+      "type": "Magnet Park",
+      "location": "6401 S Stony Island Ave",
+      "latLng": [
+        41.77871315945346,
+        -87.58634165308793
+      ]
+    },
+    {
+      "id": "1251",
+      "name": "Columbia Beach",
+      "ward": "49",
+      "type": "Passive Park",
+      "location": "1040 W Columbia Ave",
+      "latLng": [
+        42.00472247892974,
+        -87.65844728500072
+      ]
+    },
+    {
+      "id": "241",
+      "name": "Mather (stephen Tyng)",
+      "ward": "40",
+      "type": "Regional Park",
+      "location": "5835 N Lincoln Ave",
+      "latLng": [
+        41.98749492038529,
+        -87.70239062431834
+      ]
+    },
+    {
+      "id": "1078",
+      "name": "Andersonville",
+      "ward": "40",
+      "type": "Mini-park",
+      "location": "5233 N Ashland Ave",
+      "latLng": [
+        41.9771711048617,
+        -87.66957070816875
+      ]
+    },
+    {
+      "id": "229",
+      "name": "Hiawatha",
+      "ward": "36",
+      "type": "Community Park",
+      "location": "8029 W Forest Preserve Ave",
+      "latLng": [
+        41.94416740107104,
+        -87.82730104043402
+      ]
+    },
+    {
+      "id": "244",
+      "name": "Gately (james)",
+      "ward": "8",
+      "type": "Community Park",
+      "location": "810 E 103rd St",
+      "latLng": [
+        41.707541942177976,
+        -87.60373417753736
+      ]
+    },
+    {
+      "id": "129",
+      "name": "Amundsen (roald)",
+      "ward": "36",
+      "type": "Community Park",
+      "location": "6200 W Bloomingdale Ave",
+      "latLng": [
+        41.91289757680437,
+        -87.78068935572418
+      ]
+    },
+    {
+      "id": "512",
+      "name": "Park No. 512",
+      "ward": "32",
+      "type": "Unimproved Park",
+      "location": "1800 N Ashland Ave",
+      "latLng": [
+        41.92230000000001,
+        -87.65132999999997
+      ]
+    },
+    {
+      "id": "379",
+      "name": "White (edward)",
+      "ward": "34",
+      "type": "Neighborhood Park",
+      "location": "1120 W 122nd St",
+      "latLng": [
+        41.6722893273225,
+        -87.64989065298528
+      ]
+    },
+    {
+      "id": "3",
+      "name": "Armour (philip) Square",
+      "ward": "11",
+      "type": "Community Park",
+      "location": "3309 S Shields Ave",
+      "latLng": [
+        41.83438777045396,
+        -87.6351365401036
+      ]
+    },
+    {
+      "id": "1098",
+      "name": "Emerald",
+      "ward": "3",
+      "type": "Mini-park",
+      "location": "5600 S Emerald Ave",
+      "latLng": [
+        41.79230775432685,
+        -87.64396202896899
+      ]
+    },
+    {
+      "id": "187",
+      "name": "Brands",
+      "ward": "33",
+      "type": "Community Park",
+      "location": "3285 N Elston Ave",
+      "latLng": [
+        41.94099278508439,
+        -87.70050716090475
+      ]
+    },
+    {
+      "id": "1018",
+      "name": "Wilson (john) Comm. Ctr.",
+      "ward": "11",
+      "type": "Community Park",
+      "location": "3225 S Racine Ave",
+      "latLng": [
+        41.83532668245461,
+        -87.65587675796482
+      ]
+    },
+    {
+      "id": "1041",
+      "name": "Kensington",
+      "ward": "9",
+      "type": "Neighborhood Park",
+      "location": "345 E 118th St",
+      "latLng": [
+        41.67987659512123,
+        -87.61635219604528
+      ]
+    },
+    {
+      "id": "516",
+      "name": "Canalport Riverwalk",
+      "ward": "11",
+      "type": "Passive Park",
+      "location": "2900 S Ashland Ave",
+      "latLng": [
+        41.840550176780745,
+        -87.66587552032554
+      ]
+    },
+    {
+      "id": "493",
+      "name": "Kelly (john)",
+      "ward": "44",
+      "type": "Passive Park",
+      "location": "3800 N Seminary Ave",
+      "latLng": [
+        41.95109006650025,
+        -87.65689178585939
+      ]
+    },
+    {
+      "id": "296",
+      "name": "Dooley (thomas)",
+      "ward": "18",
+      "type": "Neighborhood Park",
+      "location": "3426 W 77th St",
+      "latLng": [
+        41.7534225361982,
+        -87.7084642083754
+      ]
+    },
+    {
+      "id": "4",
+      "name": "Fuller (melville)",
+      "ward": "11",
+      "type": "Community Park",
+      "location": "331 W 45th St",
+      "latLng": [
+        41.81245740046775,
+        -87.63416660754879
+      ]
+    },
+    {
+      "id": "18",
+      "name": "Tuley (murray)",
+      "ward": "6",
+      "type": "Regional Park",
+      "location": "501 E 90th Pl",
+      "latLng": [
+        41.73041578589959,
+        -87.61190764960114
+      ]
+    },
+    {
+      "id": "1242",
+      "name": "Seneca",
+      "ward": "42",
+      "type": "Neighborhood Park",
+      "location": "228 E Chicago Ave",
+      "latLng": [
+        41.89684581350813,
+        -87.62164170332684
+      ]
+    },
+    {
+      "id": "1061",
+      "name": "Schreiber",
+      "ward": "40",
+      "type": "Neighborhood Park",
+      "location": "1552 W Schreiber Ave",
+      "latLng": [
+        41.999061620431576,
+        -87.66941065141224
+      ]
+    },
+    {
+      "id": "1064",
+      "name": "Tilton (george)",
+      "ward": "0",
+      "type": "Neighborhood Park",
+      "location": "305 N Kostner",
+      "latLng": [
+        41.88571687790375,
+        -87.73552932427177
+      ]
+    },
+    {
+      "id": "84",
+      "name": "Kilbourn",
+      "ward": "35",
+      "type": "Community Park",
+      "location": "3501 N Kilbourn Ave",
+      "latLng": [
+        41.94441192501492,
+        -87.73957059127865
+      ]
+    },
+    {
+      "id": "1111",
+      "name": "Hansberry (lorraine)",
+      "ward": "20",
+      "type": "Mini-park",
+      "location": "5635 S Indiana Ave",
+      "latLng": [
+        41.7922717996933,
+        -87.62069716882426
+      ]
+    },
+    {
+      "id": "1048",
+      "name": "Memorial",
+      "ward": "6",
+      "type": "Neighborhood Park",
+      "location": "149 W 73rd St",
+      "latLng": [
+        41.76175531219116,
+        -87.62863768165641
+      ]
+    },
+    {
+      "id": "245",
+      "name": "West Lawn",
+      "ward": "13",
+      "type": "Regional Park",
+      "location": "4233 W 65th St",
+      "latLng": [
+        41.77486846672091,
+        -87.7283393427522
+      ]
+    },
+    {
+      "id": "396",
+      "name": "Snapping Turtle",
+      "ward": "27",
+      "type": "Mini-park",
+      "location": "534 N Albany Ave",
+      "latLng": [
+        41.89090102143409,
+        -87.70400387632914
+      ]
+    },
+    {
+      "id": "554",
+      "name": "Park No. 554",
+      "ward": "26",
+      "type": "Unimproved Park",
+      "location": "1805 N Albany Ave",
+      "latLng": [
+        41.91391294723866,
+        -87.70517328492383
+      ]
+    },
+    {
+      "id": "57",
+      "name": "Monument",
+      "ward": "41",
+      "type": "Neighborhood Park",
+      "location": "6700 N Avondale Ave",
+      "latLng": [
+        42.00240623492181,
+        -87.81850584705626
+      ]
+    },
+    {
+      "id": "1068",
+      "name": "Wagner (clarence)",
+      "ward": "11",
+      "type": "Neighborhood Park",
+      "location": "948 W 51st St",
+      "latLng": [
+        41.80158755973838,
+        -87.64895563253063
+      ]
+    },
+    {
+      "id": "1083",
+      "name": "Bixler (ray)",
+      "ward": "5",
+      "type": "Neighborhood Park",
+      "location": "5641 S Kenwood Ave",
+      "latLng": [
+        41.792875219210096,
+        -87.59318440045139
+      ]
+    },
+    {
+      "id": "558",
+      "name": "Park No. 558",
+      "ward": "19",
+      "type": "Unimproved Park",
+      "location": "10609-15 S Western Ave",
+      "latLng": [
+        41.696250000000134,
+        -87.66084000000001
+      ]
+    },
+    {
+      "id": "1030",
+      "name": "Fosco (peter)",
+      "ward": "1",
+      "type": "Neighborhood Park",
+      "location": "1313 S Throop St",
+      "latLng": [
+        41.86477993410835,
+        -87.65877142270114
+      ]
+    },
+    {
+      "id": "148",
+      "name": "Shabbona",
+      "ward": "36",
+      "type": "Regional Park",
+      "location": "6935 W Addison",
+      "latLng": [
+        41.94534958225733,
+        -87.79940650909089
+      ]
+    },
+    {
+      "id": "264",
+      "name": "Bogan (william)",
+      "ward": "18",
+      "type": "Regional Park",
+      "location": "3939 W 79th St",
+      "latLng": [
+        41.749426646975735,
+        -87.72024569344042
+      ]
+    },
+    {
+      "id": "283",
+      "name": "Erhler (william)",
+      "ward": "32",
+      "type": "Neighborhood Park",
+      "location": "2230 W Cortland St",
+      "latLng": [
+        41.91618378081068,
+        -87.6831756500542
+      ]
+    },
+    {
+      "id": "189",
+      "name": "California",
+      "ward": "33",
+      "type": "Community Park",
+      "location": "3843 N California Ave",
+      "latLng": [
+        41.951111371599815,
+        -87.69813275616544
+      ]
+    },
+    {
+      "id": "530",
+      "name": "Daley (richard J.)",
+      "ward": "0",
+      "type": "Unimproved Park",
+      "location": "3150 S Western Ave",
+      "latLng": [
+        41.83556866674708,
+        -87.68465399204362
+      ]
+    },
+    {
+      "id": "1257",
+      "name": "Jarvis (r.j.) Beach",
+      "ward": "49",
+      "type": "Neighborhood Park",
+      "location": "1234 W Jarvis Ave",
+      "latLng": [
+        42.0161355896905,
+        -87.66352349874863
+      ]
+    },
+    {
+      "id": "5",
+      "name": "Cornell (paul) Square",
+      "ward": "14",
+      "type": "Community Park",
+      "location": "1809 W 50th St",
+      "latLng": [
+        41.80302567756718,
+        -87.66990815817904
+      ]
+    },
+    {
+      "id": "156",
+      "name": "Jacob",
+      "ward": "40",
+      "type": "Mini-park",
+      "location": "4674 N Virginia Ave",
+      "latLng": [
+        41.966419635850755,
+        -87.69779267688513
+      ]
+    },
+    {
+      "id": "321",
+      "name": "Aspen",
+      "ward": "3",
+      "type": "Mini-park",
+      "location": "4237 S Wabash Ave",
+      "latLng": [
+        41.8176359971553,
+        -87.62458343398094
+      ]
+    },
+    {
+      "id": "1267",
+      "name": "Lyle (john)",
+      "ward": "17",
+      "type": "Passive Park",
+      "location": "7700 S Wallace St",
+      "latLng": [
+        41.75426401359369,
+        -87.63990966510175
+      ]
+    },
+    {
+      "id": "158",
+      "name": "Sunken Gardens",
+      "ward": "47",
+      "type": "Passive Park",
+      "location": "2634 W Sunnyside Ave",
+      "latLng": [
+        41.96314269858135,
+        -87.69480494835405
+      ]
+    },
+    {
+      "id": "1039",
+      "name": "Kedvale",
+      "ward": "31",
+      "type": "Neighborhood Park",
+      "location": "4140 W Hirsch St",
+      "latLng": [
+        41.90629351661185,
+        -87.73027524116445
+      ]
+    },
+    {
+      "id": "1043",
+      "name": "White (willye B.)",
+      "ward": "0",
+      "type": "Community Park",
+      "location": "7631 N Ashland Ave",
+      "latLng": [
+        42.02074579943063,
+        -87.6706256233563
+      ]
+    },
+    {
+      "id": "128",
+      "name": "Mozart (amadeus)",
+      "ward": "31",
+      "type": "Community Park",
+      "location": "2036 N Avers Ave",
+      "latLng": [
+        41.917891809336695,
+        -87.72295685946894
+      ]
+    },
+    {
+      "id": "1059",
+      "name": "Sain (harry)",
+      "ward": "27",
+      "type": "Neighborhood Park",
+      "location": "2453 W Monroe St",
+      "latLng": [
+        41.88019226578892,
+        -87.68704714499978
+      ]
+    },
+    {
+      "id": "306",
+      "name": "Dubkin (leonard)",
+      "ward": "49",
+      "type": "Passive Park",
+      "location": "7442 N Ashland Blvd",
+      "latLng": [
+        42.01729757621276,
+        -87.67037488566595
+      ]
+    },
+    {
+      "id": "179",
+      "name": "Graver (philip)",
+      "ward": "19",
+      "type": "Neighborhood Park",
+      "location": "1518 W 102nd Pl",
+      "latLng": [
+        41.70734399383694,
+        -87.66017862660087
+      ]
+    },
+    {
+      "id": "1042",
+      "name": "Ken-well",
+      "ward": "35",
+      "type": "Neighborhood Park",
+      "location": "2945 N Kenosha Ave",
+      "latLng": [
+        41.934366475104866,
+        -87.73377232807303
+      ]
+    },
+    {
+      "id": "1035",
+      "name": "Horan (albert)",
+      "ward": "28",
+      "type": "Neighborhood Park",
+      "location": "3035 W Van Buren St",
+      "latLng": [
+        41.87585201106498,
+        -87.70238183469166
+      ]
+    },
+    {
+      "id": "125",
+      "name": "Hermosa",
+      "ward": "30",
+      "type": "Neighborhood Park",
+      "location": "2240 N Kilbourn Ave",
+      "latLng": [
+        41.921738021921556,
+        -87.73897905902746
+      ]
+    },
+    {
+      "id": "535",
+      "name": "Park No. 535",
+      "ward": "43",
+      "type": "Mini-park",
+      "location": "800 W Wisconsin St",
+      "latLng": [
+        41.916008367566974,
+        -87.64902861063467
+      ]
+    },
+    {
+      "id": "16",
+      "name": "Trumbull (lyman)",
+      "ward": "10",
+      "type": "Regional Park",
+      "location": "2400 E 105th St",
+      "latLng": [
+        41.704641299234446,
+        -87.56563479261322
+      ]
+    },
+    {
+      "id": "1286",
+      "name": "Lee (john)",
+      "ward": "18",
+      "type": "Mini-park",
+      "location": "3700 W 87th St",
+      "latLng": [
+        41.73501928081332,
+        -87.71420522719168
+      ]
+    },
+    {
+      "id": "403",
+      "name": "Wolcott (alexander)",
+      "ward": "15",
+      "type": "Mini-park",
+      "location": "6551 S Wolcott Ave",
+      "latLng": [
+        41.774820787777514,
+        -87.67128934254377
+      ]
+    },
+    {
+      "id": "519",
+      "name": "Park No. 519",
+      "ward": "24",
+      "type": "Mini-park",
+      "location": "1944 S St. Louis Ave",
+      "latLng": [
+        41.85396414076553,
+        -87.71240383403943
+      ]
+    },
+    {
+      "id": "21",
+      "name": "Washington (george)",
+      "ward": "0",
+      "type": "Citywide Park",
+      "location": "5531 S Dr Martin Luther King J",
+      "latLng": [
+        41.78082999999998,
+        -87.60190999999998
+      ]
+    },
+    {
+      "id": "416",
+      "name": "Cottonwood",
+      "ward": "37",
+      "type": "Mini-park",
+      "location": "5058 W West End Ave",
+      "latLng": [
+        41.883099921946,
+        -87.75169726622529
+      ]
+    },
+    {
+      "id": "1217",
+      "name": "Kinzie (john) Pkwy.",
+      "ward": "37",
+      "type": "Passive Park",
+      "location": "5200 W Kinzie St",
+      "latLng": [
+        41.88783320137772,
+        -87.75541994083441
+      ]
+    },
+    {
+      "id": "486",
+      "name": "Winnemac",
+      "ward": "47",
+      "type": "Neighborhood Park",
+      "location": "5001 N Leavitt St",
+      "latLng": [
+        41.97233198247668,
+        -87.68408380408277
+      ]
+    },
+    {
+      "id": "1123",
+      "name": "Lunt (orrington, Stephen)",
+      "ward": "50",
+      "type": "Mini-park",
+      "location": "2239 W Lunt Ave",
+      "latLng": [
+        42.008688691533,
+        -87.68683610141613
+      ]
+    },
+    {
+      "id": "292",
+      "name": "Coleman (bessie)",
+      "ward": "4",
+      "type": "Mini-park",
+      "location": "900 E 54th Pl",
+      "latLng": [
+        41.79653429943323,
+        -87.60328162785162
+      ]
+    },
+    {
+      "id": "299",
+      "name": "Hickory",
+      "ward": "48",
+      "type": "Mini-park",
+      "location": "4834 N Winthrop Ave",
+      "latLng": [
+        41.969939075840855,
+        -87.6576053599007
+      ]
+    },
+    {
+      "id": "1150",
+      "name": "Superior",
+      "ward": "32",
+      "type": "Mini-park",
+      "location": "2101 W Superior St",
+      "latLng": [
+        41.894908077026976,
+        -87.67954222776295
+      ]
+    },
+    {
+      "id": "482",
+      "name": "Nash (don) Comm. Ctr.",
+      "ward": "5",
+      "type": "Community Park",
+      "location": "1833 E 71st St",
+      "latLng": [
+        41.765982603180305,
+        -87.5802613221388
+      ]
+    },
+    {
+      "id": "513",
+      "name": "Park No. 513",
+      "ward": "42",
+      "type": "Passive Park",
+      "location": "1401 S Indiana Ave",
+      "latLng": [
+        41.863838696647235,
+        -87.62236371246593
+      ]
+    },
+    {
+      "id": "1124",
+      "name": "Merryman (theron)",
+      "ward": "47",
+      "type": "Mini-park",
+      "location": "3736 N Marshfield Ave",
+      "latLng": [
+        41.94948343722664,
+        -87.67020940151451
+      ]
+    },
+    {
+      "id": "176",
+      "name": "Cosme (margaret)",
+      "ward": "19",
+      "type": "Neighborhood Park",
+      "location": "2100 W 91st St",
+      "latLng": [
+        41.728392397940674,
+        -87.6746631658291
+      ]
+    },
+    {
+      "id": "1135",
+      "name": "Weisman (albert)",
+      "ward": "44",
+      "type": "Mini-park",
+      "location": "901 W Oakdale Ave",
+      "latLng": [
+        41.935341406119036,
+        -87.65159918827251
+      ]
+    },
+    {
+      "id": "1214",
+      "name": "Eugenie Triangle",
+      "ward": "43",
+      "type": "Passive Park",
+      "location": "1707 N La Salle St",
+      "latLng": [
+        41.912976226043035,
+        -87.63306885033433
+      ]
+    },
+    {
+      "id": "447",
+      "name": "Martin (johnny)",
+      "ward": "44",
+      "type": "Mini-park",
+      "location": "922 W Fletcher St",
+      "latLng": [
+        41.93900999129732,
+        -87.65242716465252
+      ]
+    },
+    {
+      "id": "338",
+      "name": "Jefferson (nancy)",
+      "ward": "27",
+      "type": "Neighborhood Park",
+      "location": "3111 W Fulton Blvd",
+      "latLng": [
+        41.88638044515689,
+        -87.70409752680732
+      ]
+    },
+    {
+      "id": "457",
+      "name": "Clark (richard)",
+      "ward": "47",
+      "type": "Passive Park",
+      "location": "3400 N Rockwell Ave",
+      "latLng": [
+        41.94318126924641,
+        -87.6938340897585
+      ]
+    },
+    {
+      "id": "106",
+      "name": "Hamlin (hannibal)",
+      "ward": "32",
+      "type": "Community Park",
+      "location": "3035 N Hoyne Ave",
+      "latLng": [
+        41.936520770522,
+        -87.68060487558624
+      ]
+    },
+    {
+      "id": "544",
+      "name": "Klein (lois)",
+      "ward": "32",
+      "type": "Passive Park",
+      "location": "3538-40 N Lincoln Ave",
+      "latLng": [
+        41.93966,
+        -87.65668
+      ]
+    },
+    {
+      "id": "1013",
+      "name": "Leone (sam) Beach",
+      "ward": "49",
+      "type": "Community Park",
+      "location": "1222 W Touhy Ave",
+      "latLng": [
+        42.01293241179647,
+        -87.66199860447963
+      ]
+    },
+    {
+      "id": "417",
+      "name": "Hazelnut",
+      "ward": "29",
+      "type": "Mini-park",
+      "location": "5949 W Huron St",
+      "latLng": [
+        41.892791769080944,
+        -87.77360572661482
+      ]
+    },
+    {
+      "id": "214",
+      "name": "Wicker (charles, Joel)",
+      "ward": "26",
+      "type": "Community Park",
+      "location": "1425 N Damen Ave",
+      "latLng": [
+        41.90742500122083,
+        -87.67729600470253
+      ]
+    },
+    {
+      "id": "279",
+      "name": "Elm",
+      "ward": "4",
+      "type": "Passive Park",
+      "location": "5215 S Woodlawn Ave",
+      "latLng": [
+        41.800678017860825,
+        -87.59659816710874
+      ]
+    },
+    {
+      "id": "316",
+      "name": "Wood (elizabeth)",
+      "ward": "33",
+      "type": "Mini-park",
+      "location": "2914 N Leavitt St",
+      "latLng": [
+        41.93459420364016,
+        -87.6831442771181
+      ]
+    },
+    {
+      "id": "1028",
+      "name": "Micek (frank)",
+      "ward": "14",
+      "type": "Neighborhood Park",
+      "location": "5311 S Hamilton Ave",
+      "latLng": [
+        41.796974169033724,
+        -87.67791788275771
+      ]
+    },
+    {
+      "id": "34",
+      "name": "Northerly Island",
+      "ward": "1",
+      "type": "Magnet Park",
+      "location": "1400 S Lynn White Dr",
+      "latLng": [
+        41.863104937710304,
+        -87.60910669563046
+      ]
+    },
+    {
+      "id": "1281",
+      "name": "Filbert",
+      "ward": "47",
+      "type": "Mini-park",
+      "location": "1822 W Larchmont Ave",
+      "latLng": [
+        41.9533249770172,
+        -87.67469105751624
+      ]
+    },
+    {
+      "id": "234",
+      "name": "Hale (nathan)",
+      "ward": "23",
+      "type": "Regional Park",
+      "location": "6140 S Melvina Ave",
+      "latLng": [
+        41.78068716003814,
+        -87.77654377543566
+      ]
+    },
+    {
+      "id": "331",
+      "name": "Flying Squirrel",
+      "ward": "20",
+      "type": "Mini-park",
+      "location": "6600 S Woodlawn Ave",
+      "latLng": [
+        41.77499332425278,
+        -87.59613996010869
+      ]
+    },
+    {
+      "id": "1133",
+      "name": "Nelson (andrew)",
+      "ward": "33",
+      "type": "Mini-park",
+      "location": "2953 W Nelson St",
+      "latLng": [
+        41.93723462372725,
+        -87.70185590207119
+      ]
+    },
+    {
+      "id": "334",
+      "name": "King (martin Luther, Jr.)",
+      "ward": "17",
+      "type": "Regional Park",
+      "location": "1212 W 77th St",
+      "latLng": [
+        41.75418260905677,
+        -87.65406567406392
+      ]
+    },
+    {
+      "id": "347",
+      "name": "Ginkgo",
+      "ward": "24",
+      "type": "Mini-park",
+      "location": "3432 W 15th St",
+      "latLng": [
+        41.86090565257723,
+        -87.7116668621937
+      ]
+    },
+    {
+      "id": "1126",
+      "name": "Merrill (george)",
+      "ward": "10",
+      "type": "Neighborhood Park",
+      "location": "2131 E 96th St",
+      "latLng": [
+        41.720628472953386,
+        -87.57257728600307
+      ]
+    },
+    {
+      "id": "1055",
+      "name": "Little Venice",
+      "ward": "14",
+      "type": "Neighborhood Park",
+      "location": "2251 W 50th Pl",
+      "latLng": [
+        41.80201385517387,
+        -87.6809044730743
+      ]
+    },
+    {
+      "id": "217",
+      "name": "Pulaski (casimer)",
+      "ward": "32",
+      "type": "Community Park",
+      "location": "1419 W Blackhawk St",
+      "latLng": [
+        41.90318000000002,
+        -87.68408
+      ]
+    },
+    {
+      "id": "1112",
+      "name": "Jackson (robert)",
+      "ward": "3",
+      "type": "Mini-park",
+      "location": "4319 S Indiana Ave",
+      "latLng": [
+        41.8161909483838,
+        -87.62132413903343
+      ]
+    },
+    {
+      "id": "510",
+      "name": "Park No. 510",
+      "ward": "25",
+      "type": "Unimproved Park",
+      "location": "2139-59 W. Lexington St",
+      "latLng": [
+        41.88057000000009,
+        -87.68777999999998
+      ]
+    },
+    {
+      "id": "378",
+      "name": "Cornell (paul)",
+      "ward": "5",
+      "type": "Mini-park",
+      "location": "5473 S Cornell Ave",
+      "latLng": [
+        41.79602112290249,
+        -87.58534960138121
+      ]
+    },
+    {
+      "id": "490",
+      "name": "Ridge Park Wetlands",
+      "ward": "19",
+      "type": "Passive Park",
+      "location": "9516 S Wood St",
+      "latLng": [
+        41.72080653509911,
+        -87.66757973116323
+      ]
+    },
+    {
+      "id": "537",
+      "name": "Heritage Green",
+      "ward": "2",
+      "type": "Passive Park",
+      "location": "610-30 W Adams St",
+      "latLng": [
+        41.88292999999999,
+        -87.64358999999996
+      ]
+    },
+    {
+      "id": "1056",
+      "name": "Park-view",
+      "ward": "35",
+      "type": "Neighborhood Park",
+      "location": "3823 W School St",
+      "latLng": [
+        41.940898013713266,
+        -87.72325839543788
+      ]
+    },
+    {
+      "id": "488",
+      "name": "Challenger",
+      "ward": "46",
+      "type": "Neighborhood Park",
+      "location": "1100 W Irving Park Rd",
+      "latLng": [
+        41.95449190566012,
+        -87.65697200955285
+      ]
+    },
+    {
+      "id": "496",
+      "name": "Boler (leo Roscoe, Sr.)",
+      "ward": "24",
+      "type": "Neighborhood Park",
+      "location": "3601 W Arthington St",
+      "latLng": [
+        41.869872017371854,
+        -87.71553942874213
+      ]
+    },
+    {
+      "id": "1032",
+      "name": "Haas (joseph)",
+      "ward": "33",
+      "type": "Neighborhood Park",
+      "location": "2402 N Washtenaw Ave",
+      "latLng": [
+        41.92492784720372,
+        -87.6950423012306
+      ]
+    },
+    {
+      "id": "1022",
+      "name": "Barrett (john)",
+      "ward": "25",
+      "type": "Neighborhood Park",
+      "location": "2022 W Cermak Rd",
+      "latLng": [
+        41.85223664941679,
+        -87.67639330350434
+      ]
+    },
+    {
+      "id": "239",
+      "name": "Dawes (charles)",
+      "ward": "18",
+      "type": "Community Park",
+      "location": "8040 S Damen Av",
+      "latLng": [
+        41.747356590549835,
+        -87.67313800388732
+      ]
+    },
+    {
+      "id": "566",
+      "name": "Park No. 566",
+      "ward": "7",
+      "type": "Unimproved",
+      "location": "7901 S Farragut",
+      "latLng": [
+        41.712690000000066,
+        -87.55551000000003
+      ]
+    },
+    {
+      "id": "536",
+      "name": "Park No. 536",
+      "ward": "32",
+      "type": "Unimproved Park",
+      "location": "1401 N Noble St",
+      "latLng": [
+        41.90318000000002,
+        -87.68408
+      ]
+    },
+    {
+      "id": "1011",
+      "name": "Lawler (michael)",
+      "ward": "13",
+      "type": "Community Park",
+      "location": "5210 W 64th St",
+      "latLng": [
+        41.776037107986554,
+        -87.75112378358243
+      ]
+    },
+    {
+      "id": "1086",
+      "name": "Carpenter (philo)",
+      "ward": "16",
+      "type": "Mini-park",
+      "location": "6155 S Carpenter St",
+      "latLng": [
+        41.782278068739394,
+        -87.65085501217841
+      ]
+    },
+    {
+      "id": "7",
+      "name": "Sherman (john)",
+      "ward": "15",
+      "type": "Regional Park",
+      "location": "1307 W 52nd St",
+      "latLng": [
+        41.79953498429973,
+        -87.6576156184181
+      ]
+    },
+    {
+      "id": "1276",
+      "name": "Evergreen",
+      "ward": "44",
+      "type": "Mini-park",
+      "location": "631 W Belmont Ave",
+      "latLng": [
+        41.93998269268468,
+        -87.64574625066184
+      ]
+    },
+    {
+      "id": "522",
+      "name": "Wang (chi Che)",
+      "ward": "32",
+      "type": "Unimproved Park",
+      "location": "1762 W Diversey Pkwy",
+      "latLng": [
+        41.93966,
+        -87.65668
+      ]
+    },
+    {
+      "id": "90",
+      "name": "North Mayfair",
+      "ward": "39",
+      "type": "Neighborhood Park",
+      "location": "4537 W Carmen Ave",
+      "latLng": [
+        41.97351315281124,
+        -87.74197031538246
+      ]
+    },
+    {
+      "id": "291",
+      "name": "Stout (florence)",
+      "ward": "4",
+      "type": "Neighborhood Park",
+      "location": "5446 S Greenwood Ave",
+      "latLng": [
+        41.79672531391511,
+        -87.59976090787049
+      ]
+    },
+    {
+      "id": "542",
+      "name": "Bartelme (mary)",
+      "ward": "2",
+      "type": "Neighborhood Park",
+      "location": "115 S. Sangamon St",
+      "latLng": [
+        41.88324000000006,
+        -87.6291
+      ]
+    },
+    {
+      "id": "465",
+      "name": "Dearborn (henry)",
+      "ward": "1",
+      "type": "Passive Park",
+      "location": "865 S Park Ter",
+      "latLng": [
+        41.87092227698244,
+        -87.62947692359775
+      ]
+    },
+    {
+      "id": "1272",
+      "name": "Butternut",
+      "ward": "4",
+      "type": "Mini-park",
+      "location": "5324 S Woodlawn Ave",
+      "latLng": [
+        41.79908478235347,
+        -87.59669827623404
+      ]
+    },
+    {
+      "id": "246",
+      "name": "Touhy (patrick)",
+      "ward": "49",
+      "type": "Community Park",
+      "location": "7348 N Paulina St",
+      "latLng": [
+        42.01485083190631,
+        -87.67251926344815
+      ]
+    },
+    {
+      "id": "429",
+      "name": "South Shore Cultl. Ctr.",
+      "ward": "5",
+      "type": "Citywide Park",
+      "location": "7059 S South Shore Dr",
+      "latLng": [
+        41.76674595610796,
+        -87.56639757095289
+      ]
+    },
+    {
+      "id": "333",
+      "name": "Magnolia",
+      "ward": "24",
+      "type": "Mini-park",
+      "location": "3228 W Flournoy St",
+      "latLng": [
+        41.87280942088451,
+        -87.70662934248283
+      ]
+    },
+    {
+      "id": "1050",
+      "name": "Moore (maurice)",
+      "ward": "29",
+      "type": "Neighborhood Park",
+      "location": "5085 W Adams St",
+      "latLng": [
+        41.87844122282727,
+        -87.75277570429367
+      ]
+    },
+    {
+      "id": "344",
+      "name": "Dogwood",
+      "ward": "27",
+      "type": "Mini-park",
+      "location": "2734 W Polk St",
+      "latLng": [
+        41.87112344764357,
+        -87.69445903991468
+      ]
+    },
+    {
+      "id": "1047",
+      "name": "Garibaldi (giuseppi)",
+      "ward": "1",
+      "type": "Neighborhood Park",
+      "location": "1520 W Polk St",
+      "latLng": [
+        41.87170606227912,
+        -87.6646742545981
+      ]
+    },
+    {
+      "id": "1073",
+      "name": "Woodhull (ross)",
+      "ward": "5",
+      "type": "Neighborhood Park",
+      "location": "7340 S East End Ave",
+      "latLng": [
+        41.76166984988256,
+        -87.58361657437297
+      ]
+    },
+    {
+      "id": "1040",
+      "name": "Kells (george)",
+      "ward": "27",
+      "type": "Neighborhood Park",
+      "location": "3201 W Chicago Ave",
+      "latLng": [
+        41.88020000000006,
+        -87.72311000000002
+      ]
+    },
+    {
+      "id": "1215",
+      "name": "Fernwood Pkwy.",
+      "ward": "21",
+      "type": "Passive Park",
+      "location": "9501 S Eggleston Ave",
+      "latLng": [
+        41.691100000000006,
+        -87.61517000000003
+      ]
+    },
+    {
+      "id": "177",
+      "name": "Brainerd",
+      "ward": "21",
+      "type": "Community Park",
+      "location": "1246 W 92nd St",
+      "latLng": [
+        41.726838075426336,
+        -87.6541891417518
+      ]
+    },
+    {
+      "id": "1089",
+      "name": "Christiana",
+      "ward": "24",
+      "type": "Mini-park",
+      "location": "1533 S Christiana Ave",
+      "latLng": [
+        41.86026560821678,
+        -87.70905357277866
+      ]
+    },
+    {
+      "id": "1100",
+      "name": "Fellger (charles)",
+      "ward": "32",
+      "type": "Neighborhood Park",
+      "location": "2012 W Belmont Ave",
+      "latLng": [
+        41.939630246094445,
+        -87.67885974200806
+      ]
+    },
+    {
+      "id": "1261",
+      "name": "Pratt (george, Paul) Beach",
+      "ward": "49",
+      "type": "Passive Park",
+      "location": "1050 W Pratt Blvd",
+      "latLng": [
+        42.00561046024516,
+        -87.6587418876996
+      ]
+    },
+    {
+      "id": "1092",
+      "name": "Davis (margaret)",
+      "ward": "37",
+      "type": "Mini-park",
+      "location": "5427 W Division St",
+      "latLng": [
+        41.90213862028706,
+        -87.76176419500287
+      ]
+    },
+    {
+      "id": "336",
+      "name": "Huckleberry",
+      "ward": "20",
+      "type": "Mini-park",
+      "location": "6200 S Kimbark Ave",
+      "latLng": [
+        41.782295352111795,
+        -87.59476373159039
+      ]
+    },
+    {
+      "id": "1038",
+      "name": "Indian Road",
+      "ward": "45",
+      "type": "Neighborhood Park",
+      "location": "6010 W Matson Ave",
+      "latLng": [
+        41.99281141928152,
+        -87.77830316817563
+      ]
+    },
+    {
+      "id": "22",
+      "name": "Gage (george)",
+      "ward": "16",
+      "type": "Regional Park",
+      "location": "2415 W 55th St",
+      "latLng": [
+        41.77413000000007,
+        -87.71231
+      ]
+    },
+    {
+      "id": "526",
+      "name": "Park No. 526",
+      "ward": "0",
+      "type": "Unimproved Park",
+      "location": "3200 W Peterson Ave",
+      "latLng": [
+        41.99037330616977,
+        -87.71005660354297
+      ]
+    },
+    {
+      "id": "1130",
+      "name": "Monticello",
+      "ward": "31",
+      "type": "Mini-park",
+      "location": "1814 N Monticello Ave",
+      "latLng": [
+        41.91390722705534,
+        -87.7179533250964
+      ]
+    },
+    {
+      "id": "1031",
+      "name": "Gross",
+      "ward": "40",
+      "type": "Neighborhood Park",
+      "location": "2708 W Lawrence Ave",
+      "latLng": [
+        41.96859889546024,
+        -87.69660624272714
+      ]
+    },
+    {
+      "id": "1268",
+      "name": "Midway Plaisance",
+      "ward": "5",
+      "type": "Citywide Park",
+      "location": "5950 S Woodlawn Ave",
+      "latLng": [
+        41.78827131986828,
+        -87.59646713858358
+      ]
+    },
+    {
+      "id": "47",
+      "name": "Crescent",
+      "ward": "19",
+      "type": "Community Park",
+      "location": "2230 W 108th Pl",
+      "latLng": [
+        41.696723865536036,
+        -87.67763130615604
+      ]
+    },
+    {
+      "id": "1002",
+      "name": "Clarendon Comm. Ctr.",
+      "ward": "46",
+      "type": "Community Park",
+      "location": "4501 N Clarendon Ave",
+      "latLng": [
+        41.963680676776605,
+        -87.64989072464365
+      ]
+    },
+    {
+      "id": "500",
+      "name": "Park No. 500",
+      "ward": "24",
+      "type": "Neighborhood Park",
+      "location": "730 S Springfield Ave",
+      "latLng": [
+        41.87163056655968,
+        -87.72295084746472
+      ]
+    },
+    {
+      "id": "277",
+      "name": "Nichols (john Fountain)",
+      "ward": "4",
+      "type": "Community Park",
+      "location": "1342 E 54th St",
+      "latLng": [
+        41.79806314688307,
+        -87.59308069515362
+      ]
+    },
+    {
+      "id": "1062",
+      "name": "Kucinski-murphy (vicki, Rosebeth)",
+      "ward": "11",
+      "type": "Neighborhood Park",
+      "location": "1635 W 33rd Pl",
+      "latLng": [
+        41.83318513214574,
+        -87.6664773172472
+      ]
+    },
+    {
+      "id": "381",
+      "name": "Grape",
+      "ward": "33",
+      "type": "Mini-park",
+      "location": "2850 W Avondale Ave",
+      "latLng": [
+        41.93366515095858,
+        -87.69922683622022
+      ]
+    },
+    {
+      "id": "459",
+      "name": "Ashe (arthur) Beach",
+      "ward": "5",
+      "type": "Neighborhood Park",
+      "location": "2701 E 74th St",
+      "latLng": [
+        41.76229372632614,
+        -87.55882582673209
+      ]
+    },
+    {
+      "id": "424",
+      "name": "Spikings Farm",
+      "ward": "39",
+      "type": "Mini-park",
+      "location": "4706 N Pulaski Rd",
+      "latLng": [
+        41.96633650221359,
+        -87.72806057546708
+      ]
+    },
+    {
+      "id": "141",
+      "name": "Norwood",
+      "ward": "41",
+      "type": "Community Park",
+      "location": "5801 N Natoma Ave",
+      "latLng": [
+        41.98655064643979,
+        -87.79406152662384
+      ]
+    },
+    {
+      "id": "251",
+      "name": "Mount Greenwood",
+      "ward": "19",
+      "type": "Regional Park",
+      "location": "3724 W 111th St",
+      "latLng": [
+        41.69141451418008,
+        -87.71368390704849
+      ]
+    },
+    {
+      "id": "1072",
+      "name": "Wolfe (richard)",
+      "ward": "10",
+      "type": "Neighborhood Park",
+      "location": "3325 E 108th St",
+      "latLng": [
+        41.69908351757595,
+        -87.54274906753841
+      ]
+    },
+    {
+      "id": "437",
+      "name": "Park No. 437",
+      "ward": "16",
+      "type": "Unimproved Park",
+      "location": "5653 S Loomis St",
+      "latLng": [
+        41.79132885556226,
+        -87.65958403914692
+      ]
+    },
+    {
+      "id": "249",
+      "name": "West Chatham",
+      "ward": "21",
+      "type": "Community Park",
+      "location": "8223 S Princeton Ave",
+      "latLng": [
+        41.74567090884364,
+        -87.63165381894771
+      ]
+    },
+    {
+      "id": "359",
+      "name": "Crawford (peter)",
+      "ward": "24",
+      "type": "Mini-park",
+      "location": "1516 S Karlov Ave",
+      "latLng": [
+        41.86031240310462,
+        -87.72750181248382
+      ]
+    },
+    {
+      "id": "1085",
+      "name": "Carmen",
+      "ward": "48",
+      "type": "Mini-park",
+      "location": "1224 W Carmen Ave",
+      "latLng": [
+        41.9746501356112,
+        -87.66044427956284
+      ]
+    },
+    {
+      "id": "392",
+      "name": "Juniper",
+      "ward": "46",
+      "type": "Mini-park",
+      "location": "3656 N Greenview Ave",
+      "latLng": [
+        41.94806567482455,
+        -87.66652459688436
+      ]
+    },
+    {
+      "id": "370",
+      "name": "Stars & Stripes",
+      "ward": "23",
+      "type": "Neighborhood Park",
+      "location": "7000 W 51st Pl",
+      "latLng": [
+        41.798845006791744,
+        -87.79663650514799
+      ]
+    },
+    {
+      "id": "81",
+      "name": "Avondale",
+      "ward": "35",
+      "type": "Community Park",
+      "location": "3516 W School St",
+      "latLng": [
+        41.941123045102984,
+        -87.71452093500932
+      ]
+    },
+    {
+      "id": "122",
+      "name": "Blackhawk",
+      "ward": "30",
+      "type": "Community Park",
+      "location": "2318 N Lavergne Ave",
+      "latLng": [
+        41.922695995973406,
+        -87.75124728870875
+      ]
+    },
+    {
+      "id": "361",
+      "name": "Violet",
+      "ward": "24",
+      "type": "Neighborhood Park",
+      "location": "4120 W Taylor St",
+      "latLng": [
+        41.86911058962397,
+        -87.728245402613
+      ]
+    },
+    {
+      "id": "266",
+      "name": "Stateway",
+      "ward": "2",
+      "type": "Community Park",
+      "location": "3658 S State St",
+      "latLng": [
+        41.82805208556866,
+        -87.62656559279442
+      ]
+    },
+    {
+      "id": "434",
+      "name": "Essex",
+      "ward": "6",
+      "type": "Mini-park",
+      "location": "7687 S South Chicago Ave",
+      "latLng": [
+        41.755031462526105,
+        -87.5903557283385
+      ]
+    },
+    {
+      "id": "1265",
+      "name": "Lane (george) Beach",
+      "ward": "48",
+      "type": "Passive Park",
+      "location": "1000 W Thorndale Ave",
+      "latLng": [
+        41.99009537979947,
+        -87.65540930043252
+      ]
+    },
+    {
+      "id": "307",
+      "name": "Minuteman",
+      "ward": "13",
+      "type": "Community Park",
+      "location": "5940 S Central Ave",
+      "latLng": [
+        41.78415876485127,
+        -87.76197446429444
+      ]
+    },
+    {
+      "id": "478",
+      "name": "Dusable (jean Baptiste Pointe)",
+      "ward": "42",
+      "type": "Unimproved Park",
+      "location": "401 N Lake Shore Dr",
+      "latLng": [
+        41.89472000000006,
+        -87.61860999999999
+      ]
+    },
+    {
+      "id": "1066",
+      "name": "Limas (juliann Hope)",
+      "ward": "22",
+      "type": "Mini-park",
+      "location": "2410 S Trumbull Ave",
+      "latLng": [
+        41.847844025773036,
+        -87.71128578613951
+      ]
+    },
+    {
+      "id": "443",
+      "name": "Mcinerney (thomas)",
+      "ward": "11",
+      "type": "Neighborhood Park",
+      "location": "4446-58 S. Emerald Ave",
+      "latLng": [
+        41.81224000000009,
+        -87.65565999999995
+      ]
+    },
+    {
+      "id": "235",
+      "name": "Oakdale",
+      "ward": "21",
+      "type": "Community Park",
+      "location": "965 W 95th St",
+      "latLng": [
+        41.72129530234042,
+        -87.64743984964792
+      ]
+    },
+    {
+      "id": "351",
+      "name": "Honeysuckle",
+      "ward": "4",
+      "type": "Mini-park",
+      "location": "4637 S Champlain Ave",
+      "latLng": [
+        41.81061911795111,
+        -87.61013919137714
+      ]
+    },
+    {
+      "id": "1283",
+      "name": "Maple",
+      "ward": "31",
+      "type": "Mini-park",
+      "location": "2047 N Spaulding Ave",
+      "latLng": [
+        41.91822762701135,
+        -87.71020197910406
+      ]
+    },
+    {
+      "id": "1049",
+      "name": "Meyering (william)",
+      "ward": "6",
+      "type": "Neighborhood Park",
+      "location": "7140 S Dr Martin Luther King J",
+      "latLng": [
+        41.74405000000007,
+        -87.60523
+      ]
+    },
+    {
+      "id": "91",
+      "name": "Rosedale",
+      "ward": "41",
+      "type": "Community Park",
+      "location": "6312 W Rosedale Ave",
+      "latLng": [
+        41.98848106994233,
+        -87.7857683351954
+      ]
+    },
+    {
+      "id": "398",
+      "name": "Sheil (bernard) Comm. Ctr.",
+      "ward": "44",
+      "type": "Community Park",
+      "location": "3505 N Southport Ave",
+      "latLng": [
+        41.9453365304619,
+        -87.66381014422298
+      ]
+    },
+    {
+      "id": "45",
+      "name": "Ada (sawyer Garrett)",
+      "ward": "34",
+      "type": "Regional Park",
+      "location": "11250 S Ada St",
+      "latLng": [
+        41.687124254843184,
+        -87.65566117306987
+      ]
+    },
+    {
+      "id": "427",
+      "name": "Ashmore",
+      "ward": "45",
+      "type": "Mini-park",
+      "location": "4807 W Gunnison St",
+      "latLng": [
+        41.968874726129485,
+        -87.7479865105013
+      ]
+    },
+    {
+      "id": "1239",
+      "name": "Mariano (louis)",
+      "ward": "42",
+      "type": "Passive Park",
+      "location": "1031 N Rush St",
+      "latLng": [
+        41.90169116086048,
+        -87.62796648870847
+      ]
+    },
+    {
+      "id": "218",
+      "name": "Douglas (stephen)",
+      "ward": "0",
+      "type": "Citywide Park",
+      "location": "1401 S Sacramento",
+      "latLng": [
+        41.862426996719684,
+        -87.70182814973508
+      ]
+    },
+    {
+      "id": "1069",
+      "name": "Wallace",
+      "ward": "21",
+      "type": "Neighborhood Park",
+      "location": "607 W 92nd St",
+      "latLng": [
+        41.7269391234841,
+        -87.63876273352142
+      ]
+    },
+    {
+      "id": "1016",
+      "name": "Strohacker (howard)",
+      "ward": "23",
+      "type": "Neighborhood Park",
+      "location": "4347 W 54th St",
+      "latLng": [
+        41.79490105872119,
+        -87.73204913465142
+      ]
+    },
+    {
+      "id": "259",
+      "name": "Abbott (robert)",
+      "ward": "6",
+      "type": "Community Park",
+      "location": "49 E 95th St",
+      "latLng": [
+        41.72158307459381,
+        -87.62560647724794
+      ]
+    },
+    {
+      "id": "1103",
+      "name": "Grand",
+      "ward": "37",
+      "type": "Mini-park",
+      "location": "3531 W Grand Ave",
+      "latLng": [
+        41.901420421828625,
+        -87.71463592880455
+      ]
+    },
+    {
+      "id": "1165",
+      "name": "Western",
+      "ward": "32",
+      "type": "Mini-park",
+      "location": "907 N Western Ave",
+      "latLng": [
+        41.897790204040724,
+        -87.68682058538546
+      ]
+    },
+    {
+      "id": "62",
+      "name": "Edison (thomas Alva)",
+      "ward": "41",
+      "type": "Neighborhood Park",
+      "location": "6755 N Northwest Hwy",
+      "latLng": [
+        42.00408467051932,
+        -87.81811468589707
+      ]
+    },
+    {
+      "id": "559",
+      "name": "Park No. 559",
+      "ward": "48",
+      "type": "Passive Park",
+      "location": "6151 N Sheridan Rd",
+      "latLng": [
+        41.9937727434405,
+        -87.65552171568618
+      ]
+    },
+    {
+      "id": "1021",
+      "name": "Augusta (carpenter)",
+      "ward": "31",
+      "type": "Neighborhood Park",
+      "location": "4431 W Augusta Blvd",
+      "latLng": [
+        41.89879205351077,
+        -87.73681629895835
+      ]
+    },
+    {
+      "id": "126",
+      "name": "Kelvyn (william)",
+      "ward": "30",
+      "type": "Community Park",
+      "location": "4438 W Wrightwood Ave",
+      "latLng": [
+        41.92870143745059,
+        -87.73771366772635
+      ]
+    },
+    {
+      "id": "408",
+      "name": "Curie (marie)",
+      "ward": "23",
+      "type": "Community Park",
+      "location": "4959 S Archer Ave",
+      "latLng": [
+        41.80306963075374,
+        -87.72209263301649
+      ]
+    },
+    {
+      "id": "1238",
+      "name": "Centennial",
+      "ward": "41",
+      "type": "Passive Park",
+      "location": "6086 N Northwest Hwy",
+      "latLng": [
+        41.99198243630007,
+        -87.79850751731003
+      ]
+    },
+    {
+      "id": "1273",
+      "name": "Sumac",
+      "ward": "4",
+      "type": "Mini-park",
+      "location": "4201 S Champlain Ave",
+      "latLng": [
+        41.81847922309969,
+        -87.61035454859243
+      ]
+    },
+    {
+      "id": "404",
+      "name": "Packingtown",
+      "ward": "14",
+      "type": "Mini-park",
+      "location": "4856 S Laflin St",
+      "latLng": [
+        41.805775687565415,
+        -87.66254216002604
+      ]
+    },
+    {
+      "id": "1219",
+      "name": "Mellin (curtis, Sr.)",
+      "ward": "40",
+      "type": "Mini-park",
+      "location": "1600 W Bryn Mawr Ave",
+      "latLng": [
+        41.971839999999986,
+        -87.66115999999994
+      ]
+    },
+    {
+      "id": "1025",
+      "name": "Taylor-lauridsen (john, Emil)",
+      "ward": "11",
+      "type": "Neighborhood Park",
+      "location": "647 W Root St",
+      "latLng": [
+        41.818912582673576,
+        -87.64242583873168
+      ]
+    },
+    {
+      "id": "255",
+      "name": "Carver (george Washington)",
+      "ward": "9",
+      "type": "Regional Park",
+      "location": "939 E 132nd St",
+      "latLng": [
+        null,
+        null
+      ]
+    },
+    {
+      "id": "477",
+      "name": "Ogden (william) Plaza",
+      "ward": "42",
+      "type": "Passive Park",
+      "location": "429 N Columbus Dr",
+      "latLng": [
+        41.889978315050264,
+        -87.62030107146514
+      ]
+    },
+    {
+      "id": "185",
+      "name": "Revere (paul)",
+      "ward": "47",
+      "type": "Community Park",
+      "location": "2509 W Irving Park Rd",
+      "latLng": [
+        41.95393191408374,
+        -87.69122572526284
+      ]
+    },
+    {
+      "id": "529",
+      "name": "Park No. 529",
+      "ward": "32",
+      "type": "Unimproved Park",
+      "location": "2155 W Wabansia Ave",
+      "latLng": [
+        41.91262028253446,
+        -87.68178168327219
+      ]
+    },
+    {
+      "id": "563",
+      "name": "Park No. 563",
+      "ward": "10",
+      "type": "Nature Preserve Park",
+      "location": "13000 S Torrence Ave",
+      "latLng": [
+        41.65917157245872,
+        -87.55935035662864
+      ]
+    },
+    {
+      "id": "1029",
+      "name": "Donovan (george)",
+      "ward": "11",
+      "type": "Neighborhood Park",
+      "location": "3620 S Lituanica Ave",
+      "latLng": [
+        41.82842176182138,
+        -87.64772618855108
+      ]
+    },
+    {
+      "id": "242",
+      "name": "Hayes (francis)",
+      "ward": "18",
+      "type": "Regional Park",
+      "location": "2936 W 85th St",
+      "latLng": [
+        41.73872925819764,
+        -87.6962147349141
+      ]
+    },
+    {
+      "id": "26",
+      "name": "Foster (j. Frank)",
+      "ward": "18",
+      "type": "Regional Park",
+      "location": "1400 W 84th St",
+      "latLng": [
+        41.74139826378999,
+        -87.65763212522916
+      ]
+    },
+    {
+      "id": "1108",
+      "name": "Homan (joseph)",
+      "ward": "24",
+      "type": "Mini-park",
+      "location": "2148 S Homan Ave",
+      "latLng": [
+        41.85290579805472,
+        -87.71021147447756
+      ]
+    },
+    {
+      "id": "474",
+      "name": "Park No. 474",
+      "ward": "2",
+      "type": "Passive Park",
+      "location": "3231 W Douglas Blvd",
+      "latLng": [
+        41.845090000000084,
+        -87.62737999999996
+      ]
+    },
+    {
+      "id": "95",
+      "name": "Roberts (daniel) Square",
+      "ward": "45",
+      "type": "Neighborhood Park",
+      "location": "5230 W Argyle St",
+      "latLng": [
+        41.971605318877096,
+        -87.75840489113608
+      ]
+    },
+    {
+      "id": "12",
+      "name": "Bessemer (henry)",
+      "ward": "7",
+      "type": "Regional Park",
+      "location": "8930 S Muskegon Ave",
+      "latLng": [
+        41.73310768834484,
+        -87.55555049884033
+      ]
+    },
+    {
+      "id": "1211",
+      "name": "Dickinson (arthur)",
+      "ward": "45",
+      "type": "Neighborhood Park",
+      "location": "4117 N Lavergne Ave",
+      "latLng": [
+        41.95536271146273,
+        -87.75216447389278
+      ]
+    },
+    {
+      "id": "423",
+      "name": "Oz",
+      "ward": "43",
+      "type": "Community Park",
+      "location": "2021 N Burling St",
+      "latLng": [
+        41.918953524199324,
+        -87.64716334581394
+      ]
+    },
+    {
+      "id": "395",
+      "name": "Leland Giants",
+      "ward": "17",
+      "type": "Neighborhood Park",
+      "location": "7526 S Lowe Ave",
+      "latLng": [
+        41.776039999999966,
+        -87.63983999999999
+      ]
+    },
+    {
+      "id": "94",
+      "name": "Jefferson (thomas) Meml.",
+      "ward": "45",
+      "type": "Community Park",
+      "location": "4822 N Long Ave",
+      "latLng": [
+        41.967940558359835,
+        -87.76265759863169
+      ]
+    },
+    {
+      "id": "261",
+      "name": "Williams (daniel Hale)",
+      "ward": "2",
+      "type": "Community Park",
+      "location": "2710 S Dearborn St",
+      "latLng": [
+        41.84466313434372,
+        -87.62815699255205
+      ]
+    },
+    {
+      "id": "431",
+      "name": "Flower (lucy)",
+      "ward": "26",
+      "type": "Mini-park",
+      "location": "2554 W Moffat St",
+      "latLng": [
+        41.914866226757596,
+        -87.69111801328472
+      ]
+    },
+    {
+      "id": "1201",
+      "name": "Arcade",
+      "ward": "9",
+      "type": "Passive Park",
+      "location": "11144 S St Lawrence Ave",
+      "latLng": [
+        41.69165451197194,
+        -87.60845763547245
+      ]
+    },
+    {
+      "id": "364",
+      "name": "Gill (joseph)",
+      "ward": "46",
+      "type": "Community Park",
+      "location": "825 W Sheridan Rd",
+      "latLng": [
+        41.95265899243198,
+        -87.65012277845342
+      ]
+    },
+    {
+      "id": "332",
+      "name": "Barberry",
+      "ward": "27",
+      "type": "Unimproved Park",
+      "location": "2827 W Arthington St",
+      "latLng": [
+        41.87008707497714,
+        -87.69666814336654
+      ]
+    },
+    {
+      "id": "1143",
+      "name": "Supera",
+      "ward": "43",
+      "type": "Mini-park",
+      "location": "2528 N Racine Ave",
+      "latLng": [
+        41.92802843601394,
+        -87.65863511228027
+      ]
+    },
+    {
+      "id": "1262",
+      "name": "Rogers (phillip) Beach",
+      "ward": "49",
+      "type": "Neighborhood Park",
+      "location": "7705 N Eastlake Terrace",
+      "latLng": [
+        42.02102650217188,
+        -87.66504095926507
+      ]
+    },
+    {
+      "id": "202",
+      "name": "Franklin (benjamin)",
+      "ward": "24",
+      "type": "Community Park",
+      "location": "1449 S Kolin Ave",
+      "latLng": [
+        41.86145017005325,
+        -87.7335103632115
+      ]
+    },
+    {
+      "id": "448",
+      "name": "Metcalfe (ralph)",
+      "ward": "2",
+      "type": "Community Park",
+      "location": "4196 S State St",
+      "latLng": [
+        41.81831538343677,
+        -87.62639429120034
+      ]
+    },
+    {
+      "id": "1218",
+      "name": "Lily Gardens",
+      "ward": "17",
+      "type": "Passive Park",
+      "location": "632 W 71st St",
+      "latLng": [
+        41.765335671320116,
+        -87.6407715810098
+      ]
+    },
+    {
+      "id": "205",
+      "name": "Sheridan (philip Henry)",
+      "ward": "1",
+      "type": "Community Park",
+      "location": "910 S Aberdeen St",
+      "latLng": [
+        41.870174792942706,
+        -87.65429131970551
+      ]
+    },
+    {
+      "id": "215",
+      "name": "Arrigo (victor)",
+      "ward": "1",
+      "type": "Community Park",
+      "location": "1250 W Lexington St",
+      "latLng": [
+        41.87230218040179,
+        -87.65892259187221
+      ]
+    },
+    {
+      "id": "514",
+      "name": "Park No. 514",
+      "ward": "26",
+      "type": "Passive Park",
+      "location": "1434 N Monticello Ave",
+      "latLng": [
+        41.906928576116165,
+        -87.71794964733436
+      ]
+    },
+    {
+      "id": "511",
+      "name": "Ward (a. Montgomery)",
+      "ward": "0",
+      "type": "Unimproved Park",
+      "location": "630 N Kingsbury Ave",
+      "latLng": [
+        41.90442000000013,
+        -87.63700999999998
+      ]
+    },
+    {
+      "id": "1200",
+      "name": "Connors (william)",
+      "ward": "42",
+      "type": "Passive Park",
+      "location": "871 N Wabash Ave",
+      "latLng": [
+        41.898620595805355,
+        -87.6268015693875
+      ]
+    },
+    {
+      "id": "354",
+      "name": "Railroad Junction",
+      "ward": "6",
+      "type": "Mini-park",
+      "location": "7334 S Maryland Ave",
+      "latLng": [
+        41.76159692979972,
+        -87.60429085094485
+      ]
+    },
+    {
+      "id": "228",
+      "name": "Horner (henry)",
+      "ward": "40",
+      "type": "Regional Park",
+      "location": "2741 W Montrose Ave",
+      "latLng": [
+        41.96121642252109,
+        -87.69763588713187
+      ]
+    },
+    {
+      "id": "231",
+      "name": "Rosenblum (j. Leslie)",
+      "ward": "8",
+      "type": "Community Park",
+      "location": "2000 E 75th St",
+      "latLng": [
+        41.75886982938738,
+        -87.57574285846698
+      ]
+    },
+    {
+      "id": "14",
+      "name": "Davis (dr. Nathan) Square",
+      "ward": "12",
+      "type": "Community Park",
+      "location": "4430 S Marshfield Ave",
+      "latLng": [
+        41.81348537013874,
+        -87.66638793017678
+      ]
+    },
+    {
+      "id": "272",
+      "name": "Smith (wendell)",
+      "ward": "21",
+      "type": "Neighborhood Park",
+      "location": "9912 S Princeton Ave",
+      "latLng": [
+        41.71392351300701,
+        -87.63095373434795
+      ]
+    },
+    {
+      "id": "520",
+      "name": "Park No. 520",
+      "ward": "32",
+      "type": "Mini-park",
+      "location": "916 N Honore St",
+      "latLng": [
+        41.89836366935208,
+        -87.67345419695044
+      ]
+    },
+    {
+      "id": "494",
+      "name": "Washington (harold)",
+      "ward": "4",
+      "type": "Neighborhood Park",
+      "location": "5200 S Hyde Park Blvd",
+      "latLng": [
+        41.801045614422165,
+        -87.58465923203076
+      ]
+    },
+    {
+      "id": "105",
+      "name": "Goudy (william) Square",
+      "ward": "42",
+      "type": "Mini-park",
+      "location": "1255 N Astor St",
+      "latLng": [
+        41.90530132218354,
+        -87.62708803757549
+      ]
+    },
+    {
+      "id": "1004",
+      "name": "Bradley (josephine)",
+      "ward": "10",
+      "type": "Neighborhood Park",
+      "location": "9729 S Yates Ave",
+      "latLng": [
+        41.718412888271324,
+        -87.56457023147516
+      ]
+    },
+    {
+      "id": "167",
+      "name": "Chippewa",
+      "ward": "50",
+      "type": "Neighborhood Park",
+      "location": "6758 N Sacramento Ave",
+      "latLng": [
+        42.00400392568023,
+        -87.70465195350572
+      ]
+    },
+    {
+      "id": "446",
+      "name": "Lamb (harold)",
+      "ward": "34",
+      "type": "Neighborhood Park",
+      "location": "1400 W 109th St",
+      "latLng": [
+        41.69586445812372,
+        -87.65709249434097
+      ]
+    },
+    {
+      "id": "453",
+      "name": "Miami",
+      "ward": "22",
+      "type": "Mini-park",
+      "location": "2754 S Trumbull Ave",
+      "latLng": [
+        41.841600260194724,
+        -87.71111278064987
+      ]
+    },
+    {
+      "id": "166",
+      "name": "Pottawattomie",
+      "ward": "49",
+      "type": "Community Park",
+      "location": "7340 N Rogers Ave",
+      "latLng": [
+        42.014485477971654,
+        -87.6787052507677
+      ]
+    },
+    {
+      "id": "492",
+      "name": "Armstrong (lillian Hardin)",
+      "ward": "4",
+      "type": "Community Park",
+      "location": "4433 S St Lawrence",
+      "latLng": [
+        41.81393162857975,
+        -87.61145257495754
+      ]
+    },
+    {
+      "id": "268",
+      "name": "Durkin (martin)",
+      "ward": "18",
+      "type": "Community Park",
+      "location": "8441 S Kolin Ave",
+      "latLng": [
+        41.73944590077046,
+        -87.73000671682766
+      ]
+    },
+    {
+      "id": "556",
+      "name": "Park No. 556",
+      "ward": "35",
+      "type": "Unimproved Park",
+      "location": "2529 W Logan Blvd",
+      "latLng": [
+        41.928184596819825,
+        -87.69137597281315
+      ]
+    },
+    {
+      "id": "42",
+      "name": "Kiwanis",
+      "ward": "39",
+      "type": "Passive Park",
+      "location": "3315 W Carmen Ave",
+      "latLng": [
+        41.973833910592134,
+        -87.7119903385993
+      ]
+    },
+    {
+      "id": "211",
+      "name": "Skinner (mark)",
+      "ward": "27",
+      "type": "Community Park",
+      "location": "1331 W  Monroe St",
+      "latLng": [
+        41.881730000000005,
+        -87.63661000000002
+      ]
+    },
+    {
+      "id": "440",
+      "name": "Luna",
+      "ward": "16",
+      "type": "Mini-park",
+      "location": "5558 S Green St",
+      "latLng": [
+        41.79305566233033,
+        -87.64642275942403
+      ]
+    },
+    {
+      "id": "365",
+      "name": "Bauler (mathias)",
+      "ward": "43",
+      "type": "Neighborhood Park",
+      "location": "517 W Wisconsin St",
+      "latLng": [
+        41.91640320580103,
+        -87.64189713681426
+      ]
+    },
+    {
+      "id": "1077",
+      "name": "Langdon (mary Margaret)",
+      "ward": "40",
+      "type": "Mini-park",
+      "location": "1754 W Albion Ave",
+      "latLng": [
+        42.0017003204525,
+        -87.67418516969529
+      ]
+    },
+    {
+      "id": "132",
+      "name": "Greenbaum (henry)",
+      "ward": "30",
+      "type": "Neighborhood Park",
+      "location": "1729 N Kildare Ave",
+      "latLng": [
+        41.912226924319704,
+        -87.73363773298594
+      ]
+    },
+    {
+      "id": "227",
+      "name": "Senn (nicholas)",
+      "ward": "48",
+      "type": "Community Park",
+      "location": "5887 N Ridge Ave",
+      "latLng": [
+        41.98895978601249,
+        -87.66866128477935
+      ]
+    },
+    {
+      "id": "487",
+      "name": "Broncho Billy",
+      "ward": "46",
+      "type": "Mini-park",
+      "location": "4437 N Magnolia Ave",
+      "latLng": [
+        41.9623905332709,
+        -87.66084729554854
+      ]
+    },
+    {
+      "id": "531",
+      "name": "Palmisano (henry)",
+      "ward": "11",
+      "type": "Community Park",
+      "location": "2850 S Halsted St",
+      "latLng": [
+        41.8425511324398,
+        -87.64646224645044
+      ]
+    },
+    {
+      "id": "1051",
+      "name": "Moran (terrance)",
+      "ward": "16",
+      "type": "Neighborhood Park",
+      "location": "5727 S Racine Ave",
+      "latLng": [
+        41.776039999999966,
+        -87.63983999999999
+      ]
+    },
+    {
+      "id": "80",
+      "name": "Athletic Field",
+      "ward": "35",
+      "type": "Neighborhood Park",
+      "location": "3546 W Addison St",
+      "latLng": [
+        41.94658165070525,
+        -87.71667626407998
+      ]
+    },
+    {
+      "id": "140",
+      "name": "Pleasant Point",
+      "ward": "41",
+      "type": "Neighborhood Park",
+      "location": "6813 W Imlay St",
+      "latLng": [
+        41.998714681026634,
+        -87.79744009353237
+      ]
+    },
+    {
+      "id": "1151",
+      "name": "Summerdale",
+      "ward": "41",
+      "type": "Mini-park",
+      "location": "7262 W Summerdale Ave",
+      "latLng": [
+        41.977621783253085,
+        -87.80860081880333
+      ]
+    },
+    {
+      "id": "230",
+      "name": "Piotrowski (lillian)",
+      "ward": "22",
+      "type": "Regional Park",
+      "location": "4200 W 31st St",
+      "latLng": [
+        41.83689532007749,
+        -87.72922973800664
+      ]
+    },
+    {
+      "id": "1121",
+      "name": "Humbert (james)",
+      "ward": "11",
+      "type": "Mini-park",
+      "location": "632 W 31st St",
+      "latLng": [
+        41.838154401724914,
+        -87.6426861386936
+      ]
+    },
+    {
+      "id": "497",
+      "name": "Starr (ellen Gates)",
+      "ward": "27",
+      "type": "Neighborhood Park",
+      "location": "2306 W Maypole Ave",
+      "latLng": [
+        41.88392882481387,
+        -87.6855441921161
+      ]
+    },
+    {
+      "id": "308",
+      "name": "Linden",
+      "ward": "31",
+      "type": "Neighborhood Park",
+      "location": "1139 N Pulaski Rd",
+      "latLng": [
+        41.901548651261926,
+        -87.72617931605436
+      ]
+    },
+    {
+      "id": "257",
+      "name": "Wildwood",
+      "ward": "41",
+      "type": "Community Park",
+      "location": "6950 N Hiawatha Ave",
+      "latLng": [
+        42.00721071322317,
+        -87.77808245617607
+      ]
+    },
+    {
+      "id": "534",
+      "name": "Park No. 534",
+      "ward": "24",
+      "type": "Neighborhood Park",
+      "location": "1300 S St Louis Ave",
+      "latLng": [
+        41.86406212882867,
+        -87.71297097741018
+      ]
+    },
+    {
+      "id": "1213",
+      "name": "Ellis (samuel)",
+      "ward": "2",
+      "type": "Community Park",
+      "location": "600 E 37th St",
+      "latLng": [
+        41.827592483723315,
+        -87.61155399897748
+      ]
+    },
+    {
+      "id": "1093",
+      "name": "Degeorge (bernice)",
+      "ward": "30",
+      "type": "Mini-park",
+      "location": "4905 W Wabansia Ave",
+      "latLng": [
+        41.91135581463479,
+        -87.74939985175902
+      ]
+    },
+    {
+      "id": "366",
+      "name": "Dejulio (anthony)",
+      "ward": "39",
+      "type": "Neighborhood Park",
+      "location": "6056 N Landers Ave",
+      "latLng": [
+        41.991888326652195,
+        -87.75247013906693
+      ]
+    },
+    {
+      "id": "557",
+      "name": "Park No. 557",
+      "ward": "50",
+      "type": "Passive Park",
+      "location": "7211-7355 N Kedzie Ave",
+      "latLng": [
+        42.00825000000003,
+        -87.69558
+      ]
+    },
+    {
+      "id": "481",
+      "name": "Tom (ping) Meml.",
+      "ward": "1",
+      "type": "Passive Park",
+      "location": "300 W 18th St",
+      "latLng": [
+        41.85777542854532,
+        -87.63451185843203
+      ]
+    },
+    {
+      "id": "517",
+      "name": "Park No. 517",
+      "ward": "48",
+      "type": "Passive Park",
+      "location": "5914-5924 N Sheridan Rd",
+      "latLng": [
+        41.99167000000011,
+        -87.6678
+      ]
+    },
+    {
+      "id": "325",
+      "name": "Holly",
+      "ward": "4",
+      "type": "Mini-park",
+      "location": "4052 S Ellis Ave",
+      "latLng": [
+        41.820911039768966,
+        -87.60321300554837
+      ]
+    },
+    {
+      "id": "1012",
+      "name": "O'hallaren (bernard)",
+      "ward": "18",
+      "type": "Community Park",
+      "location": "8335 S Honore St",
+      "latLng": [
+        41.74361067160154,
+        -87.66925588680479
+      ]
+    },
+    {
+      "id": "504",
+      "name": "Mandrake (henry Brown)",
+      "ward": "4",
+      "type": "Community Park",
+      "location": "900 E Pershing Rd.",
+      "latLng": [
+        41.82435636976093,
+        -87.60512717223385
+      ]
+    },
+    {
+      "id": "1010",
+      "name": "Kenwood Comm.",
+      "ward": "4",
+      "type": "Community Park",
+      "location": "1330 E 50th St",
+      "latLng": [
+        41.80425749043362,
+        -87.59437365881377
+      ]
+    },
+    {
+      "id": "1248",
+      "name": "Hartigan (david) Beach",
+      "ward": "49",
+      "type": "Neighborhood Park",
+      "location": "1040 W Albion Ave",
+      "latLng": [
+        42.00256811288705,
+        -87.65783297330148
+      ]
+    },
+    {
+      "id": "207",
+      "name": "Austin Town Hall",
+      "ward": "29",
+      "type": "Community Park",
+      "location": "5610 W Lake St",
+      "latLng": [
+        41.88779348438025,
+        -87.76546739486766
+      ]
+    },
+    {
+      "id": "240",
+      "name": "Rogers (phillip)",
+      "ward": "50",
+      "type": "Regional Park",
+      "location": "7345 N Washtenaw Ave",
+      "latLng": [
+        42.01502331891614,
+        -87.69722502596593
+      ]
+    },
+    {
+      "id": "41",
+      "name": "Field (eugene)",
+      "ward": "39",
+      "type": "Community Park",
+      "location": "5100 N Ridgeway Ave",
+      "latLng": [
+        41.97296093636328,
+        -87.72208214625773
+      ]
+    },
+    {
+      "id": "271",
+      "name": "Taylor (robert Rochon)",
+      "ward": "3",
+      "type": "Community Park",
+      "location": "100 W 47th St",
+      "latLng": [
+        41.80925041646639,
+        -87.62819622096008
+      ]
+    },
+    {
+      "id": "1015",
+      "name": "Smith (joseph Higgins)",
+      "ward": "27",
+      "type": "Community Park",
+      "location": "2526 W Grand Ave",
+      "latLng": [
+        41.89168458380353,
+        -87.6898317695816
+      ]
+    },
+    {
+      "id": "1278",
+      "name": "Walnut",
+      "ward": "12",
+      "type": "Neighborhood Park",
+      "location": "3801 W 45th St",
+      "latLng": [
+        41.811541485828116,
+        -87.71908521574412
+      ]
+    },
+    {
+      "id": "1237",
+      "name": "Pullman (george)",
+      "ward": "9",
+      "type": "Passive Park",
+      "location": "11113 S Cottage Grove Ave",
+      "latLng": [
+        41.692364871826115,
+        -87.60988023388992
+      ]
+    },
+    {
+      "id": "48",
+      "name": "Kennedy (dennis)",
+      "ward": "19",
+      "type": "Community Park",
+      "location": "11320 S Western Ave",
+      "latLng": [
+        41.694140000000004,
+        -87.70328999999987
+      ]
+    },
+    {
+      "id": "1274",
+      "name": "Sycamore",
+      "ward": "4",
+      "type": "Neighborhood Park",
+      "location": "5109 S Greenwood Ave",
+      "latLng": [
+        41.802195375235904,
+        -87.59972330742981
+      ]
+    },
+    {
+      "id": "1137",
+      "name": "Oakley",
+      "ward": "15",
+      "type": "Mini-park",
+      "location": "6441 S Oakley Ave",
+      "latLng": [
+        41.77667236282613,
+        -87.68093438597352
+      ]
+    },
+    {
+      "id": "236",
+      "name": "Robinson (jackie)",
+      "ward": "34",
+      "type": "Regional Park",
+      "location": "10540 S Morgan St",
+      "latLng": [
+        41.702483087590934,
+        -87.64760634977873
+      ]
+    },
+    {
+      "id": "238",
+      "name": "Wentworth (john)",
+      "ward": "23",
+      "type": "Regional Park",
+      "location": "5625 S Mobile Ave",
+      "latLng": [
+        41.79046438880159,
+        -87.77920389052484
+      ]
+    },
+    {
+      "id": "560",
+      "name": "Park No. 560",
+      "ward": "27",
+      "type": "Unimproved Park",
+      "location": "410 W Chicago Ave",
+      "latLng": [
+        41.89656950597816,
+        -87.63920480568918
+      ]
+    },
+    {
+      "id": "40",
+      "name": "Gompers (samuel)",
+      "ward": "39",
+      "type": "Regional Park",
+      "location": "4222 W Foster Ave",
+      "latLng": [
+        41.975522920336786,
+        -87.73484282785677
+      ]
+    },
+    {
+      "id": "1065",
+      "name": "Touhy-herbert (john, Victor)",
+      "ward": "27",
+      "type": "Neighborhood Park",
+      "location": "2106 W Adams St",
+      "latLng": [
+        41.878737322936864,
+        -87.6792048953952
+      ]
+    },
+    {
+      "id": "397",
+      "name": "The Grove",
+      "ward": "18",
+      "type": "Mini-park",
+      "location": "8421 S Morgan St",
+      "latLng": [
+        41.741054770427425,
+        -87.64851549138245
+      ]
+    },
+    {
+      "id": "104",
+      "name": "Emmerson (louis)",
+      "ward": "50",
+      "type": "Neighborhood Park",
+      "location": "1820 W Granville Ave",
+      "latLng": [
+        41.99438413103115,
+        -87.67579531743584
+      ]
+    },
+    {
+      "id": "24",
+      "name": "Grant (ulysses)",
+      "ward": "2",
+      "type": "Magnet Park",
+      "location": "331 E Randolph St",
+      "latLng": [
+        41.86725000000007,
+        -87.62087999999994
+      ]
+    },
+    {
+      "id": "225",
+      "name": "West Pullman",
+      "ward": "9",
+      "type": "Regional Park",
+      "location": "400 W 123rd St",
+      "latLng": [
+        41.67069216787331,
+        -87.632054536857
+      ]
+    },
+    {
+      "id": "83",
+      "name": "Independence",
+      "ward": "35",
+      "type": "Community Park",
+      "location": "3945 N Springfield Ave",
+      "latLng": [
+        41.95265061044733,
+        -87.72498260674732
+      ]
+    },
+    {
+      "id": "449",
+      "name": "Wieboldt (william)",
+      "ward": "32",
+      "type": "Mini-park",
+      "location": "1747 W Nelson St",
+      "latLng": [
+        41.936873352893734,
+        -87.67210134222654
+      ]
+    },
+    {
+      "id": "521",
+      "name": "Park No. 521",
+      "ward": "47",
+      "type": "Passive Park",
+      "location": "1426 W Warner Ave",
+      "latLng": [
+        41.95708040464507,
+        -87.66550419021144
+      ]
+    },
+    {
+      "id": "564",
+      "name": "Park No. 564",
+      "ward": "10",
+      "type": "Nature Preserve Park",
+      "location": "1958 E 116th St",
+      "latLng": [
+        41.712690000000066,
+        -87.55551000000003
+      ]
+    },
+    {
+      "id": "499",
+      "name": "Burnham Greenway",
+      "ward": "27",
+      "type": "Community Park",
+      "location": "3925 E 104th St",
+      "latLng": [
+        41.706312586536285,
+        -87.52909149175763
+      ]
+    },
+    {
+      "id": "1149",
+      "name": "Saint Louis",
+      "ward": "28",
+      "type": "Mini-park",
+      "location": "347 N St Louis Ave",
+      "latLng": [
+        41.88757806575711,
+        -87.7135424757697
+      ]
+    },
+    {
+      "id": "476",
+      "name": "River Esplanade",
+      "ward": "42",
+      "type": "Passive Park",
+      "location": "401 E River Dr",
+      "latLng": [
+        41.888845798506075,
+        -87.61775483564746
+      ]
+    },
+    {
+      "id": "546",
+      "name": "Park No. 546",
+      "ward": "42",
+      "type": "Neighborhood Park",
+      "location": "450 E. Benton Place",
+      "latLng": [
+        41.89472000000006,
+        -87.61860999999999
+      ]
+    },
+    {
+      "id": "1226",
+      "name": "Norwood Circle",
+      "ward": "41",
+      "type": "Passive Park",
+      "location": "7117 W Peterson Ave",
+      "latLng": [
+        41.98994951707589,
+        -87.80449819965555
+      ]
+    },
+    {
+      "id": "130",
+      "name": "Galewood",
+      "ward": "30",
+      "type": "Neighborhood Park",
+      "location": "5729 W Bloomingdale Ave",
+      "latLng": [
+        41.91256404513937,
+        -87.7686996000414
+      ]
+    },
+    {
+      "id": "329",
+      "name": "Prairie Wolf",
+      "ward": "20",
+      "type": "Mini-park",
+      "location": "6310 S Drexel Ave",
+      "latLng": [
+        41.78022134404578,
+        -87.60296009555294
+      ]
+    },
+    {
+      "id": "1044",
+      "name": "Lowe (samuel)",
+      "ward": "3",
+      "type": "Neighborhood Park",
+      "location": "5203 S Lowe Ave",
+      "latLng": [
+        41.799777507286436,
+        -87.64157911032324
+      ]
+    },
+    {
+      "id": "86",
+      "name": "Mayfair",
+      "ward": "45",
+      "type": "Neighborhood Park",
+      "location": "4550 W Sunnyside Ave",
+      "latLng": [
+        41.96266147294383,
+        -87.74196948402287
+      ]
+    },
+    {
+      "id": "75",
+      "name": "Hollywood",
+      "ward": "39",
+      "type": "Community Park",
+      "location": "3312 W Thorndale Ave",
+      "latLng": [
+        41.98852156624821,
+        -87.71220310536248
+      ]
+    },
+    {
+      "id": "175",
+      "name": "Ridge",
+      "ward": "19",
+      "type": "Community Park",
+      "location": "9625 S Longwood Dr",
+      "latLng": [
+        41.71872962985179,
+        -87.6689812315562
+      ]
+    },
+    {
+      "id": "1212",
+      "name": "Green (jeffery)",
+      "ward": "39",
+      "type": "Neighborhood Park",
+      "location": "6500 N Algonquin Ave",
+      "latLng": [
+        41.99949253448022,
+        -87.76617078882731
+      ]
+    },
+    {
+      "id": "1275",
+      "name": "Chestnut",
+      "ward": "20",
+      "type": "Mini-park",
+      "location": "7005 S Dante Ave",
+      "latLng": [
+        41.76771195305439,
+        -87.58939894317272
+      ]
+    },
+    {
+      "id": "115",
+      "name": "Loyola",
+      "ward": "49",
+      "type": "Regional Park",
+      "location": "1230 W Greenleaf Ave",
+      "latLng": [
+        42.01048498319744,
+        -87.66117255469756
+      ]
+    },
+    {
+      "id": "1280",
+      "name": "Aiello (john)",
+      "ward": "36",
+      "type": "Mini-park",
+      "location": "2133 N Mcvicker Ave",
+      "latLng": [
+        41.918747387097355,
+        -87.77669183591487
+      ]
+    },
+    {
+      "id": "1106",
+      "name": "Harding (frederick)",
+      "ward": "31",
+      "type": "Mini-park",
+      "location": "3921 W Division St",
+      "latLng": [
+        41.90261928688547,
+        -87.72470038444439
+      ]
+    },
+    {
+      "id": "326",
+      "name": "Park No. 326",
+      "ward": "20",
+      "type": "Mini-park",
+      "location": "6430 S Kenwood Ave",
+      "latLng": [
+        41.77809329329945,
+        -87.5930783829994
+      ]
+    },
+    {
+      "id": "1207",
+      "name": "Bickerdike (george) Square",
+      "ward": "1",
+      "type": "Passive Park",
+      "location": "1438 W Ohio St",
+      "latLng": [
+        41.90318000000002,
+        -87.68408
+      ]
+    },
+    {
+      "id": "368",
+      "name": "Dougherty (daniel)",
+      "ward": "7",
+      "type": "Neighborhood Park",
+      "location": "9336 S Kingston Ave",
+      "latLng": [
+        41.92115000000007,
+        -87.70218999999997
+      ]
+    },
+    {
+      "id": "363",
+      "name": "Burnside (ambrose)",
+      "ward": "8",
+      "type": "Community Park",
+      "location": "9400 S Greenwood Ave",
+      "latLng": [
+        41.74405000000007,
+        -87.60523
+      ]
+    },
+    {
+      "id": "505",
+      "name": "Nottingham",
+      "ward": "23",
+      "type": "Passive Park",
+      "location": "7101 W 63rd St",
+      "latLng": [
+        41.77730430722661,
+        -87.79868932351692
+      ]
+    },
+    {
+      "id": "1046",
+      "name": "Marshfield",
+      "ward": "21",
+      "type": "Neighborhood Park",
+      "location": "1637 W 87th St",
+      "latLng": [
+        41.73572783213457,
+        -87.66433357527991
+      ]
+    },
+    {
+      "id": "360",
+      "name": "Lin (margaret Hie Ding)",
+      "ward": "2",
+      "type": "Mini-park",
+      "location": "1735 S State St",
+      "latLng": [
+        41.85857562965018,
+        -87.62708608379344
+      ]
+    },
+    {
+      "id": "1206",
+      "name": "Mid-north",
+      "ward": "43",
+      "type": "Passive Park",
+      "location": "401 W Belden Ave",
+      "latLng": [
+        41.923687445353835,
+        -87.63937837030605
+      ]
+    },
+    {
+      "id": "1164",
+      "name": "Mason (elizabeth)",
+      "ward": "28",
+      "type": "Neighborhood Park",
+      "location": "4100 W West End Ave",
+      "latLng": [
+        41.883390005705806,
+        -87.72825294950475
+      ]
+    },
+    {
+      "id": "422",
+      "name": "Park No. 422",
+      "ward": "28",
+      "type": "Neighborhood Park",
+      "location": "3200 W Congress Pkwy",
+      "latLng": [
+        41.87497055616511,
+        -87.70603438473195
+      ]
+    },
+    {
+      "id": "127",
+      "name": "Rutherford Sayre",
+      "ward": "36",
+      "type": "Community Park",
+      "location": "6871 W Belden Ave",
+      "latLng": [
+        null,
+        null
+      ]
+    },
+    {
+      "id": "441",
+      "name": "Drexel (francis)",
+      "ward": "15",
+      "type": "Mini-park",
+      "location": "6931 S Damen Ave",
+      "latLng": [
+        41.76787257866551,
+        -87.6735370196458
+      ]
+    },
+    {
+      "id": "385",
+      "name": "Buttercup",
+      "ward": "48",
+      "type": "Neighborhood Park",
+      "location": "4913 N Sheridan Rd",
+      "latLng": [
+        41.9718113101341,
+        -87.65481730716724
+      ]
+    },
+    {
+      "id": "1222",
+      "name": "Mulberry Point",
+      "ward": "41",
+      "type": "Passive Park",
+      "location": "5873 N Nina Ave",
+      "latLng": [
+        41.98760227343633,
+        -87.8035774925921
+      ]
+    },
+    {
+      "id": "1120",
+      "name": "London (louis)",
+      "ward": "24",
+      "type": "Mini-park",
+      "location": "3432 W 18th St",
+      "latLng": [
+        41.85724700848746,
+        -87.71155724599977
+      ]
+    },
+    {
+      "id": "335",
+      "name": "Edgebrook",
+      "ward": "39",
+      "type": "Community Park",
+      "location": "6525 N Hiawatha Ave",
+      "latLng": [
+        41.99942354908312,
+        -87.76188983398535
+      ]
+    },
+    {
+      "id": "1114",
+      "name": "Keeler (cyrus)",
+      "ward": "24",
+      "type": "Mini-park",
+      "location": "1243 S Keeler Ave",
+      "latLng": [
+        41.86531635985171,
+        -87.7299671330612
+      ]
+    },
+    {
+      "id": "528",
+      "name": "Park No. 528",
+      "ward": "13",
+      "type": "Neighborhood Park",
+      "location": "6336 S Kilbourn Ave",
+      "latLng": [
+        41.7776027072577,
+        -87.73492285765309
+      ]
+    },
+    {
+      "id": "466",
+      "name": "Roosevelt (theodore)",
+      "ward": "1",
+      "type": "Neighborhood Park",
+      "location": "62 W Roosevelt Rd",
+      "latLng": [
+        41.867510438583324,
+        -87.62930348865072
+      ]
+    },
+    {
+      "id": "452",
+      "name": "Peterson (pehr Samuel)",
+      "ward": "39",
+      "type": "Regional Park",
+      "location": "5801 N Pulaski Rd",
+      "latLng": [
+        41.98585720184405,
+        -87.72842767593355
+      ]
+    },
+    {
+      "id": "324",
+      "name": "Harsh (vivian G.)",
+      "ward": "4",
+      "type": "Mini-park",
+      "location": "4464 S Oakenwald Ave",
+      "latLng": [
+        41.81417092817829,
+        -87.59549182260967
+      ]
+    },
+    {
+      "id": "1122",
+      "name": "Luella",
+      "ward": "10",
+      "type": "Neighborhood Park",
+      "location": "10021 S Luella Ave",
+      "latLng": [
+        41.71307146016826,
+        -87.56811112487028
+      ]
+    },
+    {
+      "id": "60",
+      "name": "Olympia",
+      "ward": "41",
+      "type": "Community Park",
+      "location": "6566 N Avondale Ave",
+      "latLng": [
+        41.99967129216193,
+        -87.81502964749822
+      ]
+    },
+    {
+      "id": "46",
+      "name": "Bohn (henry)",
+      "ward": "19",
+      "type": "Passive Park",
+      "location": "1978 W 111th St",
+      "latLng": [
+        41.69199440842253,
+        -87.6715061937844
+      ]
+    },
+    {
+      "id": "1074",
+      "name": "Wrightwood",
+      "ward": "32",
+      "type": "Neighborhood Park",
+      "location": "2534 N Greenview Ave",
+      "latLng": [
+        41.92752127772134,
+        -87.66586711031468
+      ]
+    },
+    {
+      "id": "294",
+      "name": "Hasan (elliot)",
+      "ward": "5",
+      "type": "Mini-park",
+      "location": "6855 S Oglesby Ave",
+      "latLng": [
+        41.77072168368506,
+        -87.56817424824344
+      ]
+    },
+    {
+      "id": "123",
+      "name": "Riis (jacob)",
+      "ward": "36",
+      "type": "Regional Park",
+      "location": "6100 W Fullerton Ave",
+      "latLng": [
+        41.92386789074309,
+        -87.7782028329214
+      ]
+    },
+    {
+      "id": "1129",
+      "name": "Montgomery (mabel)",
+      "ward": "14",
+      "type": "Mini-park",
+      "location": "2632 W 66th St",
+      "latLng": [
+        41.773735438776214,
+        -87.68964301969416
+      ]
+    },
+    {
+      "id": "402",
+      "name": "Vogle (henry Jr.)",
+      "ward": "47",
+      "type": "Mini-park",
+      "location": "2100 W Lawrence Ave",
+      "latLng": [
+        41.96876318506586,
+        -87.68163591667582
+      ]
+    },
+    {
+      "id": "1270",
+      "name": "Jonquil",
+      "ward": "43",
+      "type": "Neighborhood Park",
+      "location": "1023 W Wrightwood Ave",
+      "latLng": [
+        41.928930069079584,
+        -87.65427493421693
+      ]
+    },
+    {
+      "id": "250",
+      "name": "Archer (william Beatty)",
+      "ward": "23",
+      "type": "Community Park",
+      "location": "4901 S Kilbourn Ave",
+      "latLng": [
+        41.80399883062354,
+        -87.73562247741008
+      ]
+    },
+    {
+      "id": "1005",
+      "name": "Block",
+      "ward": "34",
+      "type": "Passive Park",
+      "location": "346 W 104th St",
+      "latLng": [
+        41.70528829796961,
+        -87.63157251035274
+      ]
+    },
+    {
+      "id": "216",
+      "name": "Dvorak (anton)",
+      "ward": "25",
+      "type": "Community Park",
+      "location": "1119 W Cullerton St",
+      "latLng": [
+        41.855164484165776,
+        -87.65389054340902
+      ]
+    },
+    {
+      "id": "1116",
+      "name": "Keystone",
+      "ward": "31",
+      "type": "Mini-park",
+      "location": "1655 N Keystone Ave",
+      "latLng": [
+        41.91086737008094,
+        -87.72750839406686
+      ]
+    },
+    {
+      "id": "248",
+      "name": "Rowan (william)",
+      "ward": "10",
+      "type": "Regional Park",
+      "location": "11546 S Avenue L",
+      "latLng": [
+        41.685479923763985,
+        -87.53653388213598
+      ]
+    },
+    {
+      "id": "1253",
+      "name": "Fargo (james) Beach",
+      "ward": "49",
+      "type": "Passive Park",
+      "location": "1300 W Fargo Ave",
+      "latLng": [
+        42.017269810521945,
+        -87.6634126109658
+      ]
+    },
+    {
+      "id": "265",
+      "name": "Scottsdale",
+      "ward": "18",
+      "type": "Community Park",
+      "location": "4620 W 83rd Pl",
+      "latLng": [
+        41.74128808371455,
+        -87.73658660340732
+      ]
+    },
+    {
+      "id": "247",
+      "name": "Pasteur (louis)",
+      "ward": "13",
+      "type": "Regional Park",
+      "location": "5825 S Kostner Ave",
+      "latLng": [
+        41.78713994386255,
+        -87.73269479912462
+      ]
+    },
+    {
+      "id": "85",
+      "name": "Kolmar",
+      "ward": "45",
+      "type": "Neighborhood Park",
+      "location": "4143 N Kolmar Ave",
+      "latLng": [
+        41.95603266149912,
+        -87.74174200730903
+      ]
+    },
+    {
+      "id": "233",
+      "name": "Vittum (harriet Elizabeth)",
+      "ward": "23",
+      "type": "Community Park",
+      "location": "5014 W 50th St",
+      "latLng": [
+        41.80213530707324,
+        -87.7485258650223
+      ]
+    },
+    {
+      "id": "337",
+      "name": "Moccasin Ranch",
+      "ward": "20",
+      "type": "Mini-park",
+      "location": "6446 S Kimbark Ave",
+      "latLng": [
+        41.77719801234451,
+        -87.59458365498085
+      ]
+    },
+    {
+      "id": "1037",
+      "name": "Durso (john)",
+      "ward": "42",
+      "type": "Neighborhood Park",
+      "location": "421 W Locust St",
+      "latLng": [
+        41.89885112746819,
+        -87.63962547412498
+      ]
+    },
+    {
+      "id": "6",
+      "name": "Russell (martin) Square",
+      "ward": "7",
+      "type": "Community Park",
+      "location": "3045 E 83rd St",
+      "latLng": [
+        41.74462719880706,
+        -87.54986486051457
+      ]
+    },
+    {
+      "id": "484",
+      "name": "Park No. 484",
+      "ward": "13",
+      "type": "Community Park",
+      "location": "4701 W Marquette Rd",
+      "latLng": [
+        41.78109999999998,
+        -87.77073999999999
+      ]
+    },
+    {
+      "id": "121",
+      "name": "Bell (george,jr.)",
+      "ward": "36",
+      "type": "Neighborhood Park",
+      "location": "3020 N Oak Park Ave",
+      "latLng": [
+        41.93491518524245,
+        -87.79566871618825
+      ]
+    },
+    {
+      "id": "309",
+      "name": "Senka (edward \"duke\")",
+      "ward": "13",
+      "type": "Regional Park",
+      "location": "5656 S St Louis Ave",
+      "latLng": [
+        41.790546871005034,
+        -87.71088702891994
+      ]
+    },
+    {
+      "id": "1057",
+      "name": "Paschen (christian)",
+      "ward": "50",
+      "type": "Neighborhood Park",
+      "location": "1932 W Lunt Ave",
+      "latLng": [
+        42.008947572165,
+        -87.67892210312809
+      ]
+    },
+    {
+      "id": "533",
+      "name": "North Park Nature Center",
+      "ward": "39",
+      "type": "Nature Preserve Park",
+      "location": "5801 N Pulaski Rd",
+      "latLng": [
+        41.98585720184405,
+        -87.72842767593355
+      ]
+    },
+    {
+      "id": "414",
+      "name": "Park No. 414",
+      "ward": "37",
+      "type": "Unimproved Park",
+      "location": "4302 W Division St",
+      "latLng": [
+        41.90263542509576,
+        -87.73379295939455
+      ]
+    },
+    {
+      "id": "435",
+      "name": "Bromann (charles)",
+      "ward": "48",
+      "type": "Mini-park",
+      "location": "5400 N Broadway",
+      "latLng": [
+        41.980013471550706,
+        -87.66004844576902
+      ]
+    },
+    {
+      "id": "480",
+      "name": "Cotton Tail",
+      "ward": "1",
+      "type": "Neighborhood Park",
+      "location": "44 W 15th St",
+      "latLng": [
+        41.845090000000084,
+        -87.62737999999996
+      ]
+    },
+    {
+      "id": "524",
+      "name": "Harris (harriet)",
+      "ward": "20",
+      "type": "Community Park",
+      "location": "6200 S Drexel Ave",
+      "latLng": [
+        41.78220555570679,
+        -87.60443199086755
+      ]
+    },
+    {
+      "id": "1168",
+      "name": "Park West",
+      "ward": "43",
+      "type": "Mini-park",
+      "location": "745 W Wrightwood Ave",
+      "latLng": [
+        41.92901668362393,
+        -87.64793064766941
+      ]
+    },
+    {
+      "id": "415",
+      "name": "Junction Grove",
+      "ward": "16",
+      "type": "Mini-park",
+      "location": "345 W 64th St",
+      "latLng": [
+        41.77804436889018,
+        -87.63379874809212
+      ]
+    },
+    {
+      "id": "1203",
+      "name": "Auburn",
+      "ward": "17",
+      "type": "Passive Park",
+      "location": "406 W Winneconna Pkwy",
+      "latLng": [
+        41.75393597369671,
+        -87.6346790715976
+      ]
+    },
+    {
+      "id": "390",
+      "name": "D'elia (aileen)",
+      "ward": "49",
+      "type": "Mini-park",
+      "location": "6340 N Lakewood Ave",
+      "latLng": [
+        41.99709734541248,
+        -87.66303405478895
+      ]
+    },
+    {
+      "id": "489",
+      "name": "Park No. 489",
+      "ward": "27",
+      "type": "Neighborhood Park",
+      "location": "2420 W Adams St",
+      "latLng": [
+        41.878633577418924,
+        -87.68690749243441
+      ]
+    },
+    {
+      "id": "285",
+      "name": "Austin Foster",
+      "ward": "45",
+      "type": "Neighborhood Park",
+      "location": "6020 W Foster Ave",
+      "latLng": [
+        41.97572569517331,
+        -87.77889328426028
+      ]
+    },
+    {
+      "id": "1063",
+      "name": "Back Of The Yards",
+      "ward": "11",
+      "type": "Neighborhood Park",
+      "location": "4920 S Throop St",
+      "latLng": [
+        41.80438996449631,
+        -87.65763940588994
+      ]
+    },
+    {
+      "id": "168",
+      "name": "Matanky (eugene)",
+      "ward": "49",
+      "type": "Mini-park",
+      "location": "6937 N Ridge Blvd",
+      "latLng": [
+        42.00988000000007,
+        -87.66939999999994
+      ]
+    },
+    {
+      "id": "103",
+      "name": "Chase (salmon)",
+      "ward": "47",
+      "type": "Community Park",
+      "location": "4725 N Ashland Av",
+      "latLng": [
+        41.96794833279387,
+        -87.66934673951792
+      ]
+    },
+    {
+      "id": "1026",
+      "name": "Clark (john)",
+      "ward": "28",
+      "type": "Neighborhood Park",
+      "location": "4615 W Jackson Blvd",
+      "latLng": [
+        41.87684232162447,
+        -87.74119357376132
+      ]
+    },
+    {
+      "id": "110",
+      "name": "Welles (gideon)",
+      "ward": "47",
+      "type": "Regional Park",
+      "location": "2333 W Sunnyside Ave",
+      "latLng": [
+        41.963097217331324,
+        -87.6873544283728
+      ]
+    },
+    {
+      "id": "27",
+      "name": "Burnham (daniel)",
+      "ward": "5",
+      "type": "Magnet Park",
+      "location": "425 E Mcfetridge Dr",
+      "latLng": [
+        41.845090000000084,
+        -87.62737999999996
+      ]
+    },
+    {
+      "id": "1159",
+      "name": "Throop (amos Gager)",
+      "ward": "25",
+      "type": "Neighborhood Park",
+      "location": "1811 S Throop St",
+      "latLng": [
+        41.85758078907663,
+        -87.65876903062718
+      ]
+    },
+    {
+      "id": "421",
+      "name": "Park No. 421",
+      "ward": "3",
+      "type": "Unimproved Park",
+      "location": "5300 S Halsted St",
+      "latLng": [
+        41.79780887034275,
+        -87.64532444843951
+      ]
+    },
+    {
+      "id": "425",
+      "name": "Noethling (grace)",
+      "ward": "43",
+      "type": "Mini-park",
+      "location": "2645 N Sheffield Ave",
+      "latLng": [
+        41.92980828953706,
+        -87.65365278713423
+      ]
+    },
+    {
+      "id": "70",
+      "name": "Forest Glen",
+      "ward": "45",
+      "type": "Mini-park",
+      "location": "5073 W Berwyn Ave",
+      "latLng": [
+        41.97777297931205,
+        -87.75431848019156
+      ]
+    },
+    {
+      "id": "509",
+      "name": "Renaissance",
+      "ward": "0",
+      "type": "Passive Park",
+      "location": "1300 W 79th St",
+      "latLng": [
+        41.750524984414255,
+        -87.65538357982251
+      ]
+    },
+    {
+      "id": "1107",
+      "name": "Zatterberg (helen)",
+      "ward": "47",
+      "type": "Mini-park",
+      "location": "4246 N Hermitage Ave",
+      "latLng": [
+        41.958757660955214,
+        -87.67237944927243
+      ]
+    },
+    {
+      "id": "213",
+      "name": "Harrison (carter)",
+      "ward": "25",
+      "type": "Regional Park",
+      "location": "1824 S Wood St",
+      "latLng": [
+        41.85700763775876,
+        -87.67112150533424
+      ]
+    },
+    {
+      "id": "195",
+      "name": "Sauganash",
+      "ward": "39",
+      "type": "Community Park",
+      "location": "5861 N Kostner Ave",
+      "latLng": [
+        41.98744324895065,
+        -87.7382253623636
+      ]
+    },
+    {
+      "id": "1148",
+      "name": "Schaefer (edward)",
+      "ward": "32",
+      "type": "Mini-park",
+      "location": "2415 N Marshfield Ave",
+      "latLng": [
+        41.92590990310953,
+        -87.669389261378
+      ]
+    },
+    {
+      "id": "23",
+      "name": "Mckinley (william)",
+      "ward": "12",
+      "type": "Regional Park",
+      "location": "2210 W Pershing Rd",
+      "latLng": [
+        41.82310473796484,
+        -87.68047137539776
+      ]
+    },
+    {
+      "id": "293",
+      "name": "Unity",
+      "ward": "35",
+      "type": "Neighborhood Park",
+      "location": "2636 N Kimball Ave",
+      "latLng": [
+        41.929394088702225,
+        -87.7123016855532
+      ]
+    },
+    {
+      "id": "407",
+      "name": "Orr (rezin)",
+      "ward": "37",
+      "type": "Community Park",
+      "location": "744 N Pulaski Rd",
+      "latLng": [
+        41.89430397480294,
+        -87.72611401830324
+      ]
+    },
+    {
+      "id": "159",
+      "name": "Ravenswood Manor",
+      "ward": "40",
+      "type": "Neighborhood Park",
+      "location": "4626 N Manor Ave",
+      "latLng": [
+        41.96524311257207,
+        -87.70015387901664
+      ]
+    },
+    {
+      "id": "243",
+      "name": "Lindblom (robert)",
+      "ward": "15",
+      "type": "Regional Park",
+      "location": "6054 S Damen Ave",
+      "latLng": [
+        41.78381354353519,
+        -87.67409332386784
+      ]
+    },
+    {
+      "id": "406",
+      "name": "Clemente (roberto)",
+      "ward": "26",
+      "type": "Community Park",
+      "location": "2334 W Division St",
+      "latLng": [
+        41.903093522060594,
+        -87.68544083056503
+      ]
+    },
+    {
+      "id": "1147",
+      "name": "Sacramento",
+      "ward": "33",
+      "type": "Neighborhood Park",
+      "location": "3520 N Sacramento Ave",
+      "latLng": [
+        41.94519566416695,
+        -87.7029456993755
+      ]
+    },
+    {
+      "id": "1118",
+      "name": "Langley",
+      "ward": "9",
+      "type": "Neighborhood Park",
+      "location": "700 E 113th St",
+      "latLng": [
+        41.68923650444839,
+        -87.60591794578804
+      ]
+    },
+    {
+      "id": "1003",
+      "name": "Beilfuss (a.w.)",
+      "ward": "31",
+      "type": "Neighborhood Park",
+      "location": "1725 N Springfield Ave",
+      "latLng": [
+        41.912213906210134,
+        -87.7238787763433
+      ]
+    },
+    {
+      "id": "1154",
+      "name": "Till-mobley (mamie)",
+      "ward": "20",
+      "type": "Mini-park",
+      "location": "6410 S Ellis Ave",
+      "latLng": [
+        41.77845464035744,
+        -87.60048195553527
+      ]
+    },
+    {
+      "id": "49",
+      "name": "Prospect Gardens",
+      "ward": "19",
+      "type": "Passive Park",
+      "location": "10970 S Prospect Ave",
+      "latLng": [
+        41.69419058904009,
+        -87.66893960036333
+      ]
+    },
+    {
+      "id": "540",
+      "name": "Park No. 540",
+      "ward": "3",
+      "type": "Unimproved Park",
+      "location": "2401 S Federal St",
+      "latLng": [
+        41.845090000000084,
+        -87.62737999999996
+      ]
+    },
+    {
+      "id": "362",
+      "name": "Brooks (gwendolyn)",
+      "ward": "4",
+      "type": "Neighborhood Park",
+      "location": "4542 S Greenwood Ave",
+      "latLng": [
+        41.81247736072954,
+        -87.5993681671407
+      ]
+    },
+    {
+      "id": "462",
+      "name": "Broadway Armory",
+      "ward": "48",
+      "type": "Community Park",
+      "location": "5917 N Broadway",
+      "latLng": [
+        41.98954807628543,
+        -87.66018859961147
+      ]
+    },
+    {
+      "id": "1097",
+      "name": "Elston (daniel)",
+      "ward": "33",
+      "type": "Mini-park",
+      "location": "3461 N Troy St",
+      "latLng": [
+        41.94404379564039,
+        -87.70644680466722
+      ]
+    },
+    {
+      "id": "1141",
+      "name": "Brynford",
+      "ward": "39",
+      "type": "Mini-park",
+      "location": "5640 N Pulaski Rd",
+      "latLng": [
+        41.983642632157384,
+        -87.72853825121577
+      ]
+    },
+    {
+      "id": "432",
+      "name": "Park No. 432",
+      "ward": "27",
+      "type": "Unimproved Park",
+      "location": "3349 W Rice St",
+      "latLng": [
+        41.89636631098824,
+        -87.71097410655602
+      ]
+    },
+    {
+      "id": "479",
+      "name": "Jones (mary Richardson)",
+      "ward": "1",
+      "type": "Neighborhood Park",
+      "location": "1240 S Plymouth Ct",
+      "latLng": [
+        41.845090000000084,
+        -87.62737999999996
+      ]
+    },
+    {
+      "id": "348",
+      "name": "Gooseberry",
+      "ward": "46",
+      "type": "Mini-park",
+      "location": "4648 N Malden St",
+      "latLng": [
+        41.966212457545296,
+        -87.66250843047354
+      ]
+    },
+    {
+      "id": "352",
+      "name": "Reyes (guadalupe)",
+      "ward": "25",
+      "type": "Mini-park",
+      "location": "827 W 19th St",
+      "latLng": [
+        41.85665865613047,
+        -87.64731882523525
+      ]
+    },
+    {
+      "id": "8",
+      "name": "Ogden (william)",
+      "ward": "17",
+      "type": "Regional Park",
+      "location": "6500 S Racine Ave",
+      "latLng": [
+        41.77591669981747,
+        -87.65446998072692
+      ]
+    },
+    {
+      "id": "1084",
+      "name": "Buena Circle",
+      "ward": "0",
+      "type": "Neighborhood Park",
+      "location": "1049  W Buena",
+      "latLng": [
+        41.95814460814024,
+        -87.65634984035684
+      ]
+    },
+    {
+      "id": "270",
+      "name": "Cole (nat King)",
+      "ward": "6",
+      "type": "Neighborhood Park",
+      "location": "361 E 85th St",
+      "latLng": [
+        41.740074313971284,
+        -87.61566011897241
+      ]
+    },
+    {
+      "id": "1258",
+      "name": "Juneway Terr. Beach",
+      "ward": "49",
+      "type": "Neighborhood Park",
+      "location": "7751 N Eastlake Ter",
+      "latLng": [
+        42.02181250960071,
+        -87.66536363599903
+      ]
+    },
+    {
+      "id": "204",
+      "name": "Garfield (james)",
+      "ward": "28",
+      "type": "Citywide Park",
+      "location": "100 N Central Park Dr",
+      "latLng": [
+        41.881547841953854,
+        -87.71591721655672
+      ]
+    },
+    {
+      "id": "371",
+      "name": "Valley Forge",
+      "ward": "23",
+      "type": "Community Park",
+      "location": "7001 W 59th St",
+      "latLng": [
+        41.78474219649366,
+        -87.79617301343369
+      ]
+    },
+    {
+      "id": "157",
+      "name": "Buffalo",
+      "ward": "40",
+      "type": "Passive Park",
+      "location": "4500 N California Ave",
+      "latLng": [
+        41.963195794444346,
+        -87.69850930868671
+      ]
+    },
+    {
+      "id": "1161",
+      "name": "Algonquin",
+      "ward": "33",
+      "type": "Mini-park",
+      "location": "2941 N Washtenaw Ave",
+      "latLng": [
+        41.93467008559948,
+        -87.69517170103428
+      ]
+    },
+    {
+      "id": "82",
+      "name": "Jensen (christ)",
+      "ward": "39",
+      "type": "Neighborhood Park",
+      "location": "4600 N Lawndale Ave",
+      "latLng": [
+        41.96472417266571,
+        -87.7206627324626
+      ]
+    },
+    {
+      "id": "208",
+      "name": "Eckhart (bernard)",
+      "ward": "32",
+      "type": "Community Park",
+      "location": "1330 W Chicago Ave",
+      "latLng": [
+        41.90318000000002,
+        -87.68408
+      ]
+    },
+    {
+      "id": "210",
+      "name": "Union",
+      "ward": "27",
+      "type": "Community Park",
+      "location": "1501 W Randolph St",
+      "latLng": [
+        41.881730000000005,
+        -87.63661000000002
+      ]
+    },
+    {
+      "id": "1216",
+      "name": "Hodes (barnet)",
+      "ward": "5",
+      "type": "Passive Park",
+      "location": "1607 E 73rd St",
+      "latLng": [
+        41.7623353614593,
+        -87.58566752709172
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Mcguane (john)",
+      "ward": "11",
+      "type": "Community Park",
+      "location": "2901 S Poplar Ave",
+      "latLng": [
+        41.841367010525445,
+        -87.64959693466687
+      ]
+    },
+    {
+      "id": "523",
+      "name": "Park No. 523",
+      "ward": "7",
+      "type": "Unimproved Park",
+      "location": "E 87th St At The Lake",
+      "latLng": [
+        41.712690000000066,
+        -87.55551000000003
+      ]
+    },
+    {
+      "id": "412",
+      "name": "Churchill Field",
+      "ward": "32",
+      "type": "Neighborhood Park",
+      "location": "1825 N Damen Ave",
+      "latLng": [
+        41.92230000000001,
+        -87.65132999999997
+      ]
+    },
+    {
+      "id": "1027",
+      "name": "Dean (john)",
+      "ward": "32",
+      "type": "Neighborhood Park",
+      "location": "1356 N Dean St",
+      "latLng": [
+        41.90715289496749,
+        -87.67091902665061
+      ]
+    },
+    {
+      "id": "219",
+      "name": "Humboldt (baron Von)",
+      "ward": "1",
+      "type": "Citywide Park",
+      "location": "1400 N Humboldt Dr",
+      "latLng": [
+        41.906693617480535,
+        -87.7014131186496
+      ]
+    },
+    {
+      "id": "1277",
+      "name": "Clover",
+      "ward": "32",
+      "type": "Mini-park",
+      "location": "2210 N Southport Ave",
+      "latLng": [
+        41.9218178051302,
+        -87.6632048189209
+      ]
+    },
+    {
+      "id": "256",
+      "name": "Merrimac",
+      "ward": "38",
+      "type": "Community Park",
+      "location": "6343 W Irving Park Rd",
+      "latLng": [
+        41.95287297119249,
+        -87.78515071066339
+      ]
+    },
+    {
+      "id": "17",
+      "name": "Mann (james)",
+      "ward": "10",
+      "type": "Regional Park",
+      "location": "3035 E 130th St",
+      "latLng": [
+        41.65913187664142,
+        -87.54944580201155
+      ]
+    },
+    {
+      "id": "472",
+      "name": "Grandparents'",
+      "ward": "41",
+      "type": "Neighborhood Park",
+      "location": "5445 N Chester St",
+      "latLng": [
+        41.97877262519412,
+        -87.83896855207797
+      ]
+    },
+    {
+      "id": "1255",
+      "name": "Berger (albert)",
+      "ward": "49",
+      "type": "Neighborhood Park",
+      "location": "6227 N Sheridan Rd",
+      "latLng": [
+        41.99503943484097,
+        -87.65549002266863
+      ]
+    },
+    {
+      "id": "343",
+      "name": "Aster",
+      "ward": "46",
+      "type": "Mini-park",
+      "location": "4639 N Kenmore Ave",
+      "latLng": [
+        41.96626558405787,
+        -87.65608306077826
+      ]
+    },
+    {
+      "id": "389",
+      "name": "Snowberry",
+      "ward": "27",
+      "type": "Mini-park",
+      "location": "1855 W Huron St",
+      "latLng": [
+        41.89410237601356,
+        -87.67344466515509
+      ]
+    },
+    {
+      "id": "399",
+      "name": "Park No. 399",
+      "ward": "26",
+      "type": "Mini-park",
+      "location": "1420 N Artesian Ave",
+      "latLng": [
+        41.907035621425315,
+        -87.68845558574917
+      ]
+    },
+    {
+      "id": "186",
+      "name": "River",
+      "ward": "33",
+      "type": "Regional Park",
+      "location": "5100 N Francisco Ave",
+      "latLng": [
+        41.97397703250807,
+        -87.70134421855703
+      ]
+    },
+    {
+      "id": "541",
+      "name": "Pritzker",
+      "ward": "2",
+      "type": "Passive Park",
+      "location": "301-52 S State St",
+      "latLng": [
+        41.877860000000055,
+        -87.62648000000002
+      ]
+    },
+    {
+      "id": "420",
+      "name": "Cochran (john)",
+      "ward": "48",
+      "type": "Mini-park",
+      "location": "5554 N Magnolia Ave",
+      "latLng": [
+        41.98278712846933,
+        -87.6612907449271
+      ]
+    },
+    {
+      "id": "1145",
+      "name": "Wendt (kenneth)",
+      "ward": "44",
+      "type": "Mini-park",
+      "location": "667 W Roscoe St",
+      "latLng": [
+        41.94356866736221,
+        -87.64699653193412
+      ]
+    },
+    {
+      "id": "108",
+      "name": "Seward (william)",
+      "ward": "27",
+      "type": "Community Park",
+      "location": "375 W Elm St",
+      "latLng": [
+        41.902805456718056,
+        -87.63727635293053
+      ]
+    },
+    {
+      "id": "1060",
+      "name": "Mckiernan (david)",
+      "ward": "19",
+      "type": "Neighborhood Park",
+      "location": "10714 S Sawyer Ave",
+      "latLng": [
+        41.69928548141372,
+        -87.70235956062189
+      ]
+    },
+    {
+      "id": "1119",
+      "name": "Thuis (grace Zwiefka)",
+      "ward": "45",
+      "type": "Mini-park",
+      "location": "4800 N Lavergne Ave",
+      "latLng": [
+        41.96800484029402,
+        -87.75265158089198
+      ]
+    },
+    {
+      "id": "286",
+      "name": "Wentworth (john) Gardens",
+      "ward": "11",
+      "type": "Community Park",
+      "location": "3770 S Wentworth Ave",
+      "latLng": [
+        41.82603372296957,
+        -87.63143277940938
+      ]
+    },
+    {
+      "id": "353",
+      "name": "Hornbeam",
+      "ward": "2",
+      "type": "Mini-park",
+      "location": "1422 S Hamlin Ave",
+      "latLng": [
+        41.861782536834085,
+        -87.72023918320704
+      ]
+    },
+    {
+      "id": "107",
+      "name": "Lake Shore",
+      "ward": "42",
+      "type": "Neighborhood Park",
+      "location": "254 E Chicago Ave",
+      "latLng": [
+        41.89684863138387,
+        -87.62118802533182
+      ]
+    },
+    {
+      "id": "1128",
+      "name": "Miller (samuel)",
+      "ward": "1",
+      "type": "Mini-park",
+      "location": "848 S Miller St",
+      "latLng": [
+        41.871246999438455,
+        -87.6523458753321
+      ]
+    },
+    {
+      "id": "1287",
+      "name": "Pine",
+      "ward": "10",
+      "type": "Mini-park",
+      "location": "9507 S Oglesby Ave",
+      "latLng": [
+        41.72250721680952,
+        -87.56581048478019
+      ]
+    },
+    {
+      "id": "305",
+      "name": "Le Claire Courts - Hearst Comm. Ctr",
+      "ward": "12",
+      "type": "Community Park",
+      "location": "5116 W 44th St",
+      "latLng": [
+        41.81305484511148,
+        -87.75137721322997
+      ]
+    },
+    {
+      "id": "1080",
+      "name": "Wesolek (marlene)",
+      "ward": "10",
+      "type": "Mini-park",
+      "location": "13407 S Avenue M",
+      "latLng": [
+        41.651672686192434,
+        -87.53736736304144
+      ]
+    },
+    {
+      "id": "109",
+      "name": "Stanton (edwin)",
+      "ward": "42",
+      "type": "Community Park",
+      "location": "640 W Scott St",
+      "latLng": [
+        41.90509309756561,
+        -87.64425300173957
+      ]
+    },
+    {
+      "id": "145",
+      "name": "Wilson (frank)",
+      "ward": "45",
+      "type": "Community Park",
+      "location": "4630 N Milwaukee Ave",
+      "latLng": [
+        41.96471787044065,
+        -87.75809563327728
+      ]
+    },
+    {
+      "id": "1115",
+      "name": "Kenmore",
+      "ward": "44",
+      "type": "Mini-park",
+      "location": "3141 N Kenmore Ave",
+      "latLng": [
+        41.93879115124966,
+        -87.6551360669911
+      ]
+    },
+    {
+      "id": "386",
+      "name": "Jackson (mahalia)",
+      "ward": "21",
+      "type": "Community Park",
+      "location": "8385 S Birkhoff Ave",
+      "latLng": [
+        41.741708338927644,
+        -87.6387042410351
+      ]
+    },
+    {
+      "id": "1224",
+      "name": "Addams (jane) Meml.",
+      "ward": "42",
+      "type": "Passive Park",
+      "location": "485 E Ohio St",
+      "latLng": [
+        41.89260113949592,
+        -87.61633395212125
+      ]
+    },
+    {
+      "id": "501",
+      "name": "Parsons (lucy)",
+      "ward": "30",
+      "type": "Unimproved Park",
+      "location": "4701 W Belmont Ave",
+      "latLng": [
+        41.938851147111166,
+        -87.74457258302749
+      ]
+    },
+    {
+      "id": "1008",
+      "name": "Hermitage",
+      "ward": "15",
+      "type": "Neighborhood Park",
+      "location": "5839 S Wood St",
+      "latLng": [
+        41.78782388465688,
+        -87.66919966130989
+      ]
+    },
+    {
+      "id": "502",
+      "name": "Canal Origins",
+      "ward": "11",
+      "type": "Passive Park",
+      "location": "2701 S Ashland Ave",
+      "latLng": [
+        41.844876700385974,
+        -87.66580388535768
+      ]
+    },
+    {
+      "id": "1102",
+      "name": "Gladys (gunderson)",
+      "ward": "28",
+      "type": "Mini-park",
+      "location": "3307 W Gladys Ave",
+      "latLng": [
+        41.87615925641151,
+        -87.7086798973381
+      ]
+    },
+    {
+      "id": "328",
+      "name": "Beehive",
+      "ward": "5",
+      "type": "Mini-park",
+      "location": "6156 S Dorchester Ave",
+      "latLng": [
+        41.7826928699435,
+        -87.59139106177679
+      ]
+    },
+    {
+      "id": "146",
+      "name": "Chopin (frederic)",
+      "ward": "38",
+      "type": "Community Park",
+      "location": "3420 N Long Ave",
+      "latLng": [
+        41.94266495937265,
+        -87.76179260459307
+      ]
+    },
+    {
+      "id": "267",
+      "name": "Dunbar (paul Laurence)",
+      "ward": "2",
+      "type": "Regional Park",
+      "location": "200 E 31st St",
+      "latLng": [
+        41.838433980091146,
+        -87.62185872413626
+      ]
+    },
+    {
+      "id": "430",
+      "name": "Sweet Clover",
+      "ward": "37",
+      "type": "Mini-park",
+      "location": "650 N Leamington Ave",
+      "latLng": [
+        41.892172828784155,
+        -87.75433258110104
+      ]
+    },
+    {
+      "id": "464",
+      "name": "Quinn (mary)",
+      "ward": "41",
+      "type": "Passive Park",
+      "location": "6239 N Mcclellan Ave",
+      "latLng": [
+        41.995040779551374,
+        -87.77085244329055
+      ]
+    },
+    {
+      "id": "455",
+      "name": "Senior Citizens Meml.",
+      "ward": "32",
+      "type": "Passive Park",
+      "location": "2238 N Oakley Ave",
+      "latLng": [
+        41.92274415577011,
+        -87.68519460358583
+      ]
+    },
+    {
+      "id": "61",
+      "name": "Brooks (oscar)",
+      "ward": "41",
+      "type": "Community Park",
+      "location": "7046 N Harlem Ave",
+      "latLng": [
+        42.00926431907137,
+        -87.80674833549057
+      ]
+    },
+    {
+      "id": "1090",
+      "name": "Korczak (janusz)",
+      "ward": "50",
+      "type": "Mini-park",
+      "location": "6156 N Claremont Ave",
+      "latLng": [
+        41.99330384144543,
+        -87.68860420242433
+      ]
+    },
+    {
+      "id": "1279",
+      "name": "Cedar",
+      "ward": "48",
+      "type": "Mini-park",
+      "location": "5315 N Winthrop Ave",
+      "latLng": [
+        41.97847278263771,
+        -87.65770822373352
+      ]
+    },
+    {
+      "id": "1054",
+      "name": "Normandy",
+      "ward": "23",
+      "type": "Neighborhood Park",
+      "location": "6660 W 52nd St",
+      "latLng": [
+        41.7978126064176,
+        -87.78856016543482
+      ]
+    },
+    {
+      "id": "1209",
+      "name": "Chamberlain Triangle",
+      "ward": "4",
+      "type": "Passive Park",
+      "location": "4233 S Greenwood Ave",
+      "latLng": [
+        41.817378592813895,
+        -87.59932159336516
+      ]
+    },
+    {
+      "id": "1204",
+      "name": "Austin (henry)",
+      "ward": "29",
+      "type": "Community Park",
+      "location": "5951 W Lake St",
+      "latLng": [
+        41.88792967782139,
+        -87.77347306103921
+      ]
+    },
+    {
+      "id": "1113",
+      "name": "Jefferson (thomas)",
+      "ward": "25",
+      "type": "Neighborhood Park",
+      "location": "1640 S Jefferson St",
+      "latLng": [
+        41.85877551362228,
+        -87.64187900050172
+      ]
+    },
+    {
+      "id": "1067",
+      "name": "Veterans' Memorial",
+      "ward": "10",
+      "type": "Neighborhood Park",
+      "location": "2820 E 98th St",
+      "latLng": [
+        41.71733100831278,
+        -87.55564215675622
+      ]
+    },
+    {
+      "id": "393",
+      "name": "Walsh (john)",
+      "ward": "32",
+      "type": "Neighborhood Park",
+      "location": "1722 N Ashland Ave",
+      "latLng": [
+        41.92230000000001,
+        -87.65132999999997
+      ]
+    },
+    {
+      "id": "507",
+      "name": "Coliseum",
+      "ward": "0",
+      "type": "Neighborhood Park",
+      "location": "1466 S Wabash Av",
+      "latLng": [
+        41.862242718216685,
+        -87.62575866268054
+      ]
+    },
+    {
+      "id": "323",
+      "name": "Poplar",
+      "ward": "2",
+      "type": "Mini-park",
+      "location": "4046 S Prairie Ave",
+      "latLng": [
+        41.82115532723568,
+        -87.61997631949077
+      ]
+    },
+    {
+      "id": "506",
+      "name": "Washington (harold) Mem.",
+      "ward": "49",
+      "type": "Mini-park",
+      "location": "7710 N Paulina St",
+      "latLng": [
+        42.02133789566889,
+        -87.67313787987369
+      ]
+    },
+    {
+      "id": "1014",
+      "name": "Sherwood (jesse)",
+      "ward": "3",
+      "type": "Community Park",
+      "location": "5705 S Shields Ave",
+      "latLng": [
+        41.776039999999966,
+        -87.63983999999999
+      ]
+    },
+    {
+      "id": "1244",
+      "name": "Washington Square",
+      "ward": "42",
+      "type": "Passive Park",
+      "location": "901 N Clark St",
+      "latLng": [
+        41.89982596081518,
+        -87.63124785542169
+      ]
+    },
+    {
+      "id": "237",
+      "name": "Owens (jesse)",
+      "ward": "8",
+      "type": "Community Park",
+      "location": "2100 E 88th St",
+      "latLng": [
+        41.73529174772874,
+        -87.5731838747965
+      ]
+    },
+    {
+      "id": "1256",
+      "name": "Howard (ure) Beach",
+      "ward": "49",
+      "type": "Neighborhood Park",
+      "location": "1300 W Howard St",
+      "latLng": [
+        42.01933233897205,
+        -87.66405025628663
+      ]
+    },
+    {
+      "id": "295",
+      "name": "Baraga (frederick)",
+      "ward": "25",
+      "type": "Mini-park",
+      "location": "2440 S Leavitt St",
+      "latLng": [
+        41.84742602384284,
+        -87.68068031053545
+      ]
+    },
+    {
+      "id": "212",
+      "name": "Shedd (john G.)",
+      "ward": "22",
+      "type": "Community Park",
+      "location": "3660 W 23rd St",
+      "latLng": [
+        41.849875033450495,
+        -87.71669788114704
+      ]
+    },
+    {
+      "id": "203",
+      "name": "Holstein",
+      "ward": "32",
+      "type": "Community Park",
+      "location": "2200 N Oakley Ave",
+      "latLng": [
+        41.92191056515937,
+        -87.685561589187
+      ]
+    },
+    {
+      "id": "555",
+      "name": "Sauganash Trail",
+      "ward": "39",
+      "type": "Passive Park",
+      "location": "4400 W Devon Ave",
+      "latLng": [
+        42.00988000000007,
+        -87.66939999999994
+      ]
+    },
+    {
+      "id": "503",
+      "name": "Park No. 503",
+      "ward": "7",
+      "type": "Unimproved Park",
+      "location": "8900 S Green Bay Ave",
+      "latLng": [
+        41.733697805787244,
+        -87.54156862135358
+      ]
+    },
+    {
+      "id": "1205",
+      "name": "Barnard (erastus)",
+      "ward": "19",
+      "type": "Neighborhood Park",
+      "location": "10441 S Longwood Dr",
+      "latLng": [
+        41.70401615267819,
+        -87.67071877217369
+      ]
+    },
+    {
+      "id": "1070",
+      "name": "Washtenaw",
+      "ward": "25",
+      "type": "Neighborhood Park",
+      "location": "2521 S Washtenaw Ave",
+      "latLng": [
+        41.84586200508689,
+        -87.69275648329338
+      ]
+    },
+    {
+      "id": "1045",
+      "name": "Maplewood",
+      "ward": "26",
+      "type": "Neighborhood Park",
+      "location": "1640 N Maplewood Ave",
+      "latLng": [
+        41.911035639225574,
+        -87.69098958587165
+      ]
+    },
+    {
+      "id": "29",
+      "name": "Avalon",
+      "ward": "8",
+      "type": "Regional Park",
+      "location": "1215 E 83rd St",
+      "latLng": [
+        41.74403864622289,
+        -87.59470764780757
+      ]
+    },
+    {
+      "id": "375",
+      "name": "Privet",
+      "ward": "43",
+      "type": "Mini-park",
+      "location": "1844 N Sheffield Ave",
+      "latLng": [
+        41.91495886137757,
+        -87.65332285475117
+      ]
+    },
+    {
+      "id": "1138",
+      "name": "Ohio & Harding",
+      "ward": "37",
+      "type": "Mini-park",
+      "location": "607 N Harding Ave",
+      "latLng": [
+        41.89183162048633,
+        -87.7246748037752
+      ]
+    },
+    {
+      "id": "1024",
+      "name": "Bosley (william)",
+      "ward": "11",
+      "type": "Neighborhood Park",
+      "location": "3044 S Bonfield St",
+      "latLng": [
+        41.83926916304291,
+        -87.65366844119069
+      ]
+    },
+    {
+      "id": "120",
+      "name": "Kosciuszko (thadeuz)",
+      "ward": "35",
+      "type": "Community Park",
+      "location": "2732 N Avers Ave",
+      "latLng": [
+        41.93064292938927,
+        -87.72331905919202
+      ]
+    },
+    {
+      "id": "1020",
+      "name": "Anderson (louis)",
+      "ward": "2",
+      "type": "Community Park",
+      "location": "3748 S Prairie Ave",
+      "latLng": [
+        41.826934302334955,
+        -87.62050848158908
+      ]
+    },
+    {
+      "id": "320",
+      "name": "Robichaux (joseph)",
+      "ward": "21",
+      "type": "Community Park",
+      "location": "9247 S Eggleston Ave",
+      "latLng": [
+        41.72618870310857,
+        -87.63477018516284
+      ]
+    },
+    {
+      "id": "1210",
+      "name": "Dixon (lorraine)",
+      "ward": "8",
+      "type": "Passive Park",
+      "location": "8931 S Dauphin Ave",
+      "latLng": [
+        41.73244386404232,
+        -87.60207299959605
+      ]
+    },
+    {
+      "id": "147",
+      "name": "Portage",
+      "ward": "38",
+      "type": "Regional Park",
+      "location": "4100 N Long Ave",
+      "latLng": [
+        41.95506808167233,
+        -87.7621920751551
+      ]
+    },
+    {
+      "id": "372",
+      "name": "Catalpa",
+      "ward": "12",
+      "type": "Mini-park",
+      "location": "4330 S Kedvale Ave",
+      "latLng": [
+        41.814561547659395,
+        -87.72756310795309
+      ]
+    },
+    {
+      "id": "400",
+      "name": "Claremont",
+      "ward": "27",
+      "type": "Neighborhood Park",
+      "location": "2342 W Flournoy St",
+      "latLng": [
+        41.87308397236991,
+        -87.68506647949592
+      ]
+    },
+    {
+      "id": "274",
+      "name": "Legion",
+      "ward": "39",
+      "type": "Regional Park",
+      "location": "3100 W Bryn Mawr Ave",
+      "latLng": [
+        41.98314723555949,
+        -87.70701937698654
+      ]
+    },
+    {
+      "id": "419",
+      "name": "Park No. 419",
+      "ward": "6",
+      "type": "Unimproved Park",
+      "location": "8001 S Wabash Ave",
+      "latLng": [
+        41.749094195403984,
+        -87.62286472600692
+      ]
+    },
+    {
+      "id": "262",
+      "name": "Addams (jane)",
+      "ward": "1",
+      "type": "Regional Park",
+      "location": "1301 W 14th St",
+      "latLng": [
+        41.863333409473384,
+        -87.65908337975732
+      ]
+    },
+    {
+      "id": "339",
+      "name": "Buckthorn",
+      "ward": "3",
+      "type": "Mini-park",
+      "location": "4347 S Calumet Ave",
+      "latLng": [
+        41.81576481654484,
+        -87.61823525450735
+      ]
+    },
+    {
+      "id": "549",
+      "name": "Logan Square Skate Park",
+      "ward": "35",
+      "type": "Neighborhood Park",
+      "location": "2430 W Logan Blvd",
+      "latLng": [
+        41.92858175299534,
+        -87.6903045158381
+      ]
+    },
+    {
+      "id": "551",
+      "name": "Park No. 551",
+      "ward": "42",
+      "type": "Neighborhood Park",
+      "location": "353 N Des Plaines St",
+      "latLng": [
+        41.887986664897596,
+        -87.64419755533602
+      ]
+    },
+    {
+      "id": "258",
+      "name": "Dunham (robert)",
+      "ward": "38",
+      "type": "Community Park",
+      "location": "4640 N Melvina Ave",
+      "latLng": [
+        41.965486014732136,
+        -87.78205497599659
+      ]
+    },
+    {
+      "id": "15",
+      "name": "Grand Crossing",
+      "ward": "6",
+      "type": "Regional Park",
+      "location": "7655 S Ingleside Ave",
+      "latLng": [
+        41.75576118612808,
+        -87.60157757899319
+      ]
+    },
+    {
+      "id": "547",
+      "name": "Battle Of Fort Dearborn",
+      "ward": "2",
+      "type": "Passive Park",
+      "location": "1801 S Calumet Ave",
+      "latLng": [
+        41.85780983048518,
+        -87.6195048622005
+      ]
+    },
+    {
+      "id": "1087",
+      "name": "Central",
+      "ward": "27",
+      "type": "Mini-park",
+      "location": "721 N Central Park Ave",
+      "latLng": [
+        41.89404898571467,
+        -87.71618727055008
+      ]
+    },
+    {
+      "id": "1199",
+      "name": "Adams (john C.)",
+      "ward": "9",
+      "type": "Passive Park",
+      "location": "7535 S Dobson Ave",
+      "latLng": [
+        41.75757054053217,
+        -87.59920409585648
+      ]
+    },
+    {
+      "id": "1019",
+      "name": "Adams (george & Adele)",
+      "ward": "43",
+      "type": "Neighborhood Park",
+      "location": "1919 N Seminary Ave",
+      "latLng": [
+        41.91656504308353,
+        -87.65524387525684
+      ]
+    },
+    {
+      "id": "100",
+      "name": "Lincoln (abraham)",
+      "ward": "0",
+      "type": "Magnet Park",
+      "location": "200 W Fullerton Pkwy",
+      "latLng": [
+        41.92230000000001,
+        -87.65132999999997
+      ]
+    },
+    {
+      "id": "263",
+      "name": "Lake Meadows",
+      "ward": "2",
+      "type": "Community Park",
+      "location": "3113 S Rhodes Ave",
+      "latLng": [
+        41.83814874007337,
+        -87.61334446983203
+      ]
+    },
+    {
+      "id": "278",
+      "name": "Houston (jessie \"ma\")",
+      "ward": "4",
+      "type": "Neighborhood Park",
+      "location": "5001 S Cottage Grove Ave",
+      "latLng": [
+        41.804051738092696,
+        -87.60636239949014
+      ]
+    },
+    {
+      "id": "394",
+      "name": "Malus",
+      "ward": "3",
+      "type": "Neighborhood Park",
+      "location": "5426 S Shields Ave",
+      "latLng": [
+        41.79553912964914,
+        -87.63431303057952
+      ]
+    },
+    {
+      "id": "289",
+      "name": "Brown (sidney) Meml.",
+      "ward": "6",
+      "type": "Community Park",
+      "location": "644 E 86th St",
+      "latLng": [
+        41.738452014520156,
+        -87.60920305068292
+      ]
+    },
+    {
+      "id": "188",
+      "name": "Green Briar",
+      "ward": "40",
+      "type": "Community Park",
+      "location": "2650 W Peterson Ave",
+      "latLng": [
+        41.99052241279075,
+        -87.69604639463594
+      ]
+    },
+    {
+      "id": "515",
+      "name": "Park No. 515",
+      "ward": "24",
+      "type": "Community Park",
+      "location": "3517 W Arthington St",
+      "latLng": [
+        41.86993378760654,
+        -87.7120557108498
+      ]
+    },
+    {
+      "id": "1225",
+      "name": "Harris (ryan) Memorial",
+      "ward": "0",
+      "type": "Neighborhood Park",
+      "location": "6701 S Lowe Ave",
+      "latLng": [
+        41.772477043983464,
+        -87.64022134917452
+      ]
+    },
+    {
+      "id": "11",
+      "name": "Calumet",
+      "ward": "10",
+      "type": "Citywide Park",
+      "location": "9801 S Avenue G",
+      "latLng": [
+        41.71779644508562,
+        -87.53153189359543
+      ]
+    },
+    {
+      "id": "340",
+      "name": "Boswell (arnita Young)",
+      "ward": "20",
+      "type": "Mini-park",
+      "location": "6646 S University Ave",
+      "latLng": [
+        41.77417318914402,
+        -87.59856650711382
+      ]
+    },
+    {
+      "id": "287",
+      "name": "Cooper (jack)",
+      "ward": "34",
+      "type": "Neighborhood Park",
+      "location": "1332 W 117th St",
+      "latLng": [
+        41.68131211289568,
+        -87.65549271225042
+      ]
+    },
+    {
+      "id": "1127",
+      "name": "Millard (alden)",
+      "ward": "24",
+      "type": "Mini-park",
+      "location": "1331 S Millard Ave",
+      "latLng": [
+        41.86392829094587,
+        -87.71647126178505
+      ]
+    },
+    {
+      "id": "387",
+      "name": "Hoard (edison)",
+      "ward": "6",
+      "type": "Neighborhood Park",
+      "location": "7221 S Dobson Ave",
+      "latLng": [
+        41.76370369690935,
+        -87.59934053704187
+      ]
+    },
+    {
+      "id": "527",
+      "name": "Park No. 527",
+      "ward": "20",
+      "type": "Unimproved Park",
+      "location": "6200 S Lasalle St",
+      "latLng": [
+        41.781655397968834,
+        -87.62898329995863
+      ]
+    },
+    {
+      "id": "290",
+      "name": "South Lakeview",
+      "ward": "44",
+      "type": "Neighborhood Park",
+      "location": "1300 W Wolfram St",
+      "latLng": [
+        41.93343782128256,
+        -87.6614948892306
+      ]
+    },
+    {
+      "id": "209",
+      "name": "Columbus (christopher)",
+      "ward": "29",
+      "type": "Citywide Park",
+      "location": "500 S Central Ave",
+      "latLng": [
+        41.87377153168896,
+        -87.76470840188162
+      ]
+    },
+    {
+      "id": "50",
+      "name": "Almond",
+      "ward": "19",
+      "type": "Passive Park",
+      "location": "2234 W 115th St",
+      "latLng": [
+        41.68430219223602,
+        -87.67808956145417
+      ]
+    },
+    {
+      "id": "1017",
+      "name": "Trebes",
+      "ward": "43",
+      "type": "Community Park",
+      "location": "2250 N Clifton Ave",
+      "latLng": [
+        41.9225691399609,
+        -87.65720992483739
+      ]
+    },
+    {
+      "id": "433",
+      "name": "Neighbors' Garden",
+      "ward": "35",
+      "type": "Mini-park",
+      "location": "2533 N Sacramento Ave",
+      "latLng": [
+        41.92720085480701,
+        -87.70228735364569
+      ]
+    },
+    {
+      "id": "1006",
+      "name": "Commercial Club Pgd. Of Chicago",
+      "ward": "32",
+      "type": "Community Park",
+      "location": "1845 W Rice St",
+      "latLng": [
+        41.89684062830077,
+        -87.6732900968898
+      ]
+    },
+    {
+      "id": "273",
+      "name": "Lerner (leo)",
+      "ward": "50",
+      "type": "Community Park",
+      "location": "7000 N Sacramento Ave",
+      "latLng": [
+        42.00837893806736,
+        -87.7045723032337
+      ]
+    },
+    {
+      "id": "1284",
+      "name": "Mulberry",
+      "ward": "11",
+      "type": "Neighborhood Park",
+      "location": "3150 S Robinson Ct",
+      "latLng": [
+        41.8363757954521,
+        -87.6664257202354
+      ]
+    },
+    {
+      "id": "405",
+      "name": "Debow (russell)",
+      "ward": "8",
+      "type": "Neighborhood Park",
+      "location": "1126 E 80th St",
+      "latLng": [
+        41.74958541811261,
+        -87.5962940973076
+      ]
+    },
+    {
+      "id": "355",
+      "name": "Ninebark",
+      "ward": "24",
+      "type": "Mini-park",
+      "location": "1447-1453 S Harding Ave",
+      "latLng": [
+        41.846230000000105,
+        -87.71839999999997
+      ]
+    },
+    {
+      "id": "1155",
+      "name": "Sintic (gregory)",
+      "ward": "11",
+      "type": "Mini-park",
+      "location": "2835 S Wallace St",
+      "latLng": [
+        41.84291834655948,
+        -87.64143591839438
+      ]
+    },
+    {
+      "id": "178",
+      "name": "Hurley (timothy)",
+      "ward": "19",
+      "type": "Neighborhood Park",
+      "location": "1901 W 100th St",
+      "latLng": [
+        41.71198599832957,
+        -87.66892191011289
+      ]
+    }
+  ]
+}

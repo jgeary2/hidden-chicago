@@ -1,12 +1,14 @@
 import React, { useCallback, useEffect, useState } from 'react';
 
 import tiedHouseJson from '../../data/tiedHouses.json';
-import chicagoSculptureExhibitJson from '../../data/chicagoSculptureExhibit.json';
+// import chicagoSculptureExhibitJson from '../../data/chicagoSculptureExhibit.json';
 import muralsJson from '../../data/murals.json';
 import neighborhoodJson from '../../data/neighborhoods.json';
 import landmarkJson from '../../data/landmarks.json';
 import beachJson from '../../data/beaches.json';
 import parkJson from '../../data/parks.json';
+import dogParkJson from '../../data/dogParks.json';
+import historicalMarkersJson from '../../data/historicalMarkers.json';
 
 import { Point, PointOfInterest } from '../../models/MapMarkers';
 import { useSelector } from 'react-redux';
@@ -26,14 +28,16 @@ export const PointsOfInterest = () => {
       displayedPOIs.push(
         getMapPointsFromJsonData(tiedHouseJson, mapFilters.tiedHouses, 'tiedHouses')
       );
+      // displayedPOIs.push(getMapPointsFromJsonData(chicagoSculptureExhibitJson, mapFilters.chicagoSculptureExhibit, 'chicagoSculptureExhibit'));
+      displayedPOIs.push(getMapPointsFromJsonData(beachJson, mapFilters.beaches, 'beaches'));
+      displayedPOIs.push(getMapPointsFromJsonData(dogParkJson, mapFilters.dogParks, 'dogParks'));
       displayedPOIs.push(
         getMapPointsFromJsonData(
-          chicagoSculptureExhibitJson,
-          mapFilters.chicagoSculptureExhibit,
-          'chicagoSculptureExhibit'
+          historicalMarkersJson,
+          mapFilters.historicalMarkers,
+          'historicalMarkers'
         )
       );
-      displayedPOIs.push(getMapPointsFromJsonData(beachJson, mapFilters.beaches, 'beaches'));
     },
     [mapFilters]
   );

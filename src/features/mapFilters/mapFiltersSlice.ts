@@ -10,8 +10,10 @@ export type MapFilters = {
   tiedHouses: BaseFilter;
   murals: BaseFilter;
   parks: BaseFilter;
+  dogParks: BaseFilter;
   landmarks: BaseFilter;
-  chicagoSculptureExhibit: BaseFilter;
+  historicalMarkers: BaseFilter;
+  // chicagoSculptureExhibit: BaseFilter;
 };
 
 export const DEFAULT_MAP_FILTERS: MapFilters = {
@@ -30,12 +32,18 @@ export const DEFAULT_MAP_FILTERS: MapFilters = {
   parks: {
     showGroup: false
   },
+  dogParks: {
+    showGroup: false
+  },
   landmarks: {
     showGroup: false
   },
-  chicagoSculptureExhibit: {
+  historicalMarkers: {
     showGroup: false
   }
+  // chicagoSculptureExhibit: {
+  //   showGroup: false
+  // }
 };
 
 function isObject(item: any) {

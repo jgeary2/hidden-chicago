@@ -7,6 +7,7 @@ import { ControlPanel } from './components/ControlPanel/ControlPanel';
 import { Provider } from 'react-redux';
 import store from './store/store';
 import { processorFunctions } from './common/dataProcessingUtils';
+import { DetailsDrawer } from './components/DetailsDrawer/DetailsDrawer';
 
 const App = () => {
   const pathname = window.location.pathname;
@@ -29,6 +30,7 @@ const App = () => {
         </Map>
 
         <ControlPanel />
+        <DetailsDrawer />
       </APIProvider>
     </Provider>
   );

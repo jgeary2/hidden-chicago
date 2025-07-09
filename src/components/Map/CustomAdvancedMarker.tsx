@@ -2,9 +2,10 @@ import { AdvancedMarker, InfoWindow, useAdvancedMarkerRef } from '@vis.gl/react-
 import React from 'react';
 import { Point, PointOfInterestType, PointStyles } from '../../models/MapMarkers';
 import { CustomIcon } from './CustomIcon';
-import { CustomInfoWindow } from './CustomInfoWindow';
 import { CustomPolygon } from './CustomPolygon';
 import { PopupContent } from './PopupContent';
+import { useDispatch } from 'react-redux';
+import { setSelectionData } from '../../features/selectionData/selectionDataSlice';
 
 type Props = {
   pointIndex: number;
@@ -22,17 +23,28 @@ export const CustomAdvancedMarker = ({
   setSelectedMarker,
   type
 }: Props) => {
-  const [markerRef, marker] = useAdvancedMarkerRef();
+  const dispatch = useDispatch();
+  const [markerRef] = useAdvancedMarkerRef();
+
+  const { coordinates, key, location, popup } = point;
 
   const handleOnClick = () => {
     setSelectedMarker(key);
+    dispatch(
+      setSelectionData({
+        showDrawer: true,
+        header: popup.header,
+        content: popup.content,
+        location
+      })
+    );
   };
+
+  const handleOnPolygonClick = () => setSelectedMarker(key);
 
   const handleCloseClick = () => {
     setSelectedMarker('');
   };
-
-  const { coordinates, key, location, popup } = point;
 
   if (type === PointOfInterestType.POLYGON) {
     let latTotal = 0;
@@ -53,7 +65,7 @@ export const CustomAdvancedMarker = ({
     return (
       <React.Fragment>
         <CustomPolygon
-          onClick={handleOnClick}
+          onClick={handleOnPolygonClick}
           paths={paths}
           fillColor={pointStyles.fill[pointIndex % pointStyles.fill.length]}
         />
@@ -70,15 +82,6 @@ export const CustomAdvancedMarker = ({
   return (
     <AdvancedMarker clickable={true} onClick={handleOnClick} position={location} ref={markerRef}>
       <CustomIcon pointStyles={pointStyles} />
-      {selectedMarker === key ? (
-        <CustomInfoWindow
-          handleCloseClick={handleCloseClick}
-          location={location}
-          marker={marker}
-          markerKey={key}
-          popup={popup}
-        />
-      ) : null}
     </AdvancedMarker>
   );
 };

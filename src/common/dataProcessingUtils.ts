@@ -1,6 +1,7 @@
 // Utils for processing raw data from assorted sources
 
 import { capitalizeFirstLetters } from './utils';
+import Papa from 'papaparse';
 
 export const processMuralRegistry = () => {
   const data = require('../data/rawData/Mural Registry_20250619.json');
@@ -88,9 +89,78 @@ export const processParksData = () => {
   console.log(result);
 };
 
+export const processDogParksData = () => {
+  const data = require('../data/rawData/dog_parks_data.json');
+
+  const result = data
+    .filter((park: any) => park.location)
+    .map((park: any) => {
+      const { park_number, location, park_name, ward, park_class, street_address } = park;
+
+      return {
+        id: park_number,
+        name: capitalizeFirstLetters(park_name),
+        ward,
+        type: capitalizeFirstLetters(park_class),
+        location: capitalizeFirstLetters(street_address),
+        latLng: [parseFloat(location.latitude), parseFloat(location.longitude)]
+      };
+    });
+
+  console.log(result);
+};
+
+export const processHistoricalMarkerData = async () => {
+  const response = await fetch('/HMdb-Entries-in-Chicago-20250707.csv');
+  const readVal = await response.body.getReader().read();
+  const decoder = new TextDecoder('utf-8');
+  const csvString = decoder.decode(readVal.value!);
+  const parsed = Papa.parse(csvString, {
+    delimiter: ',',
+    dynamicTyping: true,
+    header: true,
+    skipEmptyLines: true
+  });
+
+  const { data } = parsed;
+
+  const result = data.map((marker: any) => {
+    const {
+      MarkerID,
+      Title,
+      Subtitle,
+      "Add'l Subtitle": additional,
+      'Latitude (minus=S)': latitude,
+      'Longitude (minus=W)': longitude,
+      'Street Address': address,
+      'Year Erected': year,
+      Location,
+      Link,
+      'Erected By': erectedBy
+    } = marker;
+
+    return {
+      id: MarkerID,
+      title: Title,
+      subtitle: Subtitle,
+      additionalSubtitle: additional,
+      erectedBy,
+      address: capitalizeFirstLetters(address),
+      location: Location,
+      year: year?.toString() || '',
+      link: Link,
+      latLng: [latitude, longitude]
+    };
+  });
+
+  console.log(result);
+};
+
 export const processorFunctions = {
   processMuralRegistry: () => processMuralRegistry(),
   processNeighborhoodData: () => processNeighborhoodData(),
   processLandmarksData: () => processLandmarksData(),
-  processParksData: () => processParksData()
+  processParksData: () => processParksData(),
+  processDogParksData: () => processDogParksData(),
+  processHistoricalMarkerData: () => processHistoricalMarkerData()
 };
