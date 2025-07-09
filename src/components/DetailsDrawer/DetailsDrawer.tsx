@@ -46,7 +46,6 @@ export const DetailsDrawer = () => {
     dispatch(clearSelection());
   };
 
-  // console.log(map?.getStreetView()?.getStatus())
   return (
     <Offcanvas
       className='w-25'
