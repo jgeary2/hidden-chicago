@@ -3,6 +3,8 @@ import ColorLensSharpIcon from '@mui/icons-material/ColorLensSharp';
 import InterestsOutlinedIcon from '@mui/icons-material/InterestsOutlined';
 import LocationPinIcon from '@mui/icons-material/LocationPin';
 import SportsBarIcon from '@mui/icons-material/SportsBar';
+import PetsIcon from '@mui/icons-material/Pets';
+import CircleIcon from '@mui/icons-material/Circle';
 import React from 'react';
 import { PointStyles } from '../../models/MapMarkers';
 
@@ -22,6 +24,10 @@ export const CustomIcon = ({ pointStyles }: Props) => {
       return <ColorLensSharpIcon sx={pointStyles} />;
     case 'BeachAccessIcon':
       return <BeachAccessIcon sx={pointStyles} />;
+    case 'PetsIcon':
+      return <PetsIcon sx={pointStyles} />;
+    case 'CircleIcon':
+      return <CircleIcon sx={pointStyles} />;
     default:
       return <LocationPinIcon sx={pointStyles} />;
   }

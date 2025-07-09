@@ -51,7 +51,15 @@ export const getPopupTextFromData = (point: any, popupString: string) => {
   while ((match = regex.exec(popupString)) !== null) {
     const token = match[0];
     const field = point[match[1]];
-    replacedString = replacedString.replace(token, field);
+
+    let replaceValue = field ? field : '';
+
+    try {
+      new URL(replaceValue);
+      replaceValue = `<a href="${replaceValue}" target="_blank">${replaceValue}</a>`;
+    } catch (e) {}
+
+    replacedString = replacedString.replace(token, replaceValue);
   }
 
   return replacedString;
