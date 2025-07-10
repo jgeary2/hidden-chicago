@@ -1,5 +1,5 @@
 # Hidden Chicago
-### A personal project
+### A personal work-in-progress.
 
 ---
 ## Starting up
