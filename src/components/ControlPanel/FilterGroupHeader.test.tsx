@@ -2,24 +2,23 @@ import { render } from '../../common/test-utils';
 import { FilterGroupHeader } from './FilterGroupHeader';
 import { screen } from '@testing-library/react';
 import '@testing-library/jest-dom';
-import { useDispatch, useSelector } from 'react-redux';
 import userEvent from '@testing-library/user-event';
 
 const mockDispatch = jest.fn();
+let mockShowGroup: boolean;
 jest.mock('react-redux', () => ({
   ...jest.requireActual('react-redux'),
-  useDispatch: jest.fn(),
-  useSelector: jest.fn()
+  useDispatch: () => mockDispatch,
+  useSelector: () => ({
+    parentKey: {
+      showGroup: mockShowGroup
+    }
+  })
 }));
 
 describe('FilterGroupHeader.tsx', () => {
   beforeEach(() => {
-    (useDispatch as unknown as jest.Mock).mockImplementation(() => mockDispatch);
-    (useSelector as unknown as jest.Mock).mockReturnValue({
-      parentKey: {
-        showGroup: false
-      }
-    });
+    mockShowGroup = false;
   });
 
   it('should render the checkbox unchecked', () => {
@@ -30,11 +29,7 @@ describe('FilterGroupHeader.tsx', () => {
   });
 
   it('should render the checkbox checked', () => {
-    (useSelector as unknown as jest.Mock).mockReturnValue({
-      parentKey: {
-        showGroup: true
-      }
-    });
+    mockShowGroup = true;
 
     render(<FilterGroupHeader filterParentKey={'parentKey'} />);
 

@@ -1,22 +1,17 @@
 import { render } from '../../common/test-utils';
 import { Filter, FilterType } from './Filter';
 import { screen } from '@testing-library/react';
-import { useSelector } from 'react-redux';
 
 jest.mock('react-redux', () => ({
   ...jest.requireActual('react-redux'),
-  useSelector: jest.fn()
+  useSelector: () => ({
+    parentKey: {
+      title: ''
+    }
+  })
 }));
 
 describe('Filter.tsx', () => {
-  beforeEach(() => {
-    (useSelector as unknown as jest.Mock).mockReturnValue({
-      parentKey: {
-        title: ''
-      }
-    });
-  });
-
   it('should render a dropdown', () => {
     const filter: FilterType = {
       field: 'title',

@@ -2,28 +2,21 @@ import React from 'react';
 import { ControlPanel } from './ControlPanel';
 import { render } from '../../common/test-utils';
 import userEvent from '@testing-library/user-event';
-import { useDispatch } from 'react-redux';
-import { getClearedFilters } from '../../common/utils';
 import { screen } from '@testing-library/react';
 import '@testing-library/jest-dom';
 
 const mockDispatch = jest.fn();
 jest.mock('react-redux', () => ({
   ...jest.requireActual('react-redux'),
-  useDispatch: jest.fn()
+  useDispatch: () => mockDispatch
 }));
 
 jest.mock('../../common/utils', () => ({
   ...jest.requireActual('../../common/utils'),
-  getClearedFilters: jest.fn()
+  getClearedFilters: () => 'clearedFilters'
 }));
 
 describe('ControlPanel.tsx', () => {
-  beforeEach(() => {
-    (useDispatch as unknown as jest.Mock).mockImplementation(() => mockDispatch);
-    (getClearedFilters as jest.Mock).mockImplementation(() => 'clearedFilters');
-  });
-
   it('should render the control panel', async () => {
     render(<ControlPanel />);
 

@@ -2,25 +2,24 @@ import { render } from '../../common/test-utils';
 import { FilterDropdown } from './FilterDropdown';
 import { screen } from '@testing-library/react';
 import '@testing-library/jest-dom';
-import { useDispatch, useSelector } from 'react-redux';
 import { FilterType } from './Filter';
 import userEvent from '@testing-library/user-event';
 
 const mockDispatch = jest.fn();
+let mockTitle: string;
 jest.mock('react-redux', () => ({
   ...jest.requireActual('react-redux'),
-  useDispatch: jest.fn(),
-  useSelector: jest.fn()
+  useDispatch: () => mockDispatch,
+  useSelector: () => ({
+    parentKey: {
+      title: mockTitle
+    }
+  })
 }));
 
 describe('FilterDropdown.tsx', () => {
   beforeEach(() => {
-    (useDispatch as unknown as jest.Mock).mockImplementation(() => mockDispatch);
-    (useSelector as unknown as jest.Mock).mockReturnValue({
-      parentKey: {
-        title: ''
-      }
-    });
+    mockTitle = '';
   });
 
   it('should render the dropdown with no value', () => {
@@ -50,11 +49,7 @@ describe('FilterDropdown.tsx', () => {
   });
 
   it('should render the dropdown with a value pre-selected', () => {
-    (useSelector as unknown as jest.Mock).mockReturnValue({
-      parentKey: {
-        title: 'The Title'
-      }
-    });
+    mockTitle = 'The Title';
 
     const filter: FilterType = {
       field: 'title',
