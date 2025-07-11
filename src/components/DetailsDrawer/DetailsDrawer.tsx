@@ -28,7 +28,7 @@ export const DetailsDrawer = () => {
         }
       })
     );
-  }, [location, map, streetViewLibrary]);
+  }, [location]);
 
   useEffect(() => {
     initDrawer();
@@ -38,7 +38,7 @@ export const DetailsDrawer = () => {
     if (streetViewService) {
       map.setStreetView(streetViewService);
     }
-  }, [streetViewService, map]);
+  }, [streetViewService]);
 
   const handleClose = () => {
     map.setStreetView(null);
@@ -49,6 +49,7 @@ export const DetailsDrawer = () => {
   return (
     <Offcanvas
       className='w-25'
+      data-testid='details-drawer'
       backdrop={false}
       show={showDrawer}
       onHide={handleClose}

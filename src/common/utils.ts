@@ -3,7 +3,11 @@ import { PointOfInterestType } from '../models/MapMarkers';
 import { MapFilters } from '../features/mapFilters/mapFiltersSlice';
 
 export const splitCamelCaseAndCapitalize = (val: string): string => {
-  const result = val.replace(/([A-Z])/g, ' $1');
+  if (!val || val.trim().includes(' ')) {
+    return '';
+  }
+
+  const result = val.trim().replace(/([A-Z])/g, ' $1');
   return result.charAt(0).toUpperCase() + result.slice(1);
 };
 
@@ -20,21 +24,21 @@ export const capitalizeFirstLetters = (val: string): string => {
   return capitalizedWords.join(' ');
 };
 
-const applyMapFilters = (data: any, groupFilters: any) => {
+export const applyMapFilters = (point: any, groupFilters: any) => {
   let isDataDisplayed = true;
   Object.keys(groupFilters).forEach((key) => {
     if (key === 'showGroup' && !groupFilters[key]) {
       isDataDisplayed = false;
     }
 
-    // Only check filters that apply to the data and when data is not already hidden
-    if (isDataDisplayed && data[key] !== undefined) {
+    // Only check filters that apply to the point and when point is not already hidden
+    if (isDataDisplayed && point[key] !== undefined) {
       if (typeof groupFilters[key] === 'boolean') {
-        if (groupFilters[key] && !data[key]) {
+        if (groupFilters[key] && !point[key]) {
           isDataDisplayed = false;
         }
       } else {
-        if (groupFilters[key] !== '' && groupFilters[key] !== data[key]) {
+        if (groupFilters[key] !== '' && groupFilters[key] !== point[key]) {
           isDataDisplayed = false;
         }
       }
@@ -103,18 +107,19 @@ export const getMapPointsFromJsonData = (data: any, mapFilterGroup: any, groupNa
 
   return {
     points: mapPoints,
-    styles
+    styles,
+    type: PointOfInterestType.MARKER
   };
 };
 
 export const getFilterDataFromJsonData = (data: any) => {
-  const filters = data.filters;
+  const { filters, points } = data;
 
   const filtersFinal: FilterType[] = filters.map((filter: FilterType) => {
     const { field, type } = filter;
     let options: string[] | null = null;
     if (type !== 'boolean') {
-      options = data.points.reduce((acc: string[], point: any) => {
+      options = points.reduce((acc: string[], point: any) => {
         if (!acc.includes(point[field])) {
           acc.push(point[field]);
         }

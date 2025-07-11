@@ -42,6 +42,7 @@ export const FilterDropdown = ({ filter, filterParentKey }: Props) => {
   const dropdownTitle = filterValue ? filterValue : `Select ${label}`;
   return (
     <DropdownButton
+      data-testid={`filter-dropdown-${field}`}
       id={`filter-dropdown-${field}`}
       key={`filter-dropdown-${field}`}
       size='sm'
@@ -50,6 +51,7 @@ export const FilterDropdown = ({ filter, filterParentKey }: Props) => {
       variant='outline-secondary'
     >
       <Form.Control
+        data-testid={`filter-dropdown-search-${field}`}
         id={`filter-dropdown-search-${field}`}
         onChange={(e) => setSearchTerm(e.target.value)}
         placeholder='Search...'

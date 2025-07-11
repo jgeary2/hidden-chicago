@@ -24,7 +24,8 @@ export const FilterGroupHeader = ({ filterParentKey }: Props) => {
     <Form.Check
       checked={showGroup}
       className='filter-group-header'
-      id={filterParentKey}
+      data-testid={`filter-group-header-${filterParentKey}`}
+      id={`filter-group-header-${filterParentKey}`}
       label={splitCamelCaseAndCapitalize(filterParentKey)}
       onChange={handleCheck}
     />
