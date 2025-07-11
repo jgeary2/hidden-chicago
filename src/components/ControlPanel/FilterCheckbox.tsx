@@ -24,6 +24,7 @@ export const FilterCheckbox = ({ filter, filterParentKey }: Props) => {
 
   return (
     <Form.Check
+      data-testid={`filter-checkbox-${field}`}
       id={`filter-checkbox-${field}`}
       label={label}
       onChange={handleCheck}

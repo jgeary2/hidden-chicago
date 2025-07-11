@@ -5,6 +5,7 @@ import userEvent from '@testing-library/user-event';
 import { useDispatch } from 'react-redux';
 import { getClearedFilters } from '../../common/utils';
 import { screen } from '@testing-library/react';
+import '@testing-library/jest-dom';
 
 const mockDispatch = jest.fn();
 jest.mock('react-redux', () => ({
@@ -26,7 +27,7 @@ describe('ControlPanel.tsx', () => {
   it('should render the control panel', async () => {
     render(<ControlPanel />);
 
-    expect(await screen.findByTestId('control-panel')).not.toBeNull();
+    expect(await screen.findByTestId('control-panel')).toBeInTheDocument();
   });
 
   it('should dispatch reset filters on reset button press', async () => {

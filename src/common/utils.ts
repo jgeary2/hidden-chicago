@@ -107,18 +107,19 @@ export const getMapPointsFromJsonData = (data: any, mapFilterGroup: any, groupNa
 
   return {
     points: mapPoints,
-    styles
+    styles,
+    type: PointOfInterestType.MARKER
   };
 };
 
 export const getFilterDataFromJsonData = (data: any) => {
-  const filters = data.filters;
+  const { filters, points } = data;
 
   const filtersFinal: FilterType[] = filters.map((filter: FilterType) => {
     const { field, type } = filter;
     let options: string[] | null = null;
     if (type !== 'boolean') {
-      options = data.points.reduce((acc: string[], point: any) => {
+      options = points.reduce((acc: string[], point: any) => {
         if (!acc.includes(point[field])) {
           acc.push(point[field]);
         }
